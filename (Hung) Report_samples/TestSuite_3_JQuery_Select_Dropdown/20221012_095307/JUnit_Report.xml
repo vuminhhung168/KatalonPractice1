@@ -1,0 +1,1281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite_3_JQuery_Select_Dropdown" time="95.599" tests="5" failures="0" errors="0">
+   <testsuite name="TestSuite_3_JQuery_Select_Dropdown" tests="5" failures="0" errors="0" time="95.599" skipped="0" timestamp="2022-10-12 09:53:18" hostname="vminhhung - vminhhung.tma.com.vn" id="Test Suites/TestSuite_3_JQuery_Select_Dropdown">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\vminhhung\\Katalon Studio\\SeleniumEasy\\Reports\\20221012_095307\\TestSuite_3_JQuery_Select_Dropdown\\20221012_095307"/>
+         <property name="logFiles" value="C:\\Users\\vminhhung\\Katalon Studio\\SeleniumEasy\\Reports\\20221012_095307\\TestSuite_3_JQuery_Select_Dropdown\\20221012_095307\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="vminhhung - vminhhung.tma.com.vn"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.0.208"/>
+         <property name="browser" value="Chrome 106.0.0.0"/>
+         <property name="hostAddress" value="10.107.1.102"/>
+         <property name="sessionId" value="6b1e8e91ad88fbd38fd744a090037282"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Intermediate/3_JQuery_Select _Dropdown/JQSD1_Verify_UI" time="13.968" classname="Test Cases/Intermediate/3_JQuery_Select _Dropdown/JQSD1_Verify_UI" status="PASSED">
+         <system-out><![CDATA[2022-10-12 09:53:18 - [TEST_CASE][PASSED] - Test Cases/Intermediate/3_JQuery_Select _Dropdown/JQSD1_Verify_UI: Test Cases/Intermediate/3_JQuery_Select _Dropdown/JQSD1_Verify_UI
+
+2022-10-12 09:53:19 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Intermediate/Prerequisite1_Access_Immediate"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Intermediate/Prerequisite1_Access_Immediate' successfully
+
+2022-10-12 09:53:19 - [TEST_CASE][PASSED] - Test Cases/Intermediate/Prerequisite1_Access_Immediate: Test Cases/Intermediate/Prerequisite1_Access_Immediate
+
+2022-10-12 09:53:19 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Launch_seleniumeasy_page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Launch_seleniumeasy_page' successfully
+
+2022-10-12 09:53:19 - [TEST_CASE][PASSED] - Test Cases/Launch_seleniumeasy_page: Test Cases/Launch_seleniumeasy_page
+
+2022-10-12 09:53:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-10-12 09:53:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-10-12 09:53:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-10-12 09:53:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-10-12 09:53:23 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-10-12 09:53:23 - [MESSAGE][PASSED] - Current window maximized
+
+2022-10-12 09:53:23 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.seleniumeasy.com/"): Navigate to 'https://demo.seleniumeasy.com/' successfully
+
+2022-10-12 09:53:27 - [MESSAGE][PASSED] - Navigate to 'https://demo.seleniumeasy.com/' successfully
+
+2022-10-12 09:53:27 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Launch_seleniumeasy_page' successfully
+
+2022-10-12 09:53:27 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Main_page/Button_Start_Practicing"), OPTIONAL)): null
+
+2022-10-12 09:53:27 - [MESSAGE][PASSED] - Object 'Object Repository/Main_page/Button_Start_Practicing' is visible
+
+2022-10-12 09:53:27 - [TEST_STEP][PASSED] - click(findTestObject("Main_page/Button_Start_Practicing")): Object: 'Object Repository/Main_page/Button_Start_Practicing' is clicked on
+
+2022-10-12 09:53:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Main_page/Button_Start_Practicing' is clicked on
+
+2022-10-12 09:53:28 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Main_page/option_Intermediate")): Object: 'Object Repository/Main_page/option_Intermediate' is clicked on
+
+2022-10-12 09:53:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Main_page/option_Intermediate' is clicked on
+
+2022-10-12 09:53:28 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Intermediate/text_Intermediate"), STOP_ON_FAILURE): Object 'Object Repository/Intermediate/text_Intermediate' is visible
+
+2022-10-12 09:53:29 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/text_Intermediate' is visible
+
+2022-10-12 09:53:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Intermediate/Prerequisite1_Access_Immediate' successfully
+
+2022-10-12 09:53:29 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/option_JQuerySelectDropdown")): Object: 'Object Repository/Intermediate/option_JQuerySelectDropdown' is clicked on
+
+2022-10-12 09:53:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/option_JQuerySelectDropdown' is clicked on
+
+2022-10-12 09:53:31 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Intermediate/3_JQuery_Select _Dropdown/text_h2_Single_Select")): Object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/text_h2_Single_Select' is visible
+
+2022-10-12 09:53:32 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/text_h2_Single_Select' is visible
+
+2022-10-12 09:53:32 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Intermediate/3_JQuery_Select _Dropdown/text_h3_Multi_Select")): Object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/text_h3_Multi_Select' is visible
+
+2022-10-12 09:53:32 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/text_h3_Multi_Select' is visible
+
+2022-10-12 09:53:32 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/3_JQuery_Select _Dropdown/label_Select_Country"), 0): Object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/label_Select_Country' is present
+
+2022-10-12 09:53:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-12 09:53:32 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/label_Select_Country' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Intermediate/3_JQuery_Select _Dropdown/JQSD2_Search_Select_Verify_Select_Country" time="12.988" classname="Test Cases/Intermediate/3_JQuery_Select _Dropdown/JQSD2_Search_Select_Verify_Select_Country" status="PASSED">
+         <system-out><![CDATA[2022-10-12 09:53:32 - [TEST_CASE][PASSED] - Test Cases/Intermediate/3_JQuery_Select _Dropdown/JQSD2_Search_Select_Verify_Select_Country: Test Cases/Intermediate/3_JQuery_Select _Dropdown/JQSD2_Search_Select_Verify_Select_Country
+
+2022-10-12 09:53:33 - [TEST_STEP][PASSED] - selectedCountry = "Bangladesh": null
+
+2022-10-12 09:53:33 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Intermediate/Prerequisite1_Access_Immediate"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Intermediate/Prerequisite1_Access_Immediate' successfully
+
+2022-10-12 09:53:33 - [TEST_CASE][PASSED] - Test Cases/Intermediate/Prerequisite1_Access_Immediate: Test Cases/Intermediate/Prerequisite1_Access_Immediate
+
+2022-10-12 09:53:33 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Launch_seleniumeasy_page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Launch_seleniumeasy_page' successfully
+
+2022-10-12 09:53:33 - [TEST_CASE][PASSED] - Test Cases/Launch_seleniumeasy_page: Test Cases/Launch_seleniumeasy_page
+
+2022-10-12 09:53:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-10-12 09:53:33 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-10-12 09:53:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-10-12 09:53:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-10-12 09:53:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-10-12 09:53:35 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-10-12 09:53:36 - [MESSAGE][PASSED] - Current window maximized
+
+2022-10-12 09:53:36 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.seleniumeasy.com/"): Navigate to 'https://demo.seleniumeasy.com/' successfully
+
+2022-10-12 09:53:39 - [MESSAGE][PASSED] - Navigate to 'https://demo.seleniumeasy.com/' successfully
+
+2022-10-12 09:53:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Launch_seleniumeasy_page' successfully
+
+2022-10-12 09:53:39 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Main_page/Button_Start_Practicing"), OPTIONAL)): null
+
+2022-10-12 09:53:39 - [MESSAGE][PASSED] - Object 'Object Repository/Main_page/Button_Start_Practicing' is visible
+
+2022-10-12 09:53:39 - [TEST_STEP][PASSED] - click(findTestObject("Main_page/Button_Start_Practicing")): Object: 'Object Repository/Main_page/Button_Start_Practicing' is clicked on
+
+2022-10-12 09:53:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Main_page/Button_Start_Practicing' is clicked on
+
+2022-10-12 09:53:40 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Main_page/option_Intermediate")): Object: 'Object Repository/Main_page/option_Intermediate' is clicked on
+
+2022-10-12 09:53:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Main_page/option_Intermediate' is clicked on
+
+2022-10-12 09:53:40 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Intermediate/text_Intermediate"), STOP_ON_FAILURE): Object 'Object Repository/Intermediate/text_Intermediate' is visible
+
+2022-10-12 09:53:41 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/text_Intermediate' is visible
+
+2022-10-12 09:53:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Intermediate/Prerequisite1_Access_Immediate' successfully
+
+2022-10-12 09:53:41 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/option_JQuerySelectDropdown")): Object: 'Object Repository/Intermediate/option_JQuerySelectDropdown' is clicked on
+
+2022-10-12 09:53:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/option_JQuerySelectDropdown' is clicked on
+
+2022-10-12 09:53:43 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/3_JQuery_Select _Dropdown/dropdown_Select_Country")): Object: 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/dropdown_Select_Country' is clicked on
+
+2022-10-12 09:53:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/dropdown_Select_Country' is clicked on
+
+2022-10-12 09:53:43 - [TEST_STEP][PASSED] - setText(findTestObject("Intermediate/3_JQuery_Select _Dropdown/searchbox_Select_Country"), "a"): Text 'a' is set on object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/searchbox_Select_Country'
+
+2022-10-12 09:53:44 - [MESSAGE][PASSED] - Text 'a' is set on object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/searchbox_Select_Country'
+
+2022-10-12 09:53:44 - [TEST_STEP][PASSED] - println(findTestObject("Intermediate/3_JQuery_Select _Dropdown/li_country_dynamic")): null
+
+2022-10-12 09:53:44 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/3_JQuery_Select _Dropdown/li_country_dynamic", ["selectedCountry":selectedCountry])): Object: 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/li_country_dynamic' is clicked on
+
+2022-10-12 09:53:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/li_country_dynamic' is clicked on
+
+2022-10-12 09:53:45 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Intermediate/3_JQuery_Select _Dropdown/verify_country_dynamic", ["selectedCountry":selectedCountry])): Object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/verify_country_dynamic' is visible
+
+2022-10-12 09:53:45 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/verify_country_dynamic' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Intermediate/3_JQuery_Select _Dropdown/JQSD3_Select_Verify_States" time="26.373" classname="Test Cases/Intermediate/3_JQuery_Select _Dropdown/JQSD3_Select_Verify_States" status="PASSED">
+         <system-out><![CDATA[2022-10-12 09:53:45 - [TEST_CASE][PASSED] - Test Cases/Intermediate/3_JQuery_Select _Dropdown/JQSD3_Select_Verify_States: Test Cases/Intermediate/3_JQuery_Select _Dropdown/JQSD3_Select_Verify_States
+
+2022-10-12 09:53:46 - [TEST_STEP][PASSED] - TestID = "TEST-00001": null
+
+2022-10-12 09:53:46 - [TEST_STEP][PASSED] - totalRow = findTestData("TestData_Sheet2").getRowNumbers(): null
+
+2022-10-12 09:53:47 - [TEST_STEP][PASSED] - for ([rowNum = 1, rowNum < totalRow, (rowNum++)]): null
+
+2022-10-12 09:53:47 - [TEST_STEP][PASSED] - if (findTestData("TestData_Sheet2").getValue(1, rowNum) == TestID): Object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/verify_selected_states_dynamic' is visible
+
+2022-10-12 09:53:47 - [TEST_STEP][PASSED] - totalColumn = findTestData("TestData_Sheet2").getColumnNumbers(): null
+
+2022-10-12 09:53:47 - [TEST_STEP][PASSED] - println("Total column is: " + totalColumn): null
+
+2022-10-12 09:53:47 - [TEST_STEP][PASSED] - arrayLength = 0: null
+
+2022-10-12 09:53:47 - [TEST_STEP][PASSED] - for ([i = 0, i < totalColumn - 1, (i++)]): null
+
+2022-10-12 09:53:47 - [TEST_STEP][PASSED] - if (findTestData("TestData_Sheet2").getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:53:47 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:53:47 - [TEST_STEP][PASSED] - if (findTestData("TestData_Sheet2").getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:53:47 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:53:47 - [TEST_STEP][PASSED] - if (findTestData("TestData_Sheet2").getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:53:47 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:53:47 - [TEST_STEP][PASSED] - if (findTestData("TestData_Sheet2").getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:53:47 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:53:47 - [TEST_STEP][PASSED] - if (findTestData("TestData_Sheet2").getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:53:47 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:53:47 - [TEST_STEP][PASSED] - if (findTestData("TestData_Sheet2").getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:53:47 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:53:47 - [TEST_STEP][PASSED] - if (findTestData("TestData_Sheet2").getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:53:47 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:53:47 - [TEST_STEP][PASSED] - if (findTestData("TestData_Sheet2").getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:53:47 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:53:47 - [TEST_STEP][PASSED] - if (findTestData("TestData_Sheet2").getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:53:48 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:53:48 - [TEST_STEP][PASSED] - if (findTestData("TestData_Sheet2").getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:53:48 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:53:48 - [TEST_STEP][PASSED] - println("Array length is: " + arrayLength): null
+
+2022-10-12 09:53:48 - [TEST_STEP][PASSED] - selectedStates = []: null
+
+2022-10-12 09:53:48 - [TEST_STEP][PASSED] - for ([i = 0, i < arrayLength, (i++)]): null
+
+2022-10-12 09:53:48 - [TEST_STEP][PASSED] - if (findTestData("TestData_Sheet2").getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:53:48 - [TEST_STEP][PASSED] - selectedStates[i] = findTestData("TestData_Sheet2").getValue(i + 2, rowNum): null
+
+2022-10-12 09:53:48 - [TEST_STEP][PASSED] - if (findTestData("TestData_Sheet2").getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:53:48 - [TEST_STEP][PASSED] - selectedStates[i] = findTestData("TestData_Sheet2").getValue(i + 2, rowNum): null
+
+2022-10-12 09:53:48 - [TEST_STEP][PASSED] - if (findTestData("TestData_Sheet2").getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:53:48 - [TEST_STEP][PASSED] - selectedStates[i] = findTestData("TestData_Sheet2").getValue(i + 2, rowNum): null
+
+2022-10-12 09:53:48 - [TEST_STEP][PASSED] - if (findTestData("TestData_Sheet2").getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:53:48 - [TEST_STEP][PASSED] - selectedStates[i] = findTestData("TestData_Sheet2").getValue(i + 2, rowNum): null
+
+2022-10-12 09:53:48 - [TEST_STEP][PASSED] - if (findTestData("TestData_Sheet2").getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:53:48 - [TEST_STEP][PASSED] - selectedStates[i] = findTestData("TestData_Sheet2").getValue(i + 2, rowNum): null
+
+2022-10-12 09:53:48 - [TEST_STEP][PASSED] - if (findTestData("TestData_Sheet2").getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:53:48 - [TEST_STEP][PASSED] - selectedStates[i] = findTestData("TestData_Sheet2").getValue(i + 2, rowNum): null
+
+2022-10-12 09:53:48 - [TEST_STEP][PASSED] - if (findTestData("TestData_Sheet2").getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:53:48 - [TEST_STEP][PASSED] - selectedStates[i] = findTestData("TestData_Sheet2").getValue(i + 2, rowNum): null
+
+2022-10-12 09:53:48 - [TEST_STEP][PASSED] - if (findTestData("TestData_Sheet2").getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:53:49 - [TEST_STEP][PASSED] - selectedStates[i] = findTestData("TestData_Sheet2").getValue(i + 2, rowNum): null
+
+2022-10-12 09:53:49 - [TEST_STEP][PASSED] - if (findTestData("TestData_Sheet2").getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:53:49 - [TEST_STEP][PASSED] - selectedStates[i] = findTestData("TestData_Sheet2").getValue(i + 2, rowNum): null
+
+2022-10-12 09:53:49 - [TEST_STEP][PASSED] - if (findTestData("TestData_Sheet2").getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:53:49 - [TEST_STEP][PASSED] - selectedStates[i] = findTestData("TestData_Sheet2").getValue(i + 2, rowNum): null
+
+2022-10-12 09:53:49 - [TEST_STEP][PASSED] - println(selectedStates): null
+
+2022-10-12 09:53:49 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Intermediate/Prerequisite1_Access_Immediate"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Intermediate/Prerequisite1_Access_Immediate' successfully
+
+2022-10-12 09:53:49 - [TEST_CASE][PASSED] - Test Cases/Intermediate/Prerequisite1_Access_Immediate: Test Cases/Intermediate/Prerequisite1_Access_Immediate
+
+2022-10-12 09:53:49 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Launch_seleniumeasy_page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Launch_seleniumeasy_page' successfully
+
+2022-10-12 09:53:49 - [TEST_CASE][PASSED] - Test Cases/Launch_seleniumeasy_page: Test Cases/Launch_seleniumeasy_page
+
+2022-10-12 09:53:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-10-12 09:53:49 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-10-12 09:53:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-10-12 09:53:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-10-12 09:53:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-10-12 09:53:52 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-10-12 09:53:52 - [MESSAGE][PASSED] - Current window maximized
+
+2022-10-12 09:53:52 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.seleniumeasy.com/"): Navigate to 'https://demo.seleniumeasy.com/' successfully
+
+2022-10-12 09:53:55 - [MESSAGE][PASSED] - Navigate to 'https://demo.seleniumeasy.com/' successfully
+
+2022-10-12 09:53:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Launch_seleniumeasy_page' successfully
+
+2022-10-12 09:53:55 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Main_page/Button_Start_Practicing"), OPTIONAL)): null
+
+2022-10-12 09:53:56 - [MESSAGE][PASSED] - Object 'Object Repository/Main_page/Button_Start_Practicing' is visible
+
+2022-10-12 09:53:56 - [TEST_STEP][PASSED] - click(findTestObject("Main_page/Button_Start_Practicing")): Object: 'Object Repository/Main_page/Button_Start_Practicing' is clicked on
+
+2022-10-12 09:53:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Main_page/Button_Start_Practicing' is clicked on
+
+2022-10-12 09:53:56 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Main_page/option_Intermediate")): Object: 'Object Repository/Main_page/option_Intermediate' is clicked on
+
+2022-10-12 09:53:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Main_page/option_Intermediate' is clicked on
+
+2022-10-12 09:53:57 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Intermediate/text_Intermediate"), STOP_ON_FAILURE): Object 'Object Repository/Intermediate/text_Intermediate' is visible
+
+2022-10-12 09:53:57 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/text_Intermediate' is visible
+
+2022-10-12 09:53:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Intermediate/Prerequisite1_Access_Immediate' successfully
+
+2022-10-12 09:53:57 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/option_JQuerySelectDropdown")): Object: 'Object Repository/Intermediate/option_JQuerySelectDropdown' is clicked on
+
+2022-10-12 09:53:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/option_JQuerySelectDropdown' is clicked on
+
+2022-10-12 09:53:59 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/3_JQuery_Select _Dropdown/input_Select_States")): Object: 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/input_Select_States' is clicked on
+
+2022-10-12 09:53:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/input_Select_States' is clicked on
+
+2022-10-12 09:53:59 - [TEST_STEP][PASSED] - for ([i = 0, i < arrayLength, (i++)]): All options with label 'Florida' are selected in object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/select_Select_State' 
+
+2022-10-12 09:53:59 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Intermediate/3_JQuery_Select _Dropdown/select_Select_State"), selectedStates[i], false): All options with label 'Alabama' are selected in object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/select_Select_State' 
+
+2022-10-12 09:54:00 - [MESSAGE][PASSED] - All options with label 'Alabama' are selected in object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/select_Select_State' 
+
+2022-10-12 09:54:00 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Intermediate/3_JQuery_Select _Dropdown/select_Select_State"), selectedStates[i], false): All options with label 'Alaska' are selected in object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/select_Select_State' 
+
+2022-10-12 09:54:01 - [MESSAGE][PASSED] - All options with label 'Alaska' are selected in object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/select_Select_State' 
+
+2022-10-12 09:54:01 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Intermediate/3_JQuery_Select _Dropdown/select_Select_State"), selectedStates[i], false): All options with label 'Arizona' are selected in object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/select_Select_State' 
+
+2022-10-12 09:54:02 - [MESSAGE][PASSED] - All options with label 'Arizona' are selected in object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/select_Select_State' 
+
+2022-10-12 09:54:02 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Intermediate/3_JQuery_Select _Dropdown/select_Select_State"), selectedStates[i], false): All options with label 'Arkansas' are selected in object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/select_Select_State' 
+
+2022-10-12 09:54:02 - [MESSAGE][PASSED] - All options with label 'Arkansas' are selected in object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/select_Select_State' 
+
+2022-10-12 09:54:02 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Intermediate/3_JQuery_Select _Dropdown/select_Select_State"), selectedStates[i], false): All options with label 'California' are selected in object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/select_Select_State' 
+
+2022-10-12 09:54:03 - [MESSAGE][PASSED] - All options with label 'California' are selected in object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/select_Select_State' 
+
+2022-10-12 09:54:03 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Intermediate/3_JQuery_Select _Dropdown/select_Select_State"), selectedStates[i], false): All options with label 'Colorado' are selected in object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/select_Select_State' 
+
+2022-10-12 09:54:04 - [MESSAGE][PASSED] - All options with label 'Colorado' are selected in object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/select_Select_State' 
+
+2022-10-12 09:54:04 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Intermediate/3_JQuery_Select _Dropdown/select_Select_State"), selectedStates[i], false): All options with label 'Connecticut' are selected in object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/select_Select_State' 
+
+2022-10-12 09:54:05 - [MESSAGE][PASSED] - All options with label 'Connecticut' are selected in object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/select_Select_State' 
+
+2022-10-12 09:54:05 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Intermediate/3_JQuery_Select _Dropdown/select_Select_State"), selectedStates[i], false): All options with label 'Delaware' are selected in object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/select_Select_State' 
+
+2022-10-12 09:54:05 - [MESSAGE][PASSED] - All options with label 'Delaware' are selected in object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/select_Select_State' 
+
+2022-10-12 09:54:05 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Intermediate/3_JQuery_Select _Dropdown/select_Select_State"), selectedStates[i], false): All options with label 'District Of Columbia' are selected in object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/select_Select_State' 
+
+2022-10-12 09:54:06 - [MESSAGE][PASSED] - All options with label 'District Of Columbia' are selected in object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/select_Select_State' 
+
+2022-10-12 09:54:06 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Intermediate/3_JQuery_Select _Dropdown/select_Select_State"), selectedStates[i], false): All options with label 'Florida' are selected in object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/select_Select_State' 
+
+2022-10-12 09:54:07 - [MESSAGE][PASSED] - All options with label 'Florida' are selected in object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/select_Select_State' 
+
+2022-10-12 09:54:07 - [TEST_STEP][PASSED] - verifiedText = getText(findTestObject("Intermediate/3_JQuery_Select _Dropdown/verify_selected_states")): Text of object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/verify_selected_states' is: '×Alabama
+×Alaska
+×Arizona
+×Arkansas
+×California
+×Colorado
+×Connecticut
+×Delaware
+×District Of Columbia
+×Florida'
+
+2022-10-12 09:54:07 - [MESSAGE][PASSED] - Text of object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/verify_selected_states' is: '×Alabama
+×Alaska
+×Arizona
+×Arkansas
+×California
+×Colorado
+×Connecticut
+×Delaware
+×District Of Columbia
+×Florida'
+
+2022-10-12 09:54:07 - [TEST_STEP][PASSED] - for ([i = 0, i < arrayLength, (i++)]): Object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/verify_selected_states_dynamic' is visible
+
+2022-10-12 09:54:07 - [TEST_STEP][PASSED] - println(selectedStates[i]): null
+
+2022-10-12 09:54:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Intermediate/3_JQuery_Select _Dropdown/verify_selected_states_dynamic", ["verifiedState":selectedStates[i]])): Object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/verify_selected_states_dynamic' is visible
+
+2022-10-12 09:54:08 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/verify_selected_states_dynamic' is visible
+
+2022-10-12 09:54:08 - [TEST_STEP][PASSED] - println(selectedStates[i]): null
+
+2022-10-12 09:54:08 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Intermediate/3_JQuery_Select _Dropdown/verify_selected_states_dynamic", ["verifiedState":selectedStates[i]])): Object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/verify_selected_states_dynamic' is visible
+
+2022-10-12 09:54:08 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/verify_selected_states_dynamic' is visible
+
+2022-10-12 09:54:08 - [TEST_STEP][PASSED] - println(selectedStates[i]): null
+
+2022-10-12 09:54:08 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Intermediate/3_JQuery_Select _Dropdown/verify_selected_states_dynamic", ["verifiedState":selectedStates[i]])): Object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/verify_selected_states_dynamic' is visible
+
+2022-10-12 09:54:09 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/verify_selected_states_dynamic' is visible
+
+2022-10-12 09:54:09 - [TEST_STEP][PASSED] - println(selectedStates[i]): null
+
+2022-10-12 09:54:09 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Intermediate/3_JQuery_Select _Dropdown/verify_selected_states_dynamic", ["verifiedState":selectedStates[i]])): Object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/verify_selected_states_dynamic' is visible
+
+2022-10-12 09:54:09 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/verify_selected_states_dynamic' is visible
+
+2022-10-12 09:54:09 - [TEST_STEP][PASSED] - println(selectedStates[i]): null
+
+2022-10-12 09:54:09 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Intermediate/3_JQuery_Select _Dropdown/verify_selected_states_dynamic", ["verifiedState":selectedStates[i]])): Object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/verify_selected_states_dynamic' is visible
+
+2022-10-12 09:54:09 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/verify_selected_states_dynamic' is visible
+
+2022-10-12 09:54:09 - [TEST_STEP][PASSED] - println(selectedStates[i]): null
+
+2022-10-12 09:54:09 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Intermediate/3_JQuery_Select _Dropdown/verify_selected_states_dynamic", ["verifiedState":selectedStates[i]])): Object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/verify_selected_states_dynamic' is visible
+
+2022-10-12 09:54:10 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/verify_selected_states_dynamic' is visible
+
+2022-10-12 09:54:10 - [TEST_STEP][PASSED] - println(selectedStates[i]): null
+
+2022-10-12 09:54:10 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Intermediate/3_JQuery_Select _Dropdown/verify_selected_states_dynamic", ["verifiedState":selectedStates[i]])): Object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/verify_selected_states_dynamic' is visible
+
+2022-10-12 09:54:10 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/verify_selected_states_dynamic' is visible
+
+2022-10-12 09:54:10 - [TEST_STEP][PASSED] - println(selectedStates[i]): null
+
+2022-10-12 09:54:10 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Intermediate/3_JQuery_Select _Dropdown/verify_selected_states_dynamic", ["verifiedState":selectedStates[i]])): Object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/verify_selected_states_dynamic' is visible
+
+2022-10-12 09:54:10 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/verify_selected_states_dynamic' is visible
+
+2022-10-12 09:54:10 - [TEST_STEP][PASSED] - println(selectedStates[i]): null
+
+2022-10-12 09:54:10 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Intermediate/3_JQuery_Select _Dropdown/verify_selected_states_dynamic", ["verifiedState":selectedStates[i]])): Object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/verify_selected_states_dynamic' is visible
+
+2022-10-12 09:54:11 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/verify_selected_states_dynamic' is visible
+
+2022-10-12 09:54:11 - [TEST_STEP][PASSED] - println(selectedStates[i]): null
+
+2022-10-12 09:54:11 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Intermediate/3_JQuery_Select _Dropdown/verify_selected_states_dynamic", ["verifiedState":selectedStates[i]])): Object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/verify_selected_states_dynamic' is visible
+
+2022-10-12 09:54:11 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/verify_selected_states_dynamic' is visible
+
+2022-10-12 09:54:11 - [TEST_STEP][PASSED] - if (findTestData("TestData_Sheet2").getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:11 - [TEST_STEP][PASSED] - if (findTestData("TestData_Sheet2").getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:11 - [TEST_STEP][PASSED] - if (findTestData("TestData_Sheet2").getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:11 - [TEST_STEP][PASSED] - if (findTestData("TestData_Sheet2").getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:11 - [TEST_STEP][PASSED] - if (findTestData("TestData_Sheet2").getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:11 - [TEST_STEP][PASSED] - if (findTestData("TestData_Sheet2").getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:11 - [TEST_STEP][PASSED] - if (findTestData("TestData_Sheet2").getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:12 - [TEST_STEP][PASSED] - if (findTestData("TestData_Sheet2").getValue(1, rowNum) == TestID): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Intermediate/3_JQuery_Select _Dropdown/JQSD4_Verify_Options_Enable_Disable" time="20.828" classname="Test Cases/Intermediate/3_JQuery_Select _Dropdown/JQSD4_Verify_Options_Enable_Disable" status="PASSED">
+         <system-out><![CDATA[2022-10-12 09:54:12 - [TEST_CASE][PASSED] - Test Cases/Intermediate/3_JQuery_Select _Dropdown/JQSD4_Verify_Options_Enable_Disable: Test Cases/Intermediate/3_JQuery_Select _Dropdown/JQSD4_Verify_Options_Enable_Disable
+
+2022-10-12 09:54:12 - [TEST_STEP][PASSED] - TestID = "TEST-00001": null
+
+2022-10-12 09:54:12 - [TEST_STEP][PASSED] - FileTestData = "TestData_Sheet3": null
+
+2022-10-12 09:54:12 - [TEST_STEP][PASSED] - territoriesList = ["American Samoa", "Guam", "Northern Mariana Islands", "Puerto Rico", "United States Minor Outlying Islands", "Virgin Islands"]: null
+
+2022-10-12 09:54:12 - [TEST_STEP][PASSED] - enableColor1 = "rgba(255, 255, 255, 1)": null
+
+2022-10-12 09:54:12 - [TEST_STEP][PASSED] - enableColor2 = "rgba(53, 53, 53, 1)": null
+
+2022-10-12 09:54:12 - [TEST_STEP][PASSED] - disableColor = "rgba(153, 153, 153, 1)": null
+
+2022-10-12 09:54:12 - [TEST_STEP][PASSED] - totalRow = findTestData(FileTestData).getRowNumbers(): null
+
+2022-10-12 09:54:12 - [TEST_STEP][PASSED] - arrayLength = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-10-12 09:54:12 - [TEST_STEP][PASSED] - rowNum = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-10-12 09:54:12 - [TEST_STEP][PASSED] - for ([rowNum = 1, rowNum < totalRow, (rowNum++)]): null
+
+2022-10-12 09:54:12 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:12 - [TEST_STEP][PASSED] - totalColumn = findTestData(FileTestData).getColumnNumbers(): null
+
+2022-10-12 09:54:12 - [TEST_STEP][PASSED] - println("Total column is: " + totalColumn): null
+
+2022-10-12 09:54:12 - [TEST_STEP][PASSED] - for ([i = 0, i < totalColumn - 1, (i++)]): null
+
+2022-10-12 09:54:12 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:54:12 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:54:12 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:54:12 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:54:12 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:54:13 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:54:13 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:54:13 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:54:13 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:54:13 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:54:13 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:54:13 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:54:13 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:13 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:13 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:13 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:13 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:13 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:13 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:13 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:13 - [TEST_STEP][PASSED] - println("Array length is: " + arrayLength): null
+
+2022-10-12 09:54:13 - [TEST_STEP][PASSED] - listOptions = []: null
+
+2022-10-12 09:54:13 - [TEST_STEP][PASSED] - for ([i = 0, i < arrayLength, (i++)]): null
+
+2022-10-12 09:54:13 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:54:13 - [TEST_STEP][PASSED] - listOptions[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:54:13 - [TEST_STEP][PASSED] - println("Value is: " + findTestData(FileTestData).getValue(i + 2, rowNum)): null
+
+2022-10-12 09:54:13 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:54:13 - [TEST_STEP][PASSED] - listOptions[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:54:13 - [TEST_STEP][PASSED] - println("Value is: " + findTestData(FileTestData).getValue(i + 2, rowNum)): null
+
+2022-10-12 09:54:13 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:54:13 - [TEST_STEP][PASSED] - listOptions[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:54:13 - [TEST_STEP][PASSED] - println("Value is: " + findTestData(FileTestData).getValue(i + 2, rowNum)): null
+
+2022-10-12 09:54:14 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:54:14 - [TEST_STEP][PASSED] - listOptions[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:54:14 - [TEST_STEP][PASSED] - println("Value is: " + findTestData(FileTestData).getValue(i + 2, rowNum)): null
+
+2022-10-12 09:54:14 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:54:14 - [TEST_STEP][PASSED] - listOptions[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:54:14 - [TEST_STEP][PASSED] - println("Value is: " + findTestData(FileTestData).getValue(i + 2, rowNum)): null
+
+2022-10-12 09:54:14 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:54:14 - [TEST_STEP][PASSED] - listOptions[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:54:14 - [TEST_STEP][PASSED] - println("Value is: " + findTestData(FileTestData).getValue(i + 2, rowNum)): null
+
+2022-10-12 09:54:14 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Intermediate/Prerequisite1_Access_Immediate"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Intermediate/Prerequisite1_Access_Immediate' successfully
+
+2022-10-12 09:54:14 - [TEST_CASE][PASSED] - Test Cases/Intermediate/Prerequisite1_Access_Immediate: Test Cases/Intermediate/Prerequisite1_Access_Immediate
+
+2022-10-12 09:54:14 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Launch_seleniumeasy_page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Launch_seleniumeasy_page' successfully
+
+2022-10-12 09:54:14 - [TEST_CASE][PASSED] - Test Cases/Launch_seleniumeasy_page: Test Cases/Launch_seleniumeasy_page
+
+2022-10-12 09:54:14 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-10-12 09:54:14 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-10-12 09:54:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-10-12 09:54:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-10-12 09:54:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-10-12 09:54:17 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-10-12 09:54:17 - [MESSAGE][PASSED] - Current window maximized
+
+2022-10-12 09:54:17 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.seleniumeasy.com/"): Navigate to 'https://demo.seleniumeasy.com/' successfully
+
+2022-10-12 09:54:23 - [MESSAGE][PASSED] - Navigate to 'https://demo.seleniumeasy.com/' successfully
+
+2022-10-12 09:54:23 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Launch_seleniumeasy_page' successfully
+
+2022-10-12 09:54:23 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Main_page/Button_Start_Practicing"), OPTIONAL)): null
+
+2022-10-12 09:54:24 - [MESSAGE][PASSED] - Object 'Object Repository/Main_page/Button_Start_Practicing' is visible
+
+2022-10-12 09:54:24 - [TEST_STEP][PASSED] - click(findTestObject("Main_page/Button_Start_Practicing")): Object: 'Object Repository/Main_page/Button_Start_Practicing' is clicked on
+
+2022-10-12 09:54:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Main_page/Button_Start_Practicing' is clicked on
+
+2022-10-12 09:54:24 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Main_page/option_Intermediate")): Object: 'Object Repository/Main_page/option_Intermediate' is clicked on
+
+2022-10-12 09:54:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Main_page/option_Intermediate' is clicked on
+
+2022-10-12 09:54:25 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Intermediate/text_Intermediate"), STOP_ON_FAILURE): Object 'Object Repository/Intermediate/text_Intermediate' is visible
+
+2022-10-12 09:54:25 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/text_Intermediate' is visible
+
+2022-10-12 09:54:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Intermediate/Prerequisite1_Access_Immediate' successfully
+
+2022-10-12 09:54:25 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/option_JQuerySelectDropdown")): Object: 'Object Repository/Intermediate/option_JQuerySelectDropdown' is clicked on
+
+2022-10-12 09:54:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/option_JQuerySelectDropdown' is clicked on
+
+2022-10-12 09:54:27 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/3_JQuery_Select _Dropdown/span_Select_US_Outlying_Territories")): Object: 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/span_Select_US_Outlying_Territories' is clicked on
+
+2022-10-12 09:54:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/span_Select_US_Outlying_Territories' is clicked on
+
+2022-10-12 09:54:28 - [TEST_STEP][PASSED] - getAttributeValue = []: null
+
+2022-10-12 09:54:28 - [TEST_STEP][PASSED] - for ([i = 0, i < length, (i++)]): null
+
+2022-10-12 09:54:28 - [TEST_STEP][PASSED] - getAttributeValue[i] = getAttribute(findTestObject("Intermediate/3_JQuery_Select _Dropdown/li_territory_dynamic", ["territory":territoriesList[i]]), "aria-disabled"): Attribute 'aria-disabled' of object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/li_territory_dynamic' is: 'null'
+
+2022-10-12 09:54:28 - [MESSAGE][PASSED] - Attribute 'aria-disabled' of object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/li_territory_dynamic' is: 'null'
+
+2022-10-12 09:54:28 - [TEST_STEP][PASSED] - if (getAttributeValue[i] == "true"): null
+
+2022-10-12 09:54:28 - [TEST_STEP][PASSED] - else: null
+
+2022-10-12 09:54:28 - [TEST_STEP][PASSED] - getAttributeValue[i] = "enable": null
+
+2022-10-12 09:54:28 - [TEST_STEP][PASSED] - getAttributeValue[i] = getAttribute(findTestObject("Intermediate/3_JQuery_Select _Dropdown/li_territory_dynamic", ["territory":territoriesList[i]]), "aria-disabled"): Attribute 'aria-disabled' of object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/li_territory_dynamic' is: 'true'
+
+2022-10-12 09:54:29 - [MESSAGE][PASSED] - Attribute 'aria-disabled' of object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/li_territory_dynamic' is: 'true'
+
+2022-10-12 09:54:29 - [TEST_STEP][PASSED] - if (getAttributeValue[i] == "true"): null
+
+2022-10-12 09:54:29 - [TEST_STEP][PASSED] - getAttributeValue[i] = getAttribute(findTestObject("Intermediate/3_JQuery_Select _Dropdown/li_territory_dynamic", ["territory":territoriesList[i]]), "aria-disabled"): Attribute 'aria-disabled' of object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/li_territory_dynamic' is: 'null'
+
+2022-10-12 09:54:29 - [MESSAGE][PASSED] - Attribute 'aria-disabled' of object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/li_territory_dynamic' is: 'null'
+
+2022-10-12 09:54:29 - [TEST_STEP][PASSED] - if (getAttributeValue[i] == "true"): null
+
+2022-10-12 09:54:29 - [TEST_STEP][PASSED] - else: null
+
+2022-10-12 09:54:29 - [TEST_STEP][PASSED] - getAttributeValue[i] = "enable": null
+
+2022-10-12 09:54:29 - [TEST_STEP][PASSED] - getAttributeValue[i] = getAttribute(findTestObject("Intermediate/3_JQuery_Select _Dropdown/li_territory_dynamic", ["territory":territoriesList[i]]), "aria-disabled"): Attribute 'aria-disabled' of object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/li_territory_dynamic' is: 'null'
+
+2022-10-12 09:54:30 - [MESSAGE][PASSED] - Attribute 'aria-disabled' of object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/li_territory_dynamic' is: 'null'
+
+2022-10-12 09:54:30 - [TEST_STEP][PASSED] - if (getAttributeValue[i] == "true"): null
+
+2022-10-12 09:54:30 - [TEST_STEP][PASSED] - else: null
+
+2022-10-12 09:54:30 - [TEST_STEP][PASSED] - getAttributeValue[i] = "enable": null
+
+2022-10-12 09:54:30 - [TEST_STEP][PASSED] - getAttributeValue[i] = getAttribute(findTestObject("Intermediate/3_JQuery_Select _Dropdown/li_territory_dynamic", ["territory":territoriesList[i]]), "aria-disabled"): Attribute 'aria-disabled' of object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/li_territory_dynamic' is: 'true'
+
+2022-10-12 09:54:30 - [MESSAGE][PASSED] - Attribute 'aria-disabled' of object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/li_territory_dynamic' is: 'true'
+
+2022-10-12 09:54:30 - [TEST_STEP][PASSED] - if (getAttributeValue[i] == "true"): null
+
+2022-10-12 09:54:30 - [TEST_STEP][PASSED] - getAttributeValue[i] = getAttribute(findTestObject("Intermediate/3_JQuery_Select _Dropdown/li_territory_dynamic", ["territory":territoriesList[i]]), "aria-disabled"): Attribute 'aria-disabled' of object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/li_territory_dynamic' is: 'null'
+
+2022-10-12 09:54:30 - [MESSAGE][PASSED] - Attribute 'aria-disabled' of object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/li_territory_dynamic' is: 'null'
+
+2022-10-12 09:54:30 - [TEST_STEP][PASSED] - if (getAttributeValue[i] == "true"): null
+
+2022-10-12 09:54:30 - [TEST_STEP][PASSED] - else: null
+
+2022-10-12 09:54:30 - [TEST_STEP][PASSED] - getAttributeValue[i] = "enable": null
+
+2022-10-12 09:54:30 - [TEST_STEP][PASSED] - getCSSValue = []: null
+
+2022-10-12 09:54:30 - [TEST_STEP][PASSED] - for ([i = 0, i < length, (i++)]): null
+
+2022-10-12 09:54:30 - [TEST_STEP][PASSED] - getCSSValue[i] = getCSSValue(findTestObject("Intermediate/3_JQuery_Select _Dropdown/li_territory_dynamic", ["territory":territoriesList[i]]), "color"): Get CSS 'color' value on 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/li_territory_dynamic' successfully: 'rgba(255, 255, 255, 1)'.
+
+2022-10-12 09:54:31 - [MESSAGE][PASSED] - Get CSS 'color' value on 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/li_territory_dynamic' successfully: 'rgba(255, 255, 255, 1)'.
+
+2022-10-12 09:54:31 - [TEST_STEP][PASSED] - if (getCSSValue[i] == enableColor1 || getCSSValue[i] == enableColor2): null
+
+2022-10-12 09:54:31 - [TEST_STEP][PASSED] - getCSSValue[i] = getCSSValue(findTestObject("Intermediate/3_JQuery_Select _Dropdown/li_territory_dynamic", ["territory":territoriesList[i]]), "color"): Get CSS 'color' value on 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/li_territory_dynamic' successfully: 'rgba(153, 153, 153, 1)'.
+
+2022-10-12 09:54:31 - [MESSAGE][PASSED] - Get CSS 'color' value on 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/li_territory_dynamic' successfully: 'rgba(153, 153, 153, 1)'.
+
+2022-10-12 09:54:31 - [TEST_STEP][PASSED] - if (getCSSValue[i] == enableColor1 || getCSSValue[i] == enableColor2): null
+
+2022-10-12 09:54:31 - [TEST_STEP][PASSED] - getCSSValue[i] = getCSSValue(findTestObject("Intermediate/3_JQuery_Select _Dropdown/li_territory_dynamic", ["territory":territoriesList[i]]), "color"): Get CSS 'color' value on 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/li_territory_dynamic' successfully: 'rgba(53, 53, 53, 1)'.
+
+2022-10-12 09:54:31 - [MESSAGE][PASSED] - Get CSS 'color' value on 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/li_territory_dynamic' successfully: 'rgba(53, 53, 53, 1)'.
+
+2022-10-12 09:54:31 - [TEST_STEP][PASSED] - if (getCSSValue[i] == enableColor1 || getCSSValue[i] == enableColor2): null
+
+2022-10-12 09:54:31 - [TEST_STEP][PASSED] - getCSSValue[i] = getCSSValue(findTestObject("Intermediate/3_JQuery_Select _Dropdown/li_territory_dynamic", ["territory":territoriesList[i]]), "color"): Get CSS 'color' value on 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/li_territory_dynamic' successfully: 'rgba(53, 53, 53, 1)'.
+
+2022-10-12 09:54:32 - [MESSAGE][PASSED] - Get CSS 'color' value on 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/li_territory_dynamic' successfully: 'rgba(53, 53, 53, 1)'.
+
+2022-10-12 09:54:32 - [TEST_STEP][PASSED] - if (getCSSValue[i] == enableColor1 || getCSSValue[i] == enableColor2): null
+
+2022-10-12 09:54:32 - [TEST_STEP][PASSED] - getCSSValue[i] = getCSSValue(findTestObject("Intermediate/3_JQuery_Select _Dropdown/li_territory_dynamic", ["territory":territoriesList[i]]), "color"): Get CSS 'color' value on 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/li_territory_dynamic' successfully: 'rgba(153, 153, 153, 1)'.
+
+2022-10-12 09:54:32 - [MESSAGE][PASSED] - Get CSS 'color' value on 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/li_territory_dynamic' successfully: 'rgba(153, 153, 153, 1)'.
+
+2022-10-12 09:54:32 - [TEST_STEP][PASSED] - if (getCSSValue[i] == enableColor1 || getCSSValue[i] == enableColor2): null
+
+2022-10-12 09:54:32 - [TEST_STEP][PASSED] - getCSSValue[i] = getCSSValue(findTestObject("Intermediate/3_JQuery_Select _Dropdown/li_territory_dynamic", ["territory":territoriesList[i]]), "color"): Get CSS 'color' value on 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/li_territory_dynamic' successfully: 'rgba(53, 53, 53, 1)'.
+
+2022-10-12 09:54:32 - [MESSAGE][PASSED] - Get CSS 'color' value on 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/li_territory_dynamic' successfully: 'rgba(53, 53, 53, 1)'.
+
+2022-10-12 09:54:32 - [TEST_STEP][PASSED] - if (getCSSValue[i] == enableColor1 || getCSSValue[i] == enableColor2): null
+
+2022-10-12 09:54:32 - [TEST_STEP][PASSED] - for ([i = 0, i < length, (i++)]): Actual object 'enable' and expected object 'enable' are equal
+
+2022-10-12 09:54:32 - [TEST_STEP][PASSED] - verifyEqual(getAttributeValue[i], listOptions[i]): Actual object 'enable' and expected object 'enable' are equal
+
+2022-10-12 09:54:32 - [MESSAGE][PASSED] - Actual object 'enable' and expected object 'enable' are equal
+
+2022-10-12 09:54:32 - [TEST_STEP][PASSED] - verifyEqual(getCSSValue[i], listOptions[i]): Actual object 'enable' and expected object 'enable' are equal
+
+2022-10-12 09:54:32 - [MESSAGE][PASSED] - Actual object 'enable' and expected object 'enable' are equal
+
+2022-10-12 09:54:32 - [TEST_STEP][PASSED] - verifyEqual(getAttributeValue[i], listOptions[i]): Actual object 'disable' and expected object 'disable' are equal
+
+2022-10-12 09:54:32 - [MESSAGE][PASSED] - Actual object 'disable' and expected object 'disable' are equal
+
+2022-10-12 09:54:32 - [TEST_STEP][PASSED] - verifyEqual(getCSSValue[i], listOptions[i]): Actual object 'disable' and expected object 'disable' are equal
+
+2022-10-12 09:54:32 - [MESSAGE][PASSED] - Actual object 'disable' and expected object 'disable' are equal
+
+2022-10-12 09:54:32 - [TEST_STEP][PASSED] - verifyEqual(getAttributeValue[i], listOptions[i]): Actual object 'enable' and expected object 'enable' are equal
+
+2022-10-12 09:54:32 - [MESSAGE][PASSED] - Actual object 'enable' and expected object 'enable' are equal
+
+2022-10-12 09:54:32 - [TEST_STEP][PASSED] - verifyEqual(getCSSValue[i], listOptions[i]): Actual object 'enable' and expected object 'enable' are equal
+
+2022-10-12 09:54:32 - [MESSAGE][PASSED] - Actual object 'enable' and expected object 'enable' are equal
+
+2022-10-12 09:54:32 - [TEST_STEP][PASSED] - verifyEqual(getAttributeValue[i], listOptions[i]): Actual object 'enable' and expected object 'enable' are equal
+
+2022-10-12 09:54:32 - [MESSAGE][PASSED] - Actual object 'enable' and expected object 'enable' are equal
+
+2022-10-12 09:54:32 - [TEST_STEP][PASSED] - verifyEqual(getCSSValue[i], listOptions[i]): Actual object 'enable' and expected object 'enable' are equal
+
+2022-10-12 09:54:32 - [MESSAGE][PASSED] - Actual object 'enable' and expected object 'enable' are equal
+
+2022-10-12 09:54:32 - [TEST_STEP][PASSED] - verifyEqual(getAttributeValue[i], listOptions[i]): Actual object 'disable' and expected object 'disable' are equal
+
+2022-10-12 09:54:32 - [MESSAGE][PASSED] - Actual object 'disable' and expected object 'disable' are equal
+
+2022-10-12 09:54:32 - [TEST_STEP][PASSED] - verifyEqual(getCSSValue[i], listOptions[i]): Actual object 'disable' and expected object 'disable' are equal
+
+2022-10-12 09:54:32 - [MESSAGE][PASSED] - Actual object 'disable' and expected object 'disable' are equal
+
+2022-10-12 09:54:32 - [TEST_STEP][PASSED] - verifyEqual(getAttributeValue[i], listOptions[i]): Actual object 'enable' and expected object 'enable' are equal
+
+2022-10-12 09:54:32 - [MESSAGE][PASSED] - Actual object 'enable' and expected object 'enable' are equal
+
+2022-10-12 09:54:32 - [TEST_STEP][PASSED] - verifyEqual(getCSSValue[i], listOptions[i]): Actual object 'enable' and expected object 'enable' are equal
+
+2022-10-12 09:54:32 - [MESSAGE][PASSED] - Actual object 'enable' and expected object 'enable' are equal]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Intermediate/3_JQuery_Select _Dropdown/JQSD5_Select_File" time="21.063" classname="Test Cases/Intermediate/3_JQuery_Select _Dropdown/JQSD5_Select_File" status="PASSED">
+         <system-out><![CDATA[2022-10-12 09:54:32 - [TEST_CASE][PASSED] - Test Cases/Intermediate/3_JQuery_Select _Dropdown/JQSD5_Select_File: Test Cases/Intermediate/3_JQuery_Select _Dropdown/JQSD5_Select_File
+
+2022-10-12 09:54:33 - [TEST_STEP][PASSED] - TestID = "TEST-00001": null
+
+2022-10-12 09:54:33 - [TEST_STEP][PASSED] - FileTestData = "TestData_Sheet4": null
+
+2022-10-12 09:54:33 - [TEST_STEP][PASSED] - totalRow = findTestData(FileTestData).getRowNumbers(): null
+
+2022-10-12 09:54:33 - [TEST_STEP][PASSED] - totalColumn = findTestData(FileTestData).getColumnNumbers(): null
+
+2022-10-12 09:54:33 - [TEST_STEP][PASSED] - arrayLength = 0: null
+
+2022-10-12 09:54:33 - [TEST_STEP][PASSED] - for ([rowNum = 1, rowNum < totalRow, (rowNum++)]): null
+
+2022-10-12 09:54:33 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:33 - [TEST_STEP][PASSED] - for ([i = 0, i < totalColumn - 1, (i++)]): null
+
+2022-10-12 09:54:33 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:54:33 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:54:33 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:54:34 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:54:34 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:54:34 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:54:34 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:34 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:34 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:34 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:34 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:34 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:34 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:34 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:34 - [TEST_STEP][PASSED] - println("
+
+Array length is: " + arrayLength + "
+
+"): null
+
+2022-10-12 09:54:34 - [TEST_STEP][PASSED] - listOptionGroups = []: null
+
+2022-10-12 09:54:34 - [TEST_STEP][PASSED] - for ([rowNum = 1, rowNum < totalRow, (rowNum++)]): null
+
+2022-10-12 09:54:34 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:34 - [TEST_STEP][PASSED] - for ([i = 0, i < arrayLength, (i++)]): null
+
+2022-10-12 09:54:34 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:54:34 - [TEST_STEP][PASSED] - listOptionGroups[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:54:34 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:54:34 - [TEST_STEP][PASSED] - listOptionGroups[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:54:34 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:54:34 - [TEST_STEP][PASSED] - listOptionGroups[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:54:34 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:34 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:34 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:34 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:34 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:35 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:35 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:35 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:35 - [TEST_STEP][PASSED] - println(listOptionGroups): null
+
+2022-10-12 09:54:35 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Intermediate/Prerequisite1_Access_Immediate"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Intermediate/Prerequisite1_Access_Immediate' successfully
+
+2022-10-12 09:54:35 - [TEST_CASE][PASSED] - Test Cases/Intermediate/Prerequisite1_Access_Immediate: Test Cases/Intermediate/Prerequisite1_Access_Immediate
+
+2022-10-12 09:54:35 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Launch_seleniumeasy_page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Launch_seleniumeasy_page' successfully
+
+2022-10-12 09:54:35 - [TEST_CASE][PASSED] - Test Cases/Launch_seleniumeasy_page: Test Cases/Launch_seleniumeasy_page
+
+2022-10-12 09:54:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-10-12 09:54:35 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-10-12 09:54:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-10-12 09:54:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-10-12 09:54:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-10-12 09:54:37 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-10-12 09:54:38 - [MESSAGE][PASSED] - Current window maximized
+
+2022-10-12 09:54:38 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.seleniumeasy.com/"): Navigate to 'https://demo.seleniumeasy.com/' successfully
+
+2022-10-12 09:54:41 - [MESSAGE][PASSED] - Navigate to 'https://demo.seleniumeasy.com/' successfully
+
+2022-10-12 09:54:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Launch_seleniumeasy_page' successfully
+
+2022-10-12 09:54:41 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Main_page/Button_Start_Practicing"), OPTIONAL)): null
+
+2022-10-12 09:54:42 - [MESSAGE][PASSED] - Object 'Object Repository/Main_page/Button_Start_Practicing' is visible
+
+2022-10-12 09:54:42 - [TEST_STEP][PASSED] - click(findTestObject("Main_page/Button_Start_Practicing")): Object: 'Object Repository/Main_page/Button_Start_Practicing' is clicked on
+
+2022-10-12 09:54:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Main_page/Button_Start_Practicing' is clicked on
+
+2022-10-12 09:54:42 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Main_page/option_Intermediate")): Object: 'Object Repository/Main_page/option_Intermediate' is clicked on
+
+2022-10-12 09:54:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Main_page/option_Intermediate' is clicked on
+
+2022-10-12 09:54:43 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Intermediate/text_Intermediate"), STOP_ON_FAILURE): Object 'Object Repository/Intermediate/text_Intermediate' is visible
+
+2022-10-12 09:54:43 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/text_Intermediate' is visible
+
+2022-10-12 09:54:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Intermediate/Prerequisite1_Access_Immediate' successfully
+
+2022-10-12 09:54:43 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/option_JQuerySelectDropdown")): Object: 'Object Repository/Intermediate/option_JQuerySelectDropdown' is clicked on
+
+2022-10-12 09:54:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/option_JQuerySelectDropdown' is clicked on
+
+2022-10-12 09:54:45 - [TEST_STEP][PASSED] - for ([i = 0, i < length, (i++)]): null
+
+2022-10-12 09:54:45 - [TEST_STEP][PASSED] - result = verifyElementPresent(findTestObject("Intermediate/3_JQuery_Select _Dropdown/option_group_Files", ["optionGroup":listOptionGroups[i]]), 3): Object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/option_group_Files' is present
+
+2022-10-12 09:54:45 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/option_group_Files' is present
+
+2022-10-12 09:54:45 - [TEST_STEP][PASSED] - if (result == true): null
+
+2022-10-12 09:54:45 - [TEST_STEP][PASSED] - println("Option group named " + listOptionGroups[i] + " is present"): null
+
+2022-10-12 09:54:45 - [TEST_STEP][PASSED] - result = verifyElementPresent(findTestObject("Intermediate/3_JQuery_Select _Dropdown/option_group_Files", ["optionGroup":listOptionGroups[i]]), 3): Object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/option_group_Files' is present
+
+2022-10-12 09:54:46 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/option_group_Files' is present
+
+2022-10-12 09:54:46 - [TEST_STEP][PASSED] - if (result == true): null
+
+2022-10-12 09:54:46 - [TEST_STEP][PASSED] - println("Option group named " + listOptionGroups[i] + " is present"): null
+
+2022-10-12 09:54:46 - [TEST_STEP][PASSED] - result = verifyElementPresent(findTestObject("Intermediate/3_JQuery_Select _Dropdown/option_group_Files", ["optionGroup":listOptionGroups[i]]), 3): Object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/option_group_Files' is present
+
+2022-10-12 09:54:46 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/option_group_Files' is present
+
+2022-10-12 09:54:46 - [TEST_STEP][PASSED] - if (result == true): null
+
+2022-10-12 09:54:46 - [TEST_STEP][PASSED] - println("Option group named " + listOptionGroups[i] + " is present"): null
+
+2022-10-12 09:54:46 - [TEST_STEP][PASSED] - TestID = "TEST-00002": null
+
+2022-10-12 09:54:46 - [TEST_STEP][PASSED] - optionGroup = "Scripting languages": null
+
+2022-10-12 09:54:46 - [TEST_STEP][PASSED] - arrayLength = 0: null
+
+2022-10-12 09:54:46 - [TEST_STEP][PASSED] - for ([rowNum = 1, rowNum < totalRow, (rowNum++)]): null
+
+2022-10-12 09:54:46 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:46 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:46 - [TEST_STEP][PASSED] - for ([i = 0, i < totalColumn - 1, (i++)]): null
+
+2022-10-12 09:54:46 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:54:46 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:54:46 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:54:46 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:54:46 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:54:46 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:54:46 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:46 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:46 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:47 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:47 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:47 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:47 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:47 - [TEST_STEP][PASSED] - println("
+
+Array length is: " + arrayLength + "
+
+"): null
+
+2022-10-12 09:54:47 - [TEST_STEP][PASSED] - listOptionScriptings = []: null
+
+2022-10-12 09:54:47 - [TEST_STEP][PASSED] - for ([rowNum = 1, rowNum < totalRow, (rowNum++)]): null
+
+2022-10-12 09:54:47 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:47 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:47 - [TEST_STEP][PASSED] - for ([i = 0, i < arrayLength, (i++)]): null
+
+2022-10-12 09:54:47 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:54:47 - [TEST_STEP][PASSED] - listOptionScriptings[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:54:47 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:54:47 - [TEST_STEP][PASSED] - listOptionScriptings[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:54:47 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:54:47 - [TEST_STEP][PASSED] - listOptionScriptings[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:54:47 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:47 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:47 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:48 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:48 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:48 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:48 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:48 - [TEST_STEP][PASSED] - println("/n/n" + listOptionScriptings + "/n/n"): null
+
+2022-10-12 09:54:48 - [TEST_STEP][PASSED] - for ([i = 0, i < length, (i++)]): null
+
+2022-10-12 09:54:48 - [TEST_STEP][PASSED] - result = verifyElementPresent(findTestObject("Intermediate/3_JQuery_Select _Dropdown/option_Files", ["optionGroup":optionGroup, "type":listOptionScriptings[i]]), 3): Object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/option_Files' is present
+
+2022-10-12 09:54:48 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/option_Files' is present
+
+2022-10-12 09:54:48 - [TEST_STEP][PASSED] - if (result == true): null
+
+2022-10-12 09:54:48 - [TEST_STEP][PASSED] - println("Option named " + listOptionScriptings[i] + " is present"): null
+
+2022-10-12 09:54:48 - [TEST_STEP][PASSED] - result = verifyElementPresent(findTestObject("Intermediate/3_JQuery_Select _Dropdown/option_Files", ["optionGroup":optionGroup, "type":listOptionScriptings[i]]), 3): Object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/option_Files' is present
+
+2022-10-12 09:54:49 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/option_Files' is present
+
+2022-10-12 09:54:49 - [TEST_STEP][PASSED] - if (result == true): null
+
+2022-10-12 09:54:49 - [TEST_STEP][PASSED] - println("Option named " + listOptionScriptings[i] + " is present"): null
+
+2022-10-12 09:54:49 - [TEST_STEP][PASSED] - result = verifyElementPresent(findTestObject("Intermediate/3_JQuery_Select _Dropdown/option_Files", ["optionGroup":optionGroup, "type":listOptionScriptings[i]]), 3): Object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/option_Files' is present
+
+2022-10-12 09:54:49 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/option_Files' is present
+
+2022-10-12 09:54:49 - [TEST_STEP][PASSED] - if (result == true): null
+
+2022-10-12 09:54:49 - [TEST_STEP][PASSED] - println("Option named " + listOptionScriptings[i] + " is present"): null
+
+2022-10-12 09:54:49 - [TEST_STEP][PASSED] - TestID = "TEST-00003": null
+
+2022-10-12 09:54:49 - [TEST_STEP][PASSED] - optionGroup = "Programming languages": null
+
+2022-10-12 09:54:49 - [TEST_STEP][PASSED] - arrayLength = 0: null
+
+2022-10-12 09:54:49 - [TEST_STEP][PASSED] - for ([rowNum = 1, rowNum < totalRow, (rowNum++)]): null
+
+2022-10-12 09:54:49 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:49 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:49 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:49 - [TEST_STEP][PASSED] - for ([i = 0, i < totalColumn - 1, (i++)]): null
+
+2022-10-12 09:54:49 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:54:49 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:54:49 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:54:49 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:54:49 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:54:49 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:54:49 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:49 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:49 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:49 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:49 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:50 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:50 - [TEST_STEP][PASSED] - println("
+
+Array length is: " + arrayLength + "
+
+"): null
+
+2022-10-12 09:54:50 - [TEST_STEP][PASSED] - listOptionProgrammings = []: null
+
+2022-10-12 09:54:50 - [TEST_STEP][PASSED] - for ([rowNum = 1, rowNum < totalRow, (rowNum++)]): null
+
+2022-10-12 09:54:50 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:50 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:50 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:50 - [TEST_STEP][PASSED] - for ([i = 0, i < arrayLength, (i++)]): null
+
+2022-10-12 09:54:50 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:54:50 - [TEST_STEP][PASSED] - listOptionProgrammings[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:54:50 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:54:50 - [TEST_STEP][PASSED] - listOptionProgrammings[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:54:50 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:54:50 - [TEST_STEP][PASSED] - listOptionProgrammings[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:54:50 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:50 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:50 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:50 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:50 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:50 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:50 - [TEST_STEP][PASSED] - println("/n/n" + listOptionProgrammings + "/n/n"): null
+
+2022-10-12 09:54:50 - [TEST_STEP][PASSED] - for ([i = 0, i < length, (i++)]): null
+
+2022-10-12 09:54:50 - [TEST_STEP][PASSED] - result = verifyElementPresent(findTestObject("Intermediate/3_JQuery_Select _Dropdown/option_Files", ["optionGroup":optionGroup, "type":listOptionProgrammings[i]]), 3): Object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/option_Files' is present
+
+2022-10-12 09:54:51 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/option_Files' is present
+
+2022-10-12 09:54:51 - [TEST_STEP][PASSED] - if (result == true): null
+
+2022-10-12 09:54:51 - [TEST_STEP][PASSED] - println("Option named " + listOptionProgrammings[i] + " is present"): null
+
+2022-10-12 09:54:51 - [TEST_STEP][PASSED] - result = verifyElementPresent(findTestObject("Intermediate/3_JQuery_Select _Dropdown/option_Files", ["optionGroup":optionGroup, "type":listOptionProgrammings[i]]), 3): Object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/option_Files' is present
+
+2022-10-12 09:54:51 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/option_Files' is present
+
+2022-10-12 09:54:51 - [TEST_STEP][PASSED] - if (result == true): null
+
+2022-10-12 09:54:51 - [TEST_STEP][PASSED] - println("Option named " + listOptionProgrammings[i] + " is present"): null
+
+2022-10-12 09:54:51 - [TEST_STEP][PASSED] - result = verifyElementPresent(findTestObject("Intermediate/3_JQuery_Select _Dropdown/option_Files", ["optionGroup":optionGroup, "type":listOptionProgrammings[i]]), 3): Object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/option_Files' is present
+
+2022-10-12 09:54:51 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/option_Files' is present
+
+2022-10-12 09:54:51 - [TEST_STEP][PASSED] - if (result == true): null
+
+2022-10-12 09:54:51 - [TEST_STEP][PASSED] - println("Option named " + listOptionProgrammings[i] + " is present"): null
+
+2022-10-12 09:54:51 - [TEST_STEP][PASSED] - TestID = "TEST-00004": null
+
+2022-10-12 09:54:51 - [TEST_STEP][PASSED] - optionGroup = "Other": null
+
+2022-10-12 09:54:51 - [TEST_STEP][PASSED] - arrayLength = 0: null
+
+2022-10-12 09:54:51 - [TEST_STEP][PASSED] - for ([rowNum = 1, rowNum < totalRow, (rowNum++)]): null
+
+2022-10-12 09:54:51 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:52 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:52 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:52 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:52 - [TEST_STEP][PASSED] - for ([i = 0, i < totalColumn - 1, (i++)]): null
+
+2022-10-12 09:54:52 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:54:52 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:54:52 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:54:52 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:54:52 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:54:52 - [TEST_STEP][PASSED] - break: null
+
+2022-10-12 09:54:52 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:52 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:52 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:52 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:52 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:52 - [TEST_STEP][PASSED] - println("
+
+Array length is: " + arrayLength + "
+
+"): null
+
+2022-10-12 09:54:52 - [TEST_STEP][PASSED] - listOptionOthers = []: null
+
+2022-10-12 09:54:52 - [TEST_STEP][PASSED] - for ([rowNum = 1, rowNum < totalRow, (rowNum++)]): null
+
+2022-10-12 09:54:52 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:52 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:52 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:52 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:52 - [TEST_STEP][PASSED] - for ([i = 0, i < arrayLength, (i++)]): null
+
+2022-10-12 09:54:52 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:54:52 - [TEST_STEP][PASSED] - listOptionOthers[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:54:52 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:54:52 - [TEST_STEP][PASSED] - listOptionOthers[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:54:53 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:53 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:53 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:53 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:53 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:54:53 - [TEST_STEP][PASSED] - println("
+
+" + listOptionOthers + "
+
+"): null
+
+2022-10-12 09:54:53 - [TEST_STEP][PASSED] - for ([i = 0, i < length, (i++)]): null
+
+2022-10-12 09:54:53 - [TEST_STEP][PASSED] - result = verifyElementPresent(findTestObject("Intermediate/3_JQuery_Select _Dropdown/option_Files", ["optionGroup":optionGroup, "type":listOptionOthers[i]]), 3): Object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/option_Files' is present
+
+2022-10-12 09:54:53 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/option_Files' is present
+
+2022-10-12 09:54:53 - [TEST_STEP][PASSED] - if (result == true): null
+
+2022-10-12 09:54:53 - [TEST_STEP][PASSED] - println("Option named " + listOptionOthers[i] + " is present"): null
+
+2022-10-12 09:54:53 - [TEST_STEP][PASSED] - result = verifyElementPresent(findTestObject("Intermediate/3_JQuery_Select _Dropdown/option_Files", ["optionGroup":optionGroup, "type":listOptionOthers[i]]), 3): Object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/option_Files' is present
+
+2022-10-12 09:54:54 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/3_JQuery_Select _Dropdown/option_Files' is present
+
+2022-10-12 09:54:54 - [TEST_STEP][PASSED] - if (result == true): null
+
+2022-10-12 09:54:54 - [TEST_STEP][PASSED] - println("Option named " + listOptionOthers[i] + " is present"): null
+
+2022-10-12 09:54:54 - [TEST_STEP][PASSED] - println(listOptionScriptings): null
+
+2022-10-12 09:54:54 - [TEST_STEP][PASSED] - println(listOptionProgrammings): null
+
+2022-10-12 09:54:54 - [TEST_STEP][PASSED] - println(listOptionOthers): null
+
+2022-10-12 09:54:54 - [TEST_STEP][NOT_RUN] - selectOptionByLabel(findTestObject("Intermediate/3_JQuery_Select _Dropdown/select_Files"), "PHP", false): NOT_RUN: selectOptionByLabel(findTestObject("Intermediate/3_JQuery_Select _Dropdown/select_Files"), "PHP", false)
+
+2022-10-12 09:54:54 - [MESSAGE][NOT_RUN] - NOT_RUN: selectOptionByLabel(findTestObject("Intermediate/3_JQuery_Select _Dropdown/select_Files"), "PHP", false)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-10-12 09:53:18 - [TEST_SUITE][PASSED] - TestSuite_3_JQuery_Select_Dropdown: Test Cases/Intermediate/3_JQuery_Select _Dropdown/JQSD5_Select_File]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

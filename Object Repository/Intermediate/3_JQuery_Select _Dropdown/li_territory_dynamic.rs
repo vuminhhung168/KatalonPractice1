@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li_territory_dynamic</name>
+   <tag></tag>
+   <elementGuidId>3aa340cd-032e-45a4-984c-8d9d289629fd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//ul[starts-with(@id,&quot;select2-&quot;)][contains(@id,&quot;result&quot;)]/li[text()=&quot;${territory}&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

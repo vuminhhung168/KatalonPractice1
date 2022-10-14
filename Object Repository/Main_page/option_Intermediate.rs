@@ -3,11 +3,11 @@
    <description></description>
    <name>option_Intermediate</name>
    <tag></tag>
-   <elementGuidId>22f4c4fd-95b9-4ac6-8d06-4f3367a02c84</elementGuidId>
+   <elementGuidId>7400344d-5bbd-40d2-8bdd-e48d9f7fa417</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id=&quot;inter_example&quot;]/span</value>
+         <value>//ul[@id=&quot;myTab&quot;]//a[@id=&quot;inter_example&quot;]</value>
       </entry>
       <entry>
          <key>BASIC</key>

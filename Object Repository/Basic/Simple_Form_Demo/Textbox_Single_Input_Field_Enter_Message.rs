@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Textbox_Single_Input_Field_Enter_Message</name>
+   <tag></tag>
+   <elementGuidId>0281b7e4-b06d-4dfd-aed4-4a450ad65032</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id=&quot;get-input&quot;]//input[@id=&quot;user-message&quot;]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>//form[@id=&quot;get-input&quot;]//input[@id=&quot;user-message&quot;]</value>
+      <webElementGuid>397346c7-c296-47bb-bce7-479114c80ec3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

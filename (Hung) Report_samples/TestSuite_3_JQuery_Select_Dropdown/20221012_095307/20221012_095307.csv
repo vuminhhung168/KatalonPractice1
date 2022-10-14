@@ -1,0 +1,113 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuite_3_JQuery_Select_Dropdown,Chrome 106.0.0.0,,,2022-10-12 09:53:18,2022-10-12 09:54:54,1m - 35.599s,PASSED
+,,,,,,,
+Test Cases/Intermediate/3_JQuery_Select _Dropdown/JQSD1_Verify_UI,Chrome 106.0.0.0,,,2022-10-12 09:53:18,2022-10-12 09:53:32,13.968s,PASSED
+"callTestCase(findTestCase(""Intermediate/Prerequisite1_Access_Immediate""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-12 09:53:19,2022-10-12 09:53:29,10.153s,PASSED
+"click(findTestObject(""Intermediate/option_JQuerySelectDropdown""))",Chrome 106.0.0.0,,,2022-10-12 09:53:29,2022-10-12 09:53:31,2.276s,PASSED
+"verifyElementVisible(findTestObject(""Intermediate/3_JQuery_Select _Dropdown/text_h2_Single_Select""))",Chrome 106.0.0.0,,,2022-10-12 09:53:31,2022-10-12 09:53:32,0.354s,PASSED
+"verifyElementVisible(findTestObject(""Intermediate/3_JQuery_Select _Dropdown/text_h3_Multi_Select""))",Chrome 106.0.0.0,,,2022-10-12 09:53:32,2022-10-12 09:53:32,0.378s,PASSED
+"verifyElementPresent(findTestObject(""Intermediate/3_JQuery_Select _Dropdown/label_Select_Country""), 0)",Chrome 106.0.0.0,,,2022-10-12 09:53:32,2022-10-12 09:53:32,0.342s,PASSED
+,,,,,,,
+Test Cases/Intermediate/3_JQuery_Select _Dropdown/JQSD2_Search_Select_Verify_Select_Country,Chrome 106.0.0.0,,,2022-10-12 09:53:32,2022-10-12 09:53:45,12.988s,PASSED
+"selectedCountry = ""Bangladesh""",Chrome 106.0.0.0,,,2022-10-12 09:53:33,2022-10-12 09:53:33,0.000s,PASSED
+"callTestCase(findTestCase(""Intermediate/Prerequisite1_Access_Immediate""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-12 09:53:33,2022-10-12 09:53:41,8.207s,PASSED
+"click(findTestObject(""Intermediate/option_JQuerySelectDropdown""))",Chrome 106.0.0.0,,,2022-10-12 09:53:41,2022-10-12 09:53:43,1.710s,PASSED
+"click(findTestObject(""Intermediate/3_JQuery_Select _Dropdown/dropdown_Select_Country""))",Chrome 106.0.0.0,,,2022-10-12 09:53:43,2022-10-12 09:53:43,0.829s,PASSED
+"setText(findTestObject(""Intermediate/3_JQuery_Select _Dropdown/searchbox_Select_Country""), ""a"")",Chrome 106.0.0.0,,,2022-10-12 09:53:43,2022-10-12 09:53:44,0.801s,PASSED
+"println(findTestObject(""Intermediate/3_JQuery_Select _Dropdown/li_country_dynamic""))",Chrome 106.0.0.0,,,2022-10-12 09:53:44,2022-10-12 09:53:44,0.137s,PASSED
+"click(findTestObject(""Intermediate/3_JQuery_Select _Dropdown/li_country_dynamic"", [""selectedCountry"":selectedCountry]))",Chrome 106.0.0.0,,,2022-10-12 09:53:44,2022-10-12 09:53:45,0.429s,PASSED
+"verifyElementVisible(findTestObject(""Intermediate/3_JQuery_Select _Dropdown/verify_country_dynamic"", [""selectedCountry"":selectedCountry]))",Chrome 106.0.0.0,,,2022-10-12 09:53:45,2022-10-12 09:53:45,0.497s,PASSED
+,,,,,,,
+Test Cases/Intermediate/3_JQuery_Select _Dropdown/JQSD3_Select_Verify_States,Chrome 106.0.0.0,,,2022-10-12 09:53:45,2022-10-12 09:54:12,26.373s,PASSED
+"TestID = ""TEST-00001""",Chrome 106.0.0.0,,,2022-10-12 09:53:46,2022-10-12 09:53:46,0.001s,PASSED
+"totalRow = findTestData(""TestData_Sheet2"").getRowNumbers()",Chrome 106.0.0.0,,,2022-10-12 09:53:46,2022-10-12 09:53:47,0.859s,PASSED
+"for ([rowNum = 1, rowNum < totalRow, (rowNum++)])",Chrome 106.0.0.0,,,2022-10-12 09:53:47,2022-10-12 09:54:12,25.049s,PASSED
+,,,,,,,
+Test Cases/Intermediate/3_JQuery_Select _Dropdown/JQSD4_Verify_Options_Enable_Disable,Chrome 106.0.0.0,,,2022-10-12 09:54:12,2022-10-12 09:54:32,20.828s,PASSED
+"TestID = ""TEST-00001""",Chrome 106.0.0.0,,,2022-10-12 09:54:12,2022-10-12 09:54:12,0.001s,PASSED
+"FileTestData = ""TestData_Sheet3""",Chrome 106.0.0.0,,,2022-10-12 09:54:12,2022-10-12 09:54:12,0.000s,PASSED
+"territoriesList = [""American Samoa"", ""Guam"", ""Northern Mariana Islands"", ""Puerto Rico"", ""United States Minor Outlying Islands"", ""Virgin Islands""]",Chrome 106.0.0.0,,,2022-10-12 09:54:12,2022-10-12 09:54:12,0.000s,PASSED
+"enableColor1 = ""rgba(255, 255, 255, 1)""",Chrome 106.0.0.0,,,2022-10-12 09:54:12,2022-10-12 09:54:12,0.001s,PASSED
+"enableColor2 = ""rgba(53, 53, 53, 1)""",Chrome 106.0.0.0,,,2022-10-12 09:54:12,2022-10-12 09:54:12,0.000s,PASSED
+"disableColor = ""rgba(153, 153, 153, 1)""",Chrome 106.0.0.0,,,2022-10-12 09:54:12,2022-10-12 09:54:12,0.000s,PASSED
+totalRow = findTestData(FileTestData).getRowNumbers(),Chrome 106.0.0.0,,,2022-10-12 09:54:12,2022-10-12 09:54:12,0.053s,PASSED
+arrayLength = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 106.0.0.0,,,2022-10-12 09:54:12,2022-10-12 09:54:12,0.001s,PASSED
+rowNum = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 106.0.0.0,,,2022-10-12 09:54:12,2022-10-12 09:54:12,0.000s,PASSED
+"for ([rowNum = 1, rowNum < totalRow, (rowNum++)])",Chrome 106.0.0.0,,,2022-10-12 09:54:12,2022-10-12 09:54:13,0.850s,PASSED
+"println(""Array length is: "" + arrayLength)",Chrome 106.0.0.0,,,2022-10-12 09:54:13,2022-10-12 09:54:13,0.001s,PASSED
+listOptions = [],Chrome 106.0.0.0,,,2022-10-12 09:54:13,2022-10-12 09:54:13,0.000s,PASSED
+"for ([i = 0, i < arrayLength, (i++)])",Chrome 106.0.0.0,,,2022-10-12 09:54:13,2022-10-12 09:54:14,0.881s,PASSED
+"callTestCase(findTestCase(""Intermediate/Prerequisite1_Access_Immediate""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-12 09:54:14,2022-10-12 09:54:25,11.441s,PASSED
+"click(findTestObject(""Intermediate/option_JQuerySelectDropdown""))",Chrome 106.0.0.0,,,2022-10-12 09:54:25,2022-10-12 09:54:27,2.029s,PASSED
+"click(findTestObject(""Intermediate/3_JQuery_Select _Dropdown/span_Select_US_Outlying_Territories""))",Chrome 106.0.0.0,,,2022-10-12 09:54:27,2022-10-12 09:54:28,0.498s,PASSED
+getAttributeValue = [],Chrome 106.0.0.0,,,2022-10-12 09:54:28,2022-10-12 09:54:28,0.001s,PASSED
+"for ([i = 0, i < length, (i++)])",Chrome 106.0.0.0,,,2022-10-12 09:54:28,2022-10-12 09:54:30,2.364s,PASSED
+getCSSValue = [],Chrome 106.0.0.0,,,2022-10-12 09:54:30,2022-10-12 09:54:30,0.000s,PASSED
+"for ([i = 0, i < length, (i++)])",Chrome 106.0.0.0,,,2022-10-12 09:54:30,2022-10-12 09:54:32,2.126s,PASSED
+"for ([i = 0, i < length, (i++)])",Chrome 106.0.0.0,,,2022-10-12 09:54:32,2022-10-12 09:54:32,0.041s,PASSED
+,,,,,,,
+Test Cases/Intermediate/3_JQuery_Select _Dropdown/JQSD5_Select_File,Chrome 106.0.0.0,,,2022-10-12 09:54:32,2022-10-12 09:54:54,21.063s,PASSED
+"TestID = ""TEST-00001""",Chrome 106.0.0.0,,,2022-10-12 09:54:33,2022-10-12 09:54:33,0.001s,PASSED
+"FileTestData = ""TestData_Sheet4""",Chrome 106.0.0.0,,,2022-10-12 09:54:33,2022-10-12 09:54:33,0.000s,PASSED
+totalRow = findTestData(FileTestData).getRowNumbers(),Chrome 106.0.0.0,,,2022-10-12 09:54:33,2022-10-12 09:54:33,0.096s,PASSED
+totalColumn = findTestData(FileTestData).getColumnNumbers(),Chrome 106.0.0.0,,,2022-10-12 09:54:33,2022-10-12 09:54:33,0.061s,PASSED
+arrayLength = 0,Chrome 106.0.0.0,,,2022-10-12 09:54:33,2022-10-12 09:54:33,0.000s,PASSED
+"for ([rowNum = 1, rowNum < totalRow, (rowNum++)])",Chrome 106.0.0.0,,,2022-10-12 09:54:33,2022-10-12 09:54:34,0.590s,PASSED
+"println(""
+
+Array length is: "" + arrayLength + ""
+
+"")",Chrome 106.0.0.0,,,2022-10-12 09:54:34,2022-10-12 09:54:34,0.000s,PASSED
+listOptionGroups = [],Chrome 106.0.0.0,,,2022-10-12 09:54:34,2022-10-12 09:54:34,0.001s,PASSED
+"for ([rowNum = 1, rowNum < totalRow, (rowNum++)])",Chrome 106.0.0.0,,,2022-10-12 09:54:34,2022-10-12 09:54:35,0.709s,PASSED
+println(listOptionGroups),Chrome 106.0.0.0,,,2022-10-12 09:54:35,2022-10-12 09:54:35,0.000s,PASSED
+"callTestCase(findTestCase(""Intermediate/Prerequisite1_Access_Immediate""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-12 09:54:35,2022-10-12 09:54:43,8.564s,PASSED
+"click(findTestObject(""Intermediate/option_JQuerySelectDropdown""))",Chrome 106.0.0.0,,,2022-10-12 09:54:43,2022-10-12 09:54:45,1.637s,PASSED
+"for ([i = 0, i < length, (i++)])",Chrome 106.0.0.0,,,2022-10-12 09:54:45,2022-10-12 09:54:46,1.192s,PASSED
+"TestID = ""TEST-00002""",Chrome 106.0.0.0,,,2022-10-12 09:54:46,2022-10-12 09:54:46,0.000s,PASSED
+"optionGroup = ""Scripting languages""",Chrome 106.0.0.0,,,2022-10-12 09:54:46,2022-10-12 09:54:46,0.000s,PASSED
+arrayLength = 0,Chrome 106.0.0.0,,,2022-10-12 09:54:46,2022-10-12 09:54:46,0.000s,PASSED
+"for ([rowNum = 1, rowNum < totalRow, (rowNum++)])",Chrome 106.0.0.0,,,2022-10-12 09:54:46,2022-10-12 09:54:47,0.742s,PASSED
+"println(""
+
+Array length is: "" + arrayLength + ""
+
+"")",Chrome 106.0.0.0,,,2022-10-12 09:54:47,2022-10-12 09:54:47,0.000s,PASSED
+listOptionScriptings = [],Chrome 106.0.0.0,,,2022-10-12 09:54:47,2022-10-12 09:54:47,0.000s,PASSED
+"for ([rowNum = 1, rowNum < totalRow, (rowNum++)])",Chrome 106.0.0.0,,,2022-10-12 09:54:47,2022-10-12 09:54:48,1.007s,PASSED
+"println(""/n/n"" + listOptionScriptings + ""/n/n"")",Chrome 106.0.0.0,,,2022-10-12 09:54:48,2022-10-12 09:54:48,0.000s,PASSED
+"for ([i = 0, i < length, (i++)])",Chrome 106.0.0.0,,,2022-10-12 09:54:48,2022-10-12 09:54:49,1.088s,PASSED
+"TestID = ""TEST-00003""",Chrome 106.0.0.0,,,2022-10-12 09:54:49,2022-10-12 09:54:49,0.000s,PASSED
+"optionGroup = ""Programming languages""",Chrome 106.0.0.0,,,2022-10-12 09:54:49,2022-10-12 09:54:49,0.001s,PASSED
+arrayLength = 0,Chrome 106.0.0.0,,,2022-10-12 09:54:49,2022-10-12 09:54:49,0.000s,PASSED
+"for ([rowNum = 1, rowNum < totalRow, (rowNum++)])",Chrome 106.0.0.0,,,2022-10-12 09:54:49,2022-10-12 09:54:50,0.697s,PASSED
+"println(""
+
+Array length is: "" + arrayLength + ""
+
+"")",Chrome 106.0.0.0,,,2022-10-12 09:54:50,2022-10-12 09:54:50,0.001s,PASSED
+listOptionProgrammings = [],Chrome 106.0.0.0,,,2022-10-12 09:54:50,2022-10-12 09:54:50,0.000s,PASSED
+"for ([rowNum = 1, rowNum < totalRow, (rowNum++)])",Chrome 106.0.0.0,,,2022-10-12 09:54:50,2022-10-12 09:54:50,0.855s,PASSED
+"println(""/n/n"" + listOptionProgrammings + ""/n/n"")",Chrome 106.0.0.0,,,2022-10-12 09:54:50,2022-10-12 09:54:50,0.001s,PASSED
+"for ([i = 0, i < length, (i++)])",Chrome 106.0.0.0,,,2022-10-12 09:54:50,2022-10-12 09:54:51,1.037s,PASSED
+"TestID = ""TEST-00004""",Chrome 106.0.0.0,,,2022-10-12 09:54:51,2022-10-12 09:54:51,0.000s,PASSED
+"optionGroup = ""Other""",Chrome 106.0.0.0,,,2022-10-12 09:54:51,2022-10-12 09:54:51,0.000s,PASSED
+arrayLength = 0,Chrome 106.0.0.0,,,2022-10-12 09:54:51,2022-10-12 09:54:51,0.000s,PASSED
+"for ([rowNum = 1, rowNum < totalRow, (rowNum++)])",Chrome 106.0.0.0,,,2022-10-12 09:54:51,2022-10-12 09:54:52,0.643s,PASSED
+"println(""
+
+Array length is: "" + arrayLength + ""
+
+"")",Chrome 106.0.0.0,,,2022-10-12 09:54:52,2022-10-12 09:54:52,0.000s,PASSED
+listOptionOthers = [],Chrome 106.0.0.0,,,2022-10-12 09:54:52,2022-10-12 09:54:52,0.001s,PASSED
+"for ([rowNum = 1, rowNum < totalRow, (rowNum++)])",Chrome 106.0.0.0,,,2022-10-12 09:54:52,2022-10-12 09:54:53,0.690s,PASSED
+"println(""
+
+"" + listOptionOthers + ""
+
+"")",Chrome 106.0.0.0,,,2022-10-12 09:54:53,2022-10-12 09:54:53,0.000s,PASSED
+"for ([i = 0, i < length, (i++)])",Chrome 106.0.0.0,,,2022-10-12 09:54:53,2022-10-12 09:54:54,0.701s,PASSED
+println(listOptionScriptings),Chrome 106.0.0.0,,,2022-10-12 09:54:54,2022-10-12 09:54:54,0.000s,PASSED
+println(listOptionProgrammings),Chrome 106.0.0.0,,,2022-10-12 09:54:54,2022-10-12 09:54:54,0.000s,PASSED
+println(listOptionOthers),Chrome 106.0.0.0,,,2022-10-12 09:54:54,2022-10-12 09:54:54,0.000s,PASSED
+"selectOptionByLabel(findTestObject(""Intermediate/3_JQuery_Select _Dropdown/select_Files""), ""PHP"", false)",Chrome 106.0.0.0,,,2022-10-12 09:54:54,2022-10-12 09:54:54,0.001s,NOT_RUN

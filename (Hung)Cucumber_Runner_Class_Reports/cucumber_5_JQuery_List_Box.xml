@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="146.545515">
+<testcase classname="As an PO, i want to view new elements named in UI, then i can add/remove it" name="Verify elements in UI" time="57.066809">
+<system-out><![CDATA[Given Easyselenium page is launched.........................................passed
+When I navigate to Immediate level then JQuery List Box.....................passed
+Then I verify item Isis is visible in UI....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="As an PO, i want to view new elements named in UI, then i can add/remove it" name="Select item in left panel then click Add and verify it is moved to right" time="15.732156">
+<system-out><![CDATA[Given Easyselenium page is launched.........................................passed
+When I navigate to Immediate level then JQuery List Box.....................passed
+And I select item Isis in the left panel then click Add button..............passed
+Then The item Isis is moved to the right panel..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="As an PO, i want to view new elements named in UI, then i can add/remove it" name="Select item in right panel then click Remove and verify it is moved to left" time="18.298159">
+<system-out><![CDATA[Given Easyselenium page is launched.........................................passed
+When I navigate to Immediate level then JQuery List Box.....................passed
+And I select item Isis in the left panel then click Add button..............passed
+And I select item Isis in the right panel then click Remove button..........passed
+Then The item Isis is moved to the left panel...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="login feature" name="login is failed if input incorrect password" time="27.064055">
+<system-out><![CDATA[Given launch ACM page.......................................................passed
+When Input itnv and incorrect 1_Abc_1234_5678...............................passed
+And Click Login button......................................................passed
+Then Login is failed with message...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="login feature" name="login is successful if input correct password" time="28.384336">
+<system-out><![CDATA[Given launch ACM page.......................................................passed
+When Input itnv and correct 1_Abc_1234_567..................................passed
+And Click Login button......................................................passed
+Then Login is successful....................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>searchbox_Select_Country</name>
+   <tag></tag>
+   <elementGuidId>13b5f5ad-f150-46a7-b020-b6f671ff5db1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//ul[@id=&quot;select2-country-results&quot;]/parent::*/preceding-sibling::span[contains(@class,&quot;search--dropdown&quot;)]/input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>//span[ul[@id=&quot;select2-country-results&quot;]]/preceding-sibling::span[contains(@class,&quot;search--dropdown&quot;)]/input</value>
+      <webElementGuid>2d7c2c7c-f499-498c-9e86-8501ce88458f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

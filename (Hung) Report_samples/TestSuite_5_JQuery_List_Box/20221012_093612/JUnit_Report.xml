@@ -1,0 +1,2365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite_5_JQuery_List_Box" time="203.034" tests="7" failures="0" errors="0">
+   <testsuite name="TestSuite_5_JQuery_List_Box" tests="7" failures="0" errors="0" time="203.034" skipped="0" timestamp="2022-10-12 09:36:24" hostname="vminhhung - vminhhung.tma.com.vn" id="Test Suites/TestSuite_5_JQuery_List_Box">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\vminhhung\\Katalon Studio\\SeleniumEasy\\Reports\\20221012_093612\\TestSuite_5_JQuery_List_Box\\20221012_093612"/>
+         <property name="logFiles" value="C:\\Users\\vminhhung\\Katalon Studio\\SeleniumEasy\\Reports\\20221012_093612\\TestSuite_5_JQuery_List_Box\\20221012_093612\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="vminhhung - vminhhung.tma.com.vn"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.0.208"/>
+         <property name="browser" value="Chrome 106.0.0.0"/>
+         <property name="hostAddress" value="10.107.1.102"/>
+         <property name="sessionId" value="1e809e476aa200bb6e841700762c1a54"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Intermediate/5_JQuery_List_Box/JQLB1_Verify_some_elements_in_UI" time="36.205" classname="Test Cases/Intermediate/5_JQuery_List_Box/JQLB1_Verify_some_elements_in_UI" status="PASSED">
+         <system-out><![CDATA[2022-10-12 09:36:25 - [TEST_CASE][PASSED] - Test Cases/Intermediate/5_JQuery_List_Box/JQLB1_Verify_some_elements_in_UI: Test Cases/Intermediate/5_JQuery_List_Box/JQLB1_Verify_some_elements_in_UI
+
+2022-10-12 09:36:25 - [TEST_STEP][PASSED] - TestID = "TEST-00001": null
+
+2022-10-12 09:36:25 - [TEST_STEP][PASSED] - FileTestData = "TestData_Sheet6": null
+
+2022-10-12 09:36:25 - [TEST_STEP][PASSED] - totalRow = findTestData(FileTestData).getRowNumbers(): null
+
+2022-10-12 09:36:26 - [TEST_STEP][PASSED] - totalColumn = findTestData(FileTestData).getColumnNumbers(): null
+
+2022-10-12 09:36:26 - [TEST_STEP][PASSED] - rowNum = 1: null
+
+2022-10-12 09:36:26 - [TEST_STEP][PASSED] - arrayLength = 0: null
+
+2022-10-12 09:36:26 - [TEST_STEP][PASSED] - for ([rowNum, rowNum < totalRow, (rowNum++)]): null
+
+2022-10-12 09:36:26 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:36:26 - [TEST_STEP][PASSED] - break: null
+
+2022-10-12 09:36:26 - [TEST_STEP][PASSED] - println("Row number is: " + rowNum): null
+
+2022-10-12 09:36:26 - [TEST_STEP][PASSED] - for ([i = 0, i < totalColumn - 1, (i++)]): null
+
+2022-10-12 09:36:26 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:36:26 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:36:26 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:36:27 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:36:27 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:36:27 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:36:27 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:36:27 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:36:27 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:36:27 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:36:27 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:36:27 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:36:27 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:36:27 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:36:27 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:36:27 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:36:27 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:36:27 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:36:27 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:36:27 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:36:27 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:36:28 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:36:28 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:36:28 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:36:28 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:36:28 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:36:28 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:36:28 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:36:28 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:36:28 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:36:28 - [TEST_STEP][PASSED] - println("Array length is: " + arrayLength): null
+
+2022-10-12 09:36:28 - [TEST_STEP][PASSED] - listData = []: null
+
+2022-10-12 09:36:28 - [TEST_STEP][PASSED] - for ([rowNum = 1, rowNum < totalRow, (rowNum++)]): null
+
+2022-10-12 09:36:28 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:36:28 - [TEST_STEP][PASSED] - for ([i = 0, i < arrayLength, (i++)]): null
+
+2022-10-12 09:36:28 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:36:28 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:36:28 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:36:28 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:36:28 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:36:29 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:36:29 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:36:29 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:36:29 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:36:29 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:36:29 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:36:29 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:36:29 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:36:29 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:36:29 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:36:29 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:36:29 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:36:29 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:36:29 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:36:29 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:36:29 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:36:29 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:36:30 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:36:30 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:36:30 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:36:30 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:36:30 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:36:30 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:36:30 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:36:30 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:36:30 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:36:30 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:36:30 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:36:30 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:36:30 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:36:30 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:36:30 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:36:30 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:36:30 - [TEST_STEP][PASSED] - println(listData): null
+
+2022-10-12 09:36:30 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Intermediate/Prerequisite1_Access_Immediate"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Intermediate/Prerequisite1_Access_Immediate' successfully
+
+2022-10-12 09:36:31 - [TEST_CASE][PASSED] - Test Cases/Intermediate/Prerequisite1_Access_Immediate: Test Cases/Intermediate/Prerequisite1_Access_Immediate
+
+2022-10-12 09:36:31 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Launch_seleniumeasy_page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Launch_seleniumeasy_page' successfully
+
+2022-10-12 09:36:31 - [TEST_CASE][PASSED] - Test Cases/Launch_seleniumeasy_page: Test Cases/Launch_seleniumeasy_page
+
+2022-10-12 09:36:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-10-12 09:36:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-10-12 09:36:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-10-12 09:36:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-10-12 09:36:34 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-10-12 09:36:34 - [MESSAGE][PASSED] - Current window maximized
+
+2022-10-12 09:36:34 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.seleniumeasy.com/"): Navigate to 'https://demo.seleniumeasy.com/' successfully
+
+2022-10-12 09:36:41 - [MESSAGE][PASSED] - Navigate to 'https://demo.seleniumeasy.com/' successfully
+
+2022-10-12 09:36:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Launch_seleniumeasy_page' successfully
+
+2022-10-12 09:36:41 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Main_page/Button_Start_Practicing"), OPTIONAL)): null
+
+2022-10-12 09:36:42 - [MESSAGE][PASSED] - Object 'Object Repository/Main_page/Button_Start_Practicing' is visible
+
+2022-10-12 09:36:42 - [TEST_STEP][PASSED] - click(findTestObject("Main_page/Button_Start_Practicing")): Object: 'Object Repository/Main_page/Button_Start_Practicing' is clicked on
+
+2022-10-12 09:36:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Main_page/Button_Start_Practicing' is clicked on
+
+2022-10-12 09:36:42 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Main_page/option_Intermediate")): Object: 'Object Repository/Main_page/option_Intermediate' is clicked on
+
+2022-10-12 09:36:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Main_page/option_Intermediate' is clicked on
+
+2022-10-12 09:36:43 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Intermediate/text_Intermediate"), STOP_ON_FAILURE): Object 'Object Repository/Intermediate/text_Intermediate' is visible
+
+2022-10-12 09:36:43 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/text_Intermediate' is visible
+
+2022-10-12 09:36:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Intermediate/Prerequisite1_Access_Immediate' successfully
+
+2022-10-12 09:36:43 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/option_JQueryListBox")): Object: 'Object Repository/Intermediate/option_JQueryListBox' is clicked on
+
+2022-10-12 09:36:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/option_JQueryListBox' is clicked on
+
+2022-10-12 09:36:44 - [TEST_STEP][PASSED] - for ([i = 0, i < length, (i++)]): Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is present
+
+2022-10-12 09:36:44 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]]), 2): Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is present
+
+2022-10-12 09:36:45 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is present
+
+2022-10-12 09:36:45 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]]), 2): Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is present
+
+2022-10-12 09:36:45 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is present
+
+2022-10-12 09:36:45 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]]), 2): Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is present
+
+2022-10-12 09:36:46 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is present
+
+2022-10-12 09:36:46 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]]), 2): Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is present
+
+2022-10-12 09:36:46 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is present
+
+2022-10-12 09:36:46 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]]), 2): Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is present
+
+2022-10-12 09:36:46 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is present
+
+2022-10-12 09:36:46 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]]), 2): Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is present
+
+2022-10-12 09:36:47 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is present
+
+2022-10-12 09:36:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]]), 2): Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is present
+
+2022-10-12 09:36:47 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is present
+
+2022-10-12 09:36:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]]), 2): Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is present
+
+2022-10-12 09:36:47 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is present
+
+2022-10-12 09:36:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]]), 2): Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is present
+
+2022-10-12 09:36:48 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is present
+
+2022-10-12 09:36:48 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]]), 2): Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is present
+
+2022-10-12 09:36:48 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is present
+
+2022-10-12 09:36:48 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]]), 2): Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is present
+
+2022-10-12 09:36:49 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is present
+
+2022-10-12 09:36:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]]), 2): Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is present
+
+2022-10-12 09:36:49 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is present
+
+2022-10-12 09:36:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]]), 2): Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is present
+
+2022-10-12 09:36:49 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is present
+
+2022-10-12 09:36:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]]), 2): Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is present
+
+2022-10-12 09:36:50 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is present
+
+2022-10-12 09:36:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]]), 2): Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is present
+
+2022-10-12 09:36:50 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is present
+
+2022-10-12 09:36:50 - [TEST_STEP][PASSED] - for ([i = 0, i < length, (i++)]): Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' located by 'By.xpath: //select[contains(@class,"pickListResult")]//option[text()="Julia"]' is not present after '2' second(s)
+
+2022-10-12 09:36:50 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_right", ["item":listData[i]]), 2): Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' located by 'By.xpath: //select[contains(@class,"pickListResult")]//option[text()="Isis"]' is not present after '2' second(s)
+
+2022-10-12 09:36:50 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' located by 'By.xpath: //select[contains(@class,"pickListResult")]//option[text()="Isis"]' is not present after '2' second(s)
+
+2022-10-12 09:36:50 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_right", ["item":listData[i]]), 2): Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' located by 'By.xpath: //select[contains(@class,"pickListResult")]//option[text()="Sophia"]' is not present after '2' second(s)
+
+2022-10-12 09:36:51 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' located by 'By.xpath: //select[contains(@class,"pickListResult")]//option[text()="Sophia"]' is not present after '2' second(s)
+
+2022-10-12 09:36:51 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_right", ["item":listData[i]]), 2): Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' located by 'By.xpath: //select[contains(@class,"pickListResult")]//option[text()="Alice"]' is not present after '2' second(s)
+
+2022-10-12 09:36:51 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' located by 'By.xpath: //select[contains(@class,"pickListResult")]//option[text()="Alice"]' is not present after '2' second(s)
+
+2022-10-12 09:36:51 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_right", ["item":listData[i]]), 2): Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' located by 'By.xpath: //select[contains(@class,"pickListResult")]//option[text()="Isabella"]' is not present after '2' second(s)
+
+2022-10-12 09:36:51 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' located by 'By.xpath: //select[contains(@class,"pickListResult")]//option[text()="Isabella"]' is not present after '2' second(s)
+
+2022-10-12 09:36:51 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_right", ["item":listData[i]]), 2): Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' located by 'By.xpath: //select[contains(@class,"pickListResult")]//option[text()="Manuela"]' is not present after '2' second(s)
+
+2022-10-12 09:36:52 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' located by 'By.xpath: //select[contains(@class,"pickListResult")]//option[text()="Manuela"]' is not present after '2' second(s)
+
+2022-10-12 09:36:52 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_right", ["item":listData[i]]), 2): Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' located by 'By.xpath: //select[contains(@class,"pickListResult")]//option[text()="Laura"]' is not present after '2' second(s)
+
+2022-10-12 09:36:52 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' located by 'By.xpath: //select[contains(@class,"pickListResult")]//option[text()="Laura"]' is not present after '2' second(s)
+
+2022-10-12 09:36:52 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_right", ["item":listData[i]]), 2): Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' located by 'By.xpath: //select[contains(@class,"pickListResult")]//option[text()="Luiza"]' is not present after '2' second(s)
+
+2022-10-12 09:36:53 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' located by 'By.xpath: //select[contains(@class,"pickListResult")]//option[text()="Luiza"]' is not present after '2' second(s)
+
+2022-10-12 09:36:53 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_right", ["item":listData[i]]), 2): Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' located by 'By.xpath: //select[contains(@class,"pickListResult")]//option[text()="Valentina"]' is not present after '2' second(s)
+
+2022-10-12 09:36:53 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' located by 'By.xpath: //select[contains(@class,"pickListResult")]//option[text()="Valentina"]' is not present after '2' second(s)
+
+2022-10-12 09:36:53 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_right", ["item":listData[i]]), 2): Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' located by 'By.xpath: //select[contains(@class,"pickListResult")]//option[text()="Giovanna"]' is not present after '2' second(s)
+
+2022-10-12 09:36:53 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' located by 'By.xpath: //select[contains(@class,"pickListResult")]//option[text()="Giovanna"]' is not present after '2' second(s)
+
+2022-10-12 09:36:53 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_right", ["item":listData[i]]), 2): Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' located by 'By.xpath: //select[contains(@class,"pickListResult")]//option[text()="Maria Eduarda"]' is not present after '2' second(s)
+
+2022-10-12 09:36:54 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' located by 'By.xpath: //select[contains(@class,"pickListResult")]//option[text()="Maria Eduarda"]' is not present after '2' second(s)
+
+2022-10-12 09:36:54 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_right", ["item":listData[i]]), 2): Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' located by 'By.xpath: //select[contains(@class,"pickListResult")]//option[text()="Helena"]' is not present after '2' second(s)
+
+2022-10-12 09:36:54 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' located by 'By.xpath: //select[contains(@class,"pickListResult")]//option[text()="Helena"]' is not present after '2' second(s)
+
+2022-10-12 09:36:54 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_right", ["item":listData[i]]), 2): Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' located by 'By.xpath: //select[contains(@class,"pickListResult")]//option[text()="Beatriz"]' is not present after '2' second(s)
+
+2022-10-12 09:36:54 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' located by 'By.xpath: //select[contains(@class,"pickListResult")]//option[text()="Beatriz"]' is not present after '2' second(s)
+
+2022-10-12 09:36:54 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_right", ["item":listData[i]]), 2): Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' located by 'By.xpath: //select[contains(@class,"pickListResult")]//option[text()="Maria Luiza"]' is not present after '2' second(s)
+
+2022-10-12 09:36:55 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' located by 'By.xpath: //select[contains(@class,"pickListResult")]//option[text()="Maria Luiza"]' is not present after '2' second(s)
+
+2022-10-12 09:36:55 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_right", ["item":listData[i]]), 2): Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' located by 'By.xpath: //select[contains(@class,"pickListResult")]//option[text()="Lara"]' is not present after '2' second(s)
+
+2022-10-12 09:36:55 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' located by 'By.xpath: //select[contains(@class,"pickListResult")]//option[text()="Lara"]' is not present after '2' second(s)
+
+2022-10-12 09:36:55 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_right", ["item":listData[i]]), 2): Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' located by 'By.xpath: //select[contains(@class,"pickListResult")]//option[text()="Julia"]' is not present after '2' second(s)
+
+2022-10-12 09:36:55 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' located by 'By.xpath: //select[contains(@class,"pickListResult")]//option[text()="Julia"]' is not present after '2' second(s)
+
+2022-10-12 09:36:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Intermediate/5_JQuery_List_Box/button_Add")): Object 'Object Repository/Intermediate/5_JQuery_List_Box/button_Add' is visible
+
+2022-10-12 09:36:56 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/5_JQuery_List_Box/button_Add' is visible
+
+2022-10-12 09:36:56 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Intermediate/5_JQuery_List_Box/button_Add_All")): Object 'Object Repository/Intermediate/5_JQuery_List_Box/button_Add_All' is visible
+
+2022-10-12 09:36:56 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/5_JQuery_List_Box/button_Add_All' is visible
+
+2022-10-12 09:36:56 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Intermediate/5_JQuery_List_Box/button_Remove")): Object 'Object Repository/Intermediate/5_JQuery_List_Box/button_Remove' is visible
+
+2022-10-12 09:36:56 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/5_JQuery_List_Box/button_Remove' is visible
+
+2022-10-12 09:36:56 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Intermediate/5_JQuery_List_Box/button_Remove_All")): Object 'Object Repository/Intermediate/5_JQuery_List_Box/button_Remove_All' is visible
+
+2022-10-12 09:36:57 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/5_JQuery_List_Box/button_Remove_All' is visible
+
+2022-10-12 09:36:57 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-10-12 09:37:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-10-12 09:37:00 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-10-12 09:37:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Intermediate/5_JQuery_List_Box/JQLB2_Select_single_item_and_click_Add" time="35.134" classname="Test Cases/Intermediate/5_JQuery_List_Box/JQLB2_Select_single_item_and_click_Add" status="PASSED">
+         <system-out><![CDATA[2022-10-12 09:37:01 - [TEST_CASE][PASSED] - Test Cases/Intermediate/5_JQuery_List_Box/JQLB2_Select_single_item_and_click_Add: Test Cases/Intermediate/5_JQuery_List_Box/JQLB2_Select_single_item_and_click_Add
+
+2022-10-12 09:37:01 - [TEST_STEP][PASSED] - TestID = "TEST-00002": null
+
+2022-10-12 09:37:01 - [TEST_STEP][PASSED] - FileTestData = "TestData_Sheet6": null
+
+2022-10-12 09:37:01 - [TEST_STEP][PASSED] - totalRow = findTestData(FileTestData).getRowNumbers(): null
+
+2022-10-12 09:37:01 - [TEST_STEP][PASSED] - totalColumn = findTestData(FileTestData).getColumnNumbers(): null
+
+2022-10-12 09:37:01 - [TEST_STEP][PASSED] - rowNum = 1: null
+
+2022-10-12 09:37:01 - [TEST_STEP][PASSED] - arrayLength = 0: null
+
+2022-10-12 09:37:01 - [TEST_STEP][PASSED] - for ([rowNum, rowNum < totalRow, (rowNum++)]): null
+
+2022-10-12 09:37:01 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:37:01 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:37:02 - [TEST_STEP][PASSED] - break: null
+
+2022-10-12 09:37:02 - [TEST_STEP][PASSED] - println("Row number is: " + rowNum): null
+
+2022-10-12 09:37:02 - [TEST_STEP][PASSED] - for ([i = 0, i < totalColumn - 1, (i++)]): null
+
+2022-10-12 09:37:02 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:37:02 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:37:02 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:37:02 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:37:02 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:37:02 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:37:02 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:37:02 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:37:02 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:37:02 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:37:02 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:37:02 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:37:02 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:37:02 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:37:02 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:37:02 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:37:02 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:37:02 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:37:02 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:37:02 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:37:02 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:37:02 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:37:02 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:37:02 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:37:02 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:37:02 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:37:02 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:37:02 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:37:02 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:37:02 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:37:02 - [TEST_STEP][PASSED] - println("Array length is: " + arrayLength): null
+
+2022-10-12 09:37:02 - [TEST_STEP][PASSED] - listData = []: null
+
+2022-10-12 09:37:02 - [TEST_STEP][PASSED] - for ([rowNum = 1, rowNum < totalRow, (rowNum++)]): null
+
+2022-10-12 09:37:02 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:37:02 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:37:02 - [TEST_STEP][PASSED] - for ([i = 0, i < arrayLength, (i++)]): null
+
+2022-10-12 09:37:02 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:37:02 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:37:03 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:37:03 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:37:03 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:37:03 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:37:03 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:37:03 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:37:03 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:37:03 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:37:03 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:37:03 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:37:03 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:37:03 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:37:03 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:37:03 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:37:03 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:37:03 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:37:03 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:37:03 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:37:03 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:37:03 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:37:03 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:37:04 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:37:04 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:37:04 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:37:04 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:37:04 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:37:04 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:37:04 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:37:04 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:37:04 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:37:04 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:37:04 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:37:04 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:37:04 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:37:04 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:37:04 - [TEST_STEP][PASSED] - println(listData): null
+
+2022-10-12 09:37:04 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Intermediate/Prerequisite1_Access_Immediate"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Intermediate/Prerequisite1_Access_Immediate' successfully
+
+2022-10-12 09:37:04 - [TEST_CASE][PASSED] - Test Cases/Intermediate/Prerequisite1_Access_Immediate: Test Cases/Intermediate/Prerequisite1_Access_Immediate
+
+2022-10-12 09:37:04 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Launch_seleniumeasy_page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Launch_seleniumeasy_page' successfully
+
+2022-10-12 09:37:04 - [TEST_CASE][PASSED] - Test Cases/Launch_seleniumeasy_page: Test Cases/Launch_seleniumeasy_page
+
+2022-10-12 09:37:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-10-12 09:37:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-10-12 09:37:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-10-12 09:37:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-10-12 09:37:06 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-10-12 09:37:06 - [MESSAGE][PASSED] - Current window maximized
+
+2022-10-12 09:37:06 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.seleniumeasy.com/"): Navigate to 'https://demo.seleniumeasy.com/' successfully
+
+2022-10-12 09:37:09 - [MESSAGE][PASSED] - Navigate to 'https://demo.seleniumeasy.com/' successfully
+
+2022-10-12 09:37:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Launch_seleniumeasy_page' successfully
+
+2022-10-12 09:37:09 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Main_page/Button_Start_Practicing"), OPTIONAL)): null
+
+2022-10-12 09:37:09 - [MESSAGE][PASSED] - Object 'Object Repository/Main_page/Button_Start_Practicing' is visible
+
+2022-10-12 09:37:09 - [TEST_STEP][PASSED] - click(findTestObject("Main_page/Button_Start_Practicing")): Object: 'Object Repository/Main_page/Button_Start_Practicing' is clicked on
+
+2022-10-12 09:37:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Main_page/Button_Start_Practicing' is clicked on
+
+2022-10-12 09:37:10 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Main_page/option_Intermediate")): Object: 'Object Repository/Main_page/option_Intermediate' is clicked on
+
+2022-10-12 09:37:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Main_page/option_Intermediate' is clicked on
+
+2022-10-12 09:37:10 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Intermediate/text_Intermediate"), STOP_ON_FAILURE): Object 'Object Repository/Intermediate/text_Intermediate' is visible
+
+2022-10-12 09:37:11 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/text_Intermediate' is visible
+
+2022-10-12 09:37:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Intermediate/Prerequisite1_Access_Immediate' successfully
+
+2022-10-12 09:37:11 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/option_JQueryListBox")): Object: 'Object Repository/Intermediate/option_JQueryListBox' is clicked on
+
+2022-10-12 09:37:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/option_JQueryListBox' is clicked on
+
+2022-10-12 09:37:12 - [TEST_STEP][PASSED] - for ([i = 0, i < length, (i++)]): Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:37:12 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]])): Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is clicked on
+
+2022-10-12 09:37:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is clicked on
+
+2022-10-12 09:37:12 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/5_JQuery_List_Box/button_Add")): Object: 'Object Repository/Intermediate/5_JQuery_List_Box/button_Add' is clicked on
+
+2022-10-12 09:37:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/5_JQuery_List_Box/button_Add' is clicked on
+
+2022-10-12 09:37:12 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]]), 2): Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Isis"]' is not present after '2' second(s)
+
+2022-10-12 09:37:13 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Isis"]' is not present after '2' second(s)
+
+2022-10-12 09:37:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_right", ["item":listData[i]]), 2): Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:37:13 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:37:13 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]])): Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is clicked on
+
+2022-10-12 09:37:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is clicked on
+
+2022-10-12 09:37:14 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/5_JQuery_List_Box/button_Add")): Object: 'Object Repository/Intermediate/5_JQuery_List_Box/button_Add' is clicked on
+
+2022-10-12 09:37:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/5_JQuery_List_Box/button_Add' is clicked on
+
+2022-10-12 09:37:14 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]]), 2): Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Sophia"]' is not present after '2' second(s)
+
+2022-10-12 09:37:14 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Sophia"]' is not present after '2' second(s)
+
+2022-10-12 09:37:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_right", ["item":listData[i]]), 2): Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:37:15 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:37:15 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]])): Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is clicked on
+
+2022-10-12 09:37:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is clicked on
+
+2022-10-12 09:37:15 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/5_JQuery_List_Box/button_Add")): Object: 'Object Repository/Intermediate/5_JQuery_List_Box/button_Add' is clicked on
+
+2022-10-12 09:37:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/5_JQuery_List_Box/button_Add' is clicked on
+
+2022-10-12 09:37:16 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]]), 2): Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Alice"]' is not present after '2' second(s)
+
+2022-10-12 09:37:16 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Alice"]' is not present after '2' second(s)
+
+2022-10-12 09:37:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_right", ["item":listData[i]]), 2): Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:37:16 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:37:16 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]])): Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is clicked on
+
+2022-10-12 09:37:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is clicked on
+
+2022-10-12 09:37:17 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/5_JQuery_List_Box/button_Add")): Object: 'Object Repository/Intermediate/5_JQuery_List_Box/button_Add' is clicked on
+
+2022-10-12 09:37:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/5_JQuery_List_Box/button_Add' is clicked on
+
+2022-10-12 09:37:17 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]]), 2): Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Isabella"]' is not present after '2' second(s)
+
+2022-10-12 09:37:18 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Isabella"]' is not present after '2' second(s)
+
+2022-10-12 09:37:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_right", ["item":listData[i]]), 2): Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:37:18 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:37:18 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]])): Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is clicked on
+
+2022-10-12 09:37:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is clicked on
+
+2022-10-12 09:37:18 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/5_JQuery_List_Box/button_Add")): Object: 'Object Repository/Intermediate/5_JQuery_List_Box/button_Add' is clicked on
+
+2022-10-12 09:37:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/5_JQuery_List_Box/button_Add' is clicked on
+
+2022-10-12 09:37:19 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]]), 2): Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Manuela"]' is not present after '2' second(s)
+
+2022-10-12 09:37:19 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Manuela"]' is not present after '2' second(s)
+
+2022-10-12 09:37:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_right", ["item":listData[i]]), 2): Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:37:20 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:37:20 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]])): Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is clicked on
+
+2022-10-12 09:37:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is clicked on
+
+2022-10-12 09:37:20 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/5_JQuery_List_Box/button_Add")): Object: 'Object Repository/Intermediate/5_JQuery_List_Box/button_Add' is clicked on
+
+2022-10-12 09:37:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/5_JQuery_List_Box/button_Add' is clicked on
+
+2022-10-12 09:37:20 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]]), 2): Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Laura"]' is not present after '2' second(s)
+
+2022-10-12 09:37:21 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Laura"]' is not present after '2' second(s)
+
+2022-10-12 09:37:21 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_right", ["item":listData[i]]), 2): Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:37:21 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:37:21 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]])): Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is clicked on
+
+2022-10-12 09:37:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is clicked on
+
+2022-10-12 09:37:21 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/5_JQuery_List_Box/button_Add")): Object: 'Object Repository/Intermediate/5_JQuery_List_Box/button_Add' is clicked on
+
+2022-10-12 09:37:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/5_JQuery_List_Box/button_Add' is clicked on
+
+2022-10-12 09:37:22 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]]), 2): Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Luiza"]' is not present after '2' second(s)
+
+2022-10-12 09:37:22 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Luiza"]' is not present after '2' second(s)
+
+2022-10-12 09:37:22 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_right", ["item":listData[i]]), 2): Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:37:23 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:37:23 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]])): Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is clicked on
+
+2022-10-12 09:37:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is clicked on
+
+2022-10-12 09:37:23 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/5_JQuery_List_Box/button_Add")): Object: 'Object Repository/Intermediate/5_JQuery_List_Box/button_Add' is clicked on
+
+2022-10-12 09:37:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/5_JQuery_List_Box/button_Add' is clicked on
+
+2022-10-12 09:37:23 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]]), 2): Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Valentina"]' is not present after '2' second(s)
+
+2022-10-12 09:37:24 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Valentina"]' is not present after '2' second(s)
+
+2022-10-12 09:37:24 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_right", ["item":listData[i]]), 2): Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:37:24 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:37:24 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]])): Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is clicked on
+
+2022-10-12 09:37:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is clicked on
+
+2022-10-12 09:37:24 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/5_JQuery_List_Box/button_Add")): Object: 'Object Repository/Intermediate/5_JQuery_List_Box/button_Add' is clicked on
+
+2022-10-12 09:37:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/5_JQuery_List_Box/button_Add' is clicked on
+
+2022-10-12 09:37:25 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]]), 2): Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Giovanna"]' is not present after '2' second(s)
+
+2022-10-12 09:37:25 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Giovanna"]' is not present after '2' second(s)
+
+2022-10-12 09:37:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_right", ["item":listData[i]]), 2): Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:37:26 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:37:26 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]])): Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is clicked on
+
+2022-10-12 09:37:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is clicked on
+
+2022-10-12 09:37:26 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/5_JQuery_List_Box/button_Add")): Object: 'Object Repository/Intermediate/5_JQuery_List_Box/button_Add' is clicked on
+
+2022-10-12 09:37:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/5_JQuery_List_Box/button_Add' is clicked on
+
+2022-10-12 09:37:26 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]]), 2): Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Maria Eduarda"]' is not present after '2' second(s)
+
+2022-10-12 09:37:27 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Maria Eduarda"]' is not present after '2' second(s)
+
+2022-10-12 09:37:27 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_right", ["item":listData[i]]), 2): Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:37:27 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:37:27 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]])): Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is clicked on
+
+2022-10-12 09:37:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is clicked on
+
+2022-10-12 09:37:28 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/5_JQuery_List_Box/button_Add")): Object: 'Object Repository/Intermediate/5_JQuery_List_Box/button_Add' is clicked on
+
+2022-10-12 09:37:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/5_JQuery_List_Box/button_Add' is clicked on
+
+2022-10-12 09:37:28 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]]), 2): Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Helena"]' is not present after '2' second(s)
+
+2022-10-12 09:37:28 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Helena"]' is not present after '2' second(s)
+
+2022-10-12 09:37:28 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_right", ["item":listData[i]]), 2): Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:37:29 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:37:29 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]])): Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is clicked on
+
+2022-10-12 09:37:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is clicked on
+
+2022-10-12 09:37:29 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/5_JQuery_List_Box/button_Add")): Object: 'Object Repository/Intermediate/5_JQuery_List_Box/button_Add' is clicked on
+
+2022-10-12 09:37:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/5_JQuery_List_Box/button_Add' is clicked on
+
+2022-10-12 09:37:29 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]]), 2): Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Beatriz"]' is not present after '2' second(s)
+
+2022-10-12 09:37:30 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Beatriz"]' is not present after '2' second(s)
+
+2022-10-12 09:37:30 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_right", ["item":listData[i]]), 2): Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:37:30 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:37:30 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]])): Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is clicked on
+
+2022-10-12 09:37:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is clicked on
+
+2022-10-12 09:37:31 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/5_JQuery_List_Box/button_Add")): Object: 'Object Repository/Intermediate/5_JQuery_List_Box/button_Add' is clicked on
+
+2022-10-12 09:37:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/5_JQuery_List_Box/button_Add' is clicked on
+
+2022-10-12 09:37:31 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]]), 2): Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Maria Luiza"]' is not present after '2' second(s)
+
+2022-10-12 09:37:32 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Maria Luiza"]' is not present after '2' second(s)
+
+2022-10-12 09:37:32 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_right", ["item":listData[i]]), 2): Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:37:32 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:37:32 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]])): Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is clicked on
+
+2022-10-12 09:37:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is clicked on
+
+2022-10-12 09:37:32 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/5_JQuery_List_Box/button_Add")): Object: 'Object Repository/Intermediate/5_JQuery_List_Box/button_Add' is clicked on
+
+2022-10-12 09:37:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/5_JQuery_List_Box/button_Add' is clicked on
+
+2022-10-12 09:37:33 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]]), 2): Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Lara"]' is not present after '2' second(s)
+
+2022-10-12 09:37:33 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Lara"]' is not present after '2' second(s)
+
+2022-10-12 09:37:33 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_right", ["item":listData[i]]), 2): Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:37:33 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:37:33 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]])): Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is clicked on
+
+2022-10-12 09:37:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is clicked on
+
+2022-10-12 09:37:34 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/5_JQuery_List_Box/button_Add")): Object: 'Object Repository/Intermediate/5_JQuery_List_Box/button_Add' is clicked on
+
+2022-10-12 09:37:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/5_JQuery_List_Box/button_Add' is clicked on
+
+2022-10-12 09:37:34 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]]), 2): Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Julia"]' is not present after '2' second(s)
+
+2022-10-12 09:37:35 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Julia"]' is not present after '2' second(s)
+
+2022-10-12 09:37:35 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_right", ["item":listData[i]]), 2): Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:37:35 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:37:35 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-10-12 09:37:36 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Intermediate/5_JQuery_List_Box/JQLB3_Select_multiple_items_and_click_Add" time="21.174" classname="Test Cases/Intermediate/5_JQuery_List_Box/JQLB3_Select_multiple_items_and_click_Add" status="PASSED">
+         <system-out><![CDATA[2022-10-12 09:37:36 - [TEST_CASE][PASSED] - Test Cases/Intermediate/5_JQuery_List_Box/JQLB3_Select_multiple_items_and_click_Add: Test Cases/Intermediate/5_JQuery_List_Box/JQLB3_Select_multiple_items_and_click_Add
+
+2022-10-12 09:37:37 - [TEST_STEP][PASSED] - TestID = "TEST-00003": null
+
+2022-10-12 09:37:37 - [TEST_STEP][PASSED] - FileTestData = "TestData_Sheet6": null
+
+2022-10-12 09:37:37 - [TEST_STEP][PASSED] - totalRow = findTestData(FileTestData).getRowNumbers(): null
+
+2022-10-12 09:37:37 - [TEST_STEP][PASSED] - totalColumn = findTestData(FileTestData).getColumnNumbers(): null
+
+2022-10-12 09:37:37 - [TEST_STEP][PASSED] - rowNum = 1: null
+
+2022-10-12 09:37:37 - [TEST_STEP][PASSED] - arrayLength = 0: null
+
+2022-10-12 09:37:37 - [TEST_STEP][PASSED] - for ([rowNum, rowNum < totalRow, (rowNum++)]): null
+
+2022-10-12 09:37:37 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:37:37 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:37:37 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:37:37 - [TEST_STEP][PASSED] - break: null
+
+2022-10-12 09:37:37 - [TEST_STEP][PASSED] - println("Row number is: " + rowNum): null
+
+2022-10-12 09:37:37 - [TEST_STEP][PASSED] - for ([i = 0, i < totalColumn - 1, (i++)]): null
+
+2022-10-12 09:37:37 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:37:37 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:37:37 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:37:37 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:37:37 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:37:37 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:37:37 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:37:37 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:37:37 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:37:37 - [TEST_STEP][PASSED] - break: null
+
+2022-10-12 09:37:37 - [TEST_STEP][PASSED] - println("Array length is: " + arrayLength): null
+
+2022-10-12 09:37:37 - [TEST_STEP][PASSED] - listData = []: null
+
+2022-10-12 09:37:37 - [TEST_STEP][PASSED] - for ([rowNum = 1, rowNum < totalRow, (rowNum++)]): null
+
+2022-10-12 09:37:37 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:37:37 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:37:37 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:37:37 - [TEST_STEP][PASSED] - for ([i = 0, i < arrayLength, (i++)]): null
+
+2022-10-12 09:37:37 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:37:38 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:37:38 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:37:38 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:37:38 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:37:38 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:37:38 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:37:38 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:37:38 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:37:38 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:37:38 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:37:38 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:37:38 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:37:38 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:37:38 - [TEST_STEP][PASSED] - println(listData): null
+
+2022-10-12 09:37:38 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Intermediate/Prerequisite1_Access_Immediate"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Intermediate/Prerequisite1_Access_Immediate' successfully
+
+2022-10-12 09:37:39 - [TEST_CASE][PASSED] - Test Cases/Intermediate/Prerequisite1_Access_Immediate: Test Cases/Intermediate/Prerequisite1_Access_Immediate
+
+2022-10-12 09:37:39 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Launch_seleniumeasy_page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Launch_seleniumeasy_page' successfully
+
+2022-10-12 09:37:39 - [TEST_CASE][PASSED] - Test Cases/Launch_seleniumeasy_page: Test Cases/Launch_seleniumeasy_page
+
+2022-10-12 09:37:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-10-12 09:37:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-10-12 09:37:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-10-12 09:37:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-10-12 09:37:40 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-10-12 09:37:41 - [MESSAGE][PASSED] - Current window maximized
+
+2022-10-12 09:37:41 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.seleniumeasy.com/"): Navigate to 'https://demo.seleniumeasy.com/' successfully
+
+2022-10-12 09:37:45 - [MESSAGE][PASSED] - Navigate to 'https://demo.seleniumeasy.com/' successfully
+
+2022-10-12 09:37:45 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Launch_seleniumeasy_page' successfully
+
+2022-10-12 09:37:45 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Main_page/Button_Start_Practicing"), OPTIONAL)): null
+
+2022-10-12 09:37:46 - [MESSAGE][PASSED] - Object 'Object Repository/Main_page/Button_Start_Practicing' is visible
+
+2022-10-12 09:37:46 - [TEST_STEP][PASSED] - click(findTestObject("Main_page/Button_Start_Practicing")): Object: 'Object Repository/Main_page/Button_Start_Practicing' is clicked on
+
+2022-10-12 09:37:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Main_page/Button_Start_Practicing' is clicked on
+
+2022-10-12 09:37:46 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Main_page/option_Intermediate")): Object: 'Object Repository/Main_page/option_Intermediate' is clicked on
+
+2022-10-12 09:37:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Main_page/option_Intermediate' is clicked on
+
+2022-10-12 09:37:46 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Intermediate/text_Intermediate"), STOP_ON_FAILURE): Object 'Object Repository/Intermediate/text_Intermediate' is visible
+
+2022-10-12 09:37:47 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/text_Intermediate' is visible
+
+2022-10-12 09:37:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Intermediate/Prerequisite1_Access_Immediate' successfully
+
+2022-10-12 09:37:47 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/option_JQueryListBox")): Object: 'Object Repository/Intermediate/option_JQueryListBox' is clicked on
+
+2022-10-12 09:37:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/option_JQueryListBox' is clicked on
+
+2022-10-12 09:37:48 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2022-10-12 09:37:48 - [TEST_STEP][PASSED] - actionPress = new org.openqa.selenium.interactions.Actions(driver): null
+
+2022-10-12 09:37:48 - [TEST_STEP][PASSED] - actionPress.keyDown(CONTROL): null
+
+2022-10-12 09:37:48 - [TEST_STEP][PASSED] - for ([i = 0, i < length, (i++)]): Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is clicked on
+
+2022-10-12 09:37:48 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]])): Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is clicked on
+
+2022-10-12 09:37:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is clicked on
+
+2022-10-12 09:37:48 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]])): Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is clicked on
+
+2022-10-12 09:37:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is clicked on
+
+2022-10-12 09:37:49 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]])): Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is clicked on
+
+2022-10-12 09:37:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is clicked on
+
+2022-10-12 09:37:49 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]])): Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is clicked on
+
+2022-10-12 09:37:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is clicked on
+
+2022-10-12 09:37:50 - [TEST_STEP][PASSED] - actionPress.keyUp(CONTROL): null
+
+2022-10-12 09:37:50 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/5_JQuery_List_Box/button_Add")): Object: 'Object Repository/Intermediate/5_JQuery_List_Box/button_Add' is clicked on
+
+2022-10-12 09:37:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/5_JQuery_List_Box/button_Add' is clicked on
+
+2022-10-12 09:37:50 - [TEST_STEP][PASSED] - for ([i = 0, i < length, (i++)]): Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:37:50 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]]), 2): Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Isis"]' is not present after '2' second(s)
+
+2022-10-12 09:37:50 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Isis"]' is not present after '2' second(s)
+
+2022-10-12 09:37:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_right", ["item":listData[i]]), 2): Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:37:51 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:37:51 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]]), 2): Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Sophia"]' is not present after '2' second(s)
+
+2022-10-12 09:37:51 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Sophia"]' is not present after '2' second(s)
+
+2022-10-12 09:37:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_right", ["item":listData[i]]), 2): Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:37:52 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:37:52 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]]), 2): Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Alice"]' is not present after '2' second(s)
+
+2022-10-12 09:37:52 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Alice"]' is not present after '2' second(s)
+
+2022-10-12 09:37:52 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_right", ["item":listData[i]]), 2): Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:37:52 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:37:52 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]]), 2): Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Isabella"]' is not present after '2' second(s)
+
+2022-10-12 09:37:53 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Isabella"]' is not present after '2' second(s)
+
+2022-10-12 09:37:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_right", ["item":listData[i]]), 2): Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:37:53 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:37:53 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-10-12 09:37:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-10-12 09:37:56 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-10-12 09:37:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Intermediate/5_JQuery_List_Box/JQLB4_select_all_and_click_Add_All" time="39.029" classname="Test Cases/Intermediate/5_JQuery_List_Box/JQLB4_select_all_and_click_Add_All" status="PASSED">
+         <system-out><![CDATA[2022-10-12 09:37:57 - [TEST_CASE][PASSED] - Test Cases/Intermediate/5_JQuery_List_Box/JQLB4_select_all_and_click_Add_All: Test Cases/Intermediate/5_JQuery_List_Box/JQLB4_select_all_and_click_Add_All
+
+2022-10-12 09:37:58 - [TEST_STEP][PASSED] - TestID = "TEST-00004": null
+
+2022-10-12 09:37:58 - [TEST_STEP][PASSED] - FileTestData = "TestData_Sheet6": null
+
+2022-10-12 09:37:58 - [TEST_STEP][PASSED] - totalRow = findTestData(FileTestData).getRowNumbers(): null
+
+2022-10-12 09:37:58 - [TEST_STEP][PASSED] - totalColumn = findTestData(FileTestData).getColumnNumbers(): null
+
+2022-10-12 09:37:58 - [TEST_STEP][PASSED] - rowNum = 1: null
+
+2022-10-12 09:37:58 - [TEST_STEP][PASSED] - arrayLength = 0: null
+
+2022-10-12 09:37:58 - [TEST_STEP][PASSED] - for ([rowNum, rowNum < totalRow, (rowNum++)]): null
+
+2022-10-12 09:37:58 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:37:58 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:37:58 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:37:58 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:37:58 - [TEST_STEP][PASSED] - break: null
+
+2022-10-12 09:37:58 - [TEST_STEP][PASSED] - println("Row number is: " + rowNum): null
+
+2022-10-12 09:37:58 - [TEST_STEP][PASSED] - for ([i = 0, i < totalColumn - 1, (i++)]): null
+
+2022-10-12 09:37:58 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:37:58 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:37:58 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:37:58 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:37:58 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:37:58 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:37:58 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:37:58 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:37:58 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:37:58 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:37:58 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:37:58 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:37:58 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:37:58 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:37:58 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:37:58 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:37:58 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:37:58 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:37:58 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:37:58 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:37:58 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:37:58 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:37:58 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:37:59 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:37:59 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:37:59 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:37:59 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:37:59 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:37:59 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:37:59 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:37:59 - [TEST_STEP][PASSED] - println("Array length is: " + arrayLength): null
+
+2022-10-12 09:37:59 - [TEST_STEP][PASSED] - listData = []: null
+
+2022-10-12 09:37:59 - [TEST_STEP][PASSED] - for ([rowNum = 1, rowNum < totalRow, (rowNum++)]): null
+
+2022-10-12 09:37:59 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:37:59 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:37:59 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:37:59 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:37:59 - [TEST_STEP][PASSED] - for ([i = 0, i < arrayLength, (i++)]): null
+
+2022-10-12 09:37:59 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:37:59 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:37:59 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:37:59 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:37:59 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:37:59 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:37:59 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:37:59 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:37:59 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:37:59 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:37:59 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:37:59 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:37:59 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:38:00 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:38:00 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:38:00 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:38:00 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:38:00 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:38:00 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:38:00 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:38:00 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:38:00 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:38:00 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:38:00 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:38:00 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:38:00 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:38:00 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:38:00 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:38:00 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:38:00 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:38:00 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:38:00 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:38:00 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:38:01 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:38:01 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:38:01 - [TEST_STEP][PASSED] - println(listData): null
+
+2022-10-12 09:38:01 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Intermediate/Prerequisite1_Access_Immediate"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Intermediate/Prerequisite1_Access_Immediate' successfully
+
+2022-10-12 09:38:01 - [TEST_CASE][PASSED] - Test Cases/Intermediate/Prerequisite1_Access_Immediate: Test Cases/Intermediate/Prerequisite1_Access_Immediate
+
+2022-10-12 09:38:01 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Launch_seleniumeasy_page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Launch_seleniumeasy_page' successfully
+
+2022-10-12 09:38:01 - [TEST_CASE][PASSED] - Test Cases/Launch_seleniumeasy_page: Test Cases/Launch_seleniumeasy_page
+
+2022-10-12 09:38:01 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-10-12 09:38:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-10-12 09:38:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-10-12 09:38:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-10-12 09:38:02 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-10-12 09:38:03 - [MESSAGE][PASSED] - Current window maximized
+
+2022-10-12 09:38:03 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.seleniumeasy.com/"): Navigate to 'https://demo.seleniumeasy.com/' successfully
+
+2022-10-12 09:38:06 - [MESSAGE][PASSED] - Navigate to 'https://demo.seleniumeasy.com/' successfully
+
+2022-10-12 09:38:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Launch_seleniumeasy_page' successfully
+
+2022-10-12 09:38:06 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Main_page/Button_Start_Practicing"), OPTIONAL)): null
+
+2022-10-12 09:38:06 - [MESSAGE][PASSED] - Object 'Object Repository/Main_page/Button_Start_Practicing' is visible
+
+2022-10-12 09:38:06 - [TEST_STEP][PASSED] - click(findTestObject("Main_page/Button_Start_Practicing")): Object: 'Object Repository/Main_page/Button_Start_Practicing' is clicked on
+
+2022-10-12 09:38:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Main_page/Button_Start_Practicing' is clicked on
+
+2022-10-12 09:38:07 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Main_page/option_Intermediate")): Object: 'Object Repository/Main_page/option_Intermediate' is clicked on
+
+2022-10-12 09:38:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Main_page/option_Intermediate' is clicked on
+
+2022-10-12 09:38:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Intermediate/text_Intermediate"), STOP_ON_FAILURE): Object 'Object Repository/Intermediate/text_Intermediate' is visible
+
+2022-10-12 09:38:08 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/text_Intermediate' is visible
+
+2022-10-12 09:38:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Intermediate/Prerequisite1_Access_Immediate' successfully
+
+2022-10-12 09:38:08 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/option_JQueryListBox")): Object: 'Object Repository/Intermediate/option_JQueryListBox' is clicked on
+
+2022-10-12 09:38:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/option_JQueryListBox' is clicked on
+
+2022-10-12 09:38:10 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2022-10-12 09:38:10 - [TEST_STEP][PASSED] - actionPress = new org.openqa.selenium.interactions.Actions(driver): null
+
+2022-10-12 09:38:10 - [TEST_STEP][PASSED] - actionPress.keyDown(CONTROL): null
+
+2022-10-12 09:38:10 - [TEST_STEP][PASSED] - for ([i = 0, i < length, (i++)]): Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is clicked on
+
+2022-10-12 09:38:10 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]])): Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is clicked on
+
+2022-10-12 09:38:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is clicked on
+
+2022-10-12 09:38:10 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]])): Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is clicked on
+
+2022-10-12 09:38:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is clicked on
+
+2022-10-12 09:38:11 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]])): Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is clicked on
+
+2022-10-12 09:38:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is clicked on
+
+2022-10-12 09:38:11 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]])): Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is clicked on
+
+2022-10-12 09:38:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is clicked on
+
+2022-10-12 09:38:11 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]])): Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is clicked on
+
+2022-10-12 09:38:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is clicked on
+
+2022-10-12 09:38:12 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]])): Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is clicked on
+
+2022-10-12 09:38:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is clicked on
+
+2022-10-12 09:38:12 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]])): Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is clicked on
+
+2022-10-12 09:38:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is clicked on
+
+2022-10-12 09:38:13 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]])): Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is clicked on
+
+2022-10-12 09:38:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is clicked on
+
+2022-10-12 09:38:13 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]])): Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is clicked on
+
+2022-10-12 09:38:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is clicked on
+
+2022-10-12 09:38:13 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]])): Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is clicked on
+
+2022-10-12 09:38:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is clicked on
+
+2022-10-12 09:38:14 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]])): Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is clicked on
+
+2022-10-12 09:38:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is clicked on
+
+2022-10-12 09:38:14 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]])): Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is clicked on
+
+2022-10-12 09:38:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is clicked on
+
+2022-10-12 09:38:15 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]])): Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is clicked on
+
+2022-10-12 09:38:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is clicked on
+
+2022-10-12 09:38:15 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]])): Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is clicked on
+
+2022-10-12 09:38:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is clicked on
+
+2022-10-12 09:38:15 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]])): Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is clicked on
+
+2022-10-12 09:38:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is clicked on
+
+2022-10-12 09:38:16 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-10-12 09:38:21 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-10-12 09:38:21 - [TEST_STEP][PASSED] - actionPress.keyUp(CONTROL): null
+
+2022-10-12 09:38:21 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/5_JQuery_List_Box/button_Add")): Object: 'Object Repository/Intermediate/5_JQuery_List_Box/button_Add' is clicked on
+
+2022-10-12 09:38:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/5_JQuery_List_Box/button_Add' is clicked on
+
+2022-10-12 09:38:21 - [TEST_STEP][PASSED] - for ([i = 0, i < length, (i++)]): Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:38:21 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]]), 2): Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Isis"]' is not present after '2' second(s)
+
+2022-10-12 09:38:22 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Isis"]' is not present after '2' second(s)
+
+2022-10-12 09:38:22 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_right", ["item":listData[i]]), 2): Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:38:22 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:38:22 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]]), 2): Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Sophia"]' is not present after '2' second(s)
+
+2022-10-12 09:38:22 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Sophia"]' is not present after '2' second(s)
+
+2022-10-12 09:38:22 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_right", ["item":listData[i]]), 2): Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:38:23 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:38:23 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]]), 2): Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Alice"]' is not present after '2' second(s)
+
+2022-10-12 09:38:23 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Alice"]' is not present after '2' second(s)
+
+2022-10-12 09:38:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_right", ["item":listData[i]]), 2): Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:38:23 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:38:23 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]]), 2): Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Isabella"]' is not present after '2' second(s)
+
+2022-10-12 09:38:24 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Isabella"]' is not present after '2' second(s)
+
+2022-10-12 09:38:24 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_right", ["item":listData[i]]), 2): Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:38:24 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:38:24 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]]), 2): Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Manuela"]' is not present after '2' second(s)
+
+2022-10-12 09:38:24 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Manuela"]' is not present after '2' second(s)
+
+2022-10-12 09:38:24 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_right", ["item":listData[i]]), 2): Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:38:25 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:38:25 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]]), 2): Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Laura"]' is not present after '2' second(s)
+
+2022-10-12 09:38:25 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Laura"]' is not present after '2' second(s)
+
+2022-10-12 09:38:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_right", ["item":listData[i]]), 2): Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:38:26 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:38:26 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]]), 2): Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Luiza"]' is not present after '2' second(s)
+
+2022-10-12 09:38:26 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Luiza"]' is not present after '2' second(s)
+
+2022-10-12 09:38:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_right", ["item":listData[i]]), 2): Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:38:26 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:38:26 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]]), 2): Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Valentina"]' is not present after '2' second(s)
+
+2022-10-12 09:38:27 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Valentina"]' is not present after '2' second(s)
+
+2022-10-12 09:38:27 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_right", ["item":listData[i]]), 2): Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:38:27 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:38:27 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]]), 2): Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Giovanna"]' is not present after '2' second(s)
+
+2022-10-12 09:38:27 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Giovanna"]' is not present after '2' second(s)
+
+2022-10-12 09:38:27 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_right", ["item":listData[i]]), 2): Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:38:28 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:38:28 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]]), 2): Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Maria Eduarda"]' is not present after '2' second(s)
+
+2022-10-12 09:38:28 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Maria Eduarda"]' is not present after '2' second(s)
+
+2022-10-12 09:38:28 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_right", ["item":listData[i]]), 2): Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:38:28 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:38:28 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]]), 2): Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Helena"]' is not present after '2' second(s)
+
+2022-10-12 09:38:29 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Helena"]' is not present after '2' second(s)
+
+2022-10-12 09:38:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_right", ["item":listData[i]]), 2): Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:38:29 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:38:29 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]]), 2): Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Beatriz"]' is not present after '2' second(s)
+
+2022-10-12 09:38:30 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Beatriz"]' is not present after '2' second(s)
+
+2022-10-12 09:38:30 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_right", ["item":listData[i]]), 2): Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:38:30 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:38:30 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]]), 2): Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Maria Luiza"]' is not present after '2' second(s)
+
+2022-10-12 09:38:30 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Maria Luiza"]' is not present after '2' second(s)
+
+2022-10-12 09:38:30 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_right", ["item":listData[i]]), 2): Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:38:31 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:38:31 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]]), 2): Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Lara"]' is not present after '2' second(s)
+
+2022-10-12 09:38:31 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Lara"]' is not present after '2' second(s)
+
+2022-10-12 09:38:31 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_right", ["item":listData[i]]), 2): Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:38:31 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:38:31 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]]), 2): Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Julia"]' is not present after '2' second(s)
+
+2022-10-12 09:38:32 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Julia"]' is not present after '2' second(s)
+
+2022-10-12 09:38:32 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_right", ["item":listData[i]]), 2): Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:38:32 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:38:32 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-10-12 09:38:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-10-12 09:38:35 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-10-12 09:38:36 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Intermediate/5_JQuery_List_Box/JQLB5_click_Add_All" time="25.945" classname="Test Cases/Intermediate/5_JQuery_List_Box/JQLB5_click_Add_All" status="PASSED">
+         <system-out><![CDATA[2022-10-12 09:38:36 - [TEST_CASE][PASSED] - Test Cases/Intermediate/5_JQuery_List_Box/JQLB5_click_Add_All: Test Cases/Intermediate/5_JQuery_List_Box/JQLB5_click_Add_All
+
+2022-10-12 09:38:37 - [TEST_STEP][PASSED] - TestID = "TEST-00004": null
+
+2022-10-12 09:38:37 - [TEST_STEP][PASSED] - FileTestData = "TestData_Sheet6": null
+
+2022-10-12 09:38:37 - [TEST_STEP][PASSED] - totalRow = findTestData(FileTestData).getRowNumbers(): null
+
+2022-10-12 09:38:37 - [TEST_STEP][PASSED] - totalColumn = findTestData(FileTestData).getColumnNumbers(): null
+
+2022-10-12 09:38:37 - [TEST_STEP][PASSED] - rowNum = 1: null
+
+2022-10-12 09:38:37 - [TEST_STEP][PASSED] - arrayLength = 0: null
+
+2022-10-12 09:38:37 - [TEST_STEP][PASSED] - for ([rowNum, rowNum < totalRow, (rowNum++)]): null
+
+2022-10-12 09:38:37 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:38:37 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:38:37 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:38:37 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:38:37 - [TEST_STEP][PASSED] - break: null
+
+2022-10-12 09:38:37 - [TEST_STEP][PASSED] - println("Row number is: " + rowNum): null
+
+2022-10-12 09:38:37 - [TEST_STEP][PASSED] - for ([i = 0, i < totalColumn - 1, (i++)]): null
+
+2022-10-12 09:38:37 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:38:37 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:38:37 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:38:37 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:38:37 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:38:37 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:38:37 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:38:37 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:38:37 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:38:37 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:38:37 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:38:37 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:38:37 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:38:37 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:38:37 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:38:37 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:38:37 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:38:37 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:38:37 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:38:37 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:38:37 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:38:38 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:38:38 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:38:38 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:38:38 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:38:38 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:38:38 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:38:38 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:38:38 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:38:38 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:38:38 - [TEST_STEP][PASSED] - println("Array length is: " + arrayLength): null
+
+2022-10-12 09:38:38 - [TEST_STEP][PASSED] - listData = []: null
+
+2022-10-12 09:38:38 - [TEST_STEP][PASSED] - for ([rowNum = 1, rowNum < totalRow, (rowNum++)]): null
+
+2022-10-12 09:38:38 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:38:38 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:38:38 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:38:38 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:38:38 - [TEST_STEP][PASSED] - for ([i = 0, i < arrayLength, (i++)]): null
+
+2022-10-12 09:38:38 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:38:38 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:38:38 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:38:38 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:38:38 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:38:38 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:38:38 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:38:38 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:38:38 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:38:38 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:38:38 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:38:38 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:38:39 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:38:39 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:38:39 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:38:39 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:38:39 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:38:39 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:38:39 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:38:39 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:38:39 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:38:39 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:38:39 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:38:39 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:38:39 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:38:39 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:38:39 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:38:39 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:38:39 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:38:39 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:38:39 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:38:40 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:38:40 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:38:40 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:38:40 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:38:40 - [TEST_STEP][PASSED] - println(listData): null
+
+2022-10-12 09:38:40 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Intermediate/Prerequisite1_Access_Immediate"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Intermediate/Prerequisite1_Access_Immediate' successfully
+
+2022-10-12 09:38:40 - [TEST_CASE][PASSED] - Test Cases/Intermediate/Prerequisite1_Access_Immediate: Test Cases/Intermediate/Prerequisite1_Access_Immediate
+
+2022-10-12 09:38:40 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Launch_seleniumeasy_page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Launch_seleniumeasy_page' successfully
+
+2022-10-12 09:38:40 - [TEST_CASE][PASSED] - Test Cases/Launch_seleniumeasy_page: Test Cases/Launch_seleniumeasy_page
+
+2022-10-12 09:38:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-10-12 09:38:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-10-12 09:38:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-10-12 09:38:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-10-12 09:38:42 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-10-12 09:38:42 - [MESSAGE][PASSED] - Current window maximized
+
+2022-10-12 09:38:42 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.seleniumeasy.com/"): Navigate to 'https://demo.seleniumeasy.com/' successfully
+
+2022-10-12 09:38:47 - [MESSAGE][PASSED] - Navigate to 'https://demo.seleniumeasy.com/' successfully
+
+2022-10-12 09:38:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Launch_seleniumeasy_page' successfully
+
+2022-10-12 09:38:47 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Main_page/Button_Start_Practicing"), OPTIONAL)): null
+
+2022-10-12 09:38:48 - [MESSAGE][PASSED] - Object 'Object Repository/Main_page/Button_Start_Practicing' is visible
+
+2022-10-12 09:38:48 - [TEST_STEP][PASSED] - click(findTestObject("Main_page/Button_Start_Practicing")): Object: 'Object Repository/Main_page/Button_Start_Practicing' is clicked on
+
+2022-10-12 09:38:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Main_page/Button_Start_Practicing' is clicked on
+
+2022-10-12 09:38:48 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Main_page/option_Intermediate")): Object: 'Object Repository/Main_page/option_Intermediate' is clicked on
+
+2022-10-12 09:38:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Main_page/option_Intermediate' is clicked on
+
+2022-10-12 09:38:49 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Intermediate/text_Intermediate"), STOP_ON_FAILURE): Object 'Object Repository/Intermediate/text_Intermediate' is visible
+
+2022-10-12 09:38:49 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/text_Intermediate' is visible
+
+2022-10-12 09:38:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Intermediate/Prerequisite1_Access_Immediate' successfully
+
+2022-10-12 09:38:49 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/option_JQueryListBox")): Object: 'Object Repository/Intermediate/option_JQueryListBox' is clicked on
+
+2022-10-12 09:38:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/option_JQueryListBox' is clicked on
+
+2022-10-12 09:38:50 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/5_JQuery_List_Box/button_Add_All")): Object: 'Object Repository/Intermediate/5_JQuery_List_Box/button_Add_All' is clicked on
+
+2022-10-12 09:38:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/5_JQuery_List_Box/button_Add_All' is clicked on
+
+2022-10-12 09:38:51 - [TEST_STEP][PASSED] - for ([i = 0, i < length, (i++)]): Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:38:51 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]]), 2): Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Isis"]' is not present after '2' second(s)
+
+2022-10-12 09:38:52 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Isis"]' is not present after '2' second(s)
+
+2022-10-12 09:38:52 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_right", ["item":listData[i]]), 2): Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:38:52 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:38:52 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]]), 2): Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Sophia"]' is not present after '2' second(s)
+
+2022-10-12 09:38:52 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Sophia"]' is not present after '2' second(s)
+
+2022-10-12 09:38:52 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_right", ["item":listData[i]]), 2): Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:38:53 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:38:53 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]]), 2): Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Alice"]' is not present after '2' second(s)
+
+2022-10-12 09:38:53 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Alice"]' is not present after '2' second(s)
+
+2022-10-12 09:38:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_right", ["item":listData[i]]), 2): Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:38:53 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:38:53 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]]), 2): Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Isabella"]' is not present after '2' second(s)
+
+2022-10-12 09:38:54 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Isabella"]' is not present after '2' second(s)
+
+2022-10-12 09:38:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_right", ["item":listData[i]]), 2): Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:38:54 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:38:54 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]]), 2): Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Manuela"]' is not present after '2' second(s)
+
+2022-10-12 09:38:54 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Manuela"]' is not present after '2' second(s)
+
+2022-10-12 09:38:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_right", ["item":listData[i]]), 2): Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:38:55 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:38:55 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]]), 2): Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Laura"]' is not present after '2' second(s)
+
+2022-10-12 09:38:55 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Laura"]' is not present after '2' second(s)
+
+2022-10-12 09:38:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_right", ["item":listData[i]]), 2): Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:38:55 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:38:55 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]]), 2): Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Luiza"]' is not present after '2' second(s)
+
+2022-10-12 09:38:56 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Luiza"]' is not present after '2' second(s)
+
+2022-10-12 09:38:56 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_right", ["item":listData[i]]), 2): Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:38:56 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:38:56 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]]), 2): Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Valentina"]' is not present after '2' second(s)
+
+2022-10-12 09:38:56 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Valentina"]' is not present after '2' second(s)
+
+2022-10-12 09:38:56 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_right", ["item":listData[i]]), 2): Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:38:57 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:38:57 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]]), 2): Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Giovanna"]' is not present after '2' second(s)
+
+2022-10-12 09:38:57 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Giovanna"]' is not present after '2' second(s)
+
+2022-10-12 09:38:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_right", ["item":listData[i]]), 2): Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:38:58 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:38:58 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]]), 2): Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Maria Eduarda"]' is not present after '2' second(s)
+
+2022-10-12 09:38:58 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Maria Eduarda"]' is not present after '2' second(s)
+
+2022-10-12 09:38:58 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_right", ["item":listData[i]]), 2): Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:38:59 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:38:59 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]]), 2): Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Helena"]' is not present after '2' second(s)
+
+2022-10-12 09:38:59 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Helena"]' is not present after '2' second(s)
+
+2022-10-12 09:38:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_right", ["item":listData[i]]), 2): Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:38:59 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:38:59 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]]), 2): Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Beatriz"]' is not present after '2' second(s)
+
+2022-10-12 09:39:00 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Beatriz"]' is not present after '2' second(s)
+
+2022-10-12 09:39:00 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_right", ["item":listData[i]]), 2): Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:39:00 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:39:00 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]]), 2): Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Maria Luiza"]' is not present after '2' second(s)
+
+2022-10-12 09:39:00 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Maria Luiza"]' is not present after '2' second(s)
+
+2022-10-12 09:39:00 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_right", ["item":listData[i]]), 2): Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:39:01 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:39:01 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]]), 2): Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Lara"]' is not present after '2' second(s)
+
+2022-10-12 09:39:01 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Lara"]' is not present after '2' second(s)
+
+2022-10-12 09:39:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_right", ["item":listData[i]]), 2): Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:39:01 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:39:01 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]]), 2): Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Julia"]' is not present after '2' second(s)
+
+2022-10-12 09:39:02 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' located by 'By.xpath: //select[contains(@class,"pickData")]//option[text()="Julia"]' is not present after '2' second(s)
+
+2022-10-12 09:39:02 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_right", ["item":listData[i]]), 2): Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present
+
+2022-10-12 09:39:02 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Intermediate/5_JQuery_List_Box/JQLB6_select_single_item_and_click_Remove" time="21.575" classname="Test Cases/Intermediate/5_JQuery_List_Box/JQLB6_select_single_item_and_click_Remove" status="PASSED">
+         <system-out><![CDATA[2022-10-12 09:39:02 - [TEST_CASE][PASSED] - Test Cases/Intermediate/5_JQuery_List_Box/JQLB6_select_single_item_and_click_Remove: Test Cases/Intermediate/5_JQuery_List_Box/JQLB6_select_single_item_and_click_Remove
+
+2022-10-12 09:39:03 - [TEST_STEP][PASSED] - TestID = "TEST-00006": null
+
+2022-10-12 09:39:03 - [TEST_STEP][PASSED] - FileTestData = "TestData_Sheet6": null
+
+2022-10-12 09:39:03 - [TEST_STEP][PASSED] - totalRow = findTestData(FileTestData).getRowNumbers(): null
+
+2022-10-12 09:39:03 - [TEST_STEP][PASSED] - totalColumn = findTestData(FileTestData).getColumnNumbers(): null
+
+2022-10-12 09:39:03 - [TEST_STEP][PASSED] - rowNum = 1: null
+
+2022-10-12 09:39:03 - [TEST_STEP][PASSED] - arrayLength = 0: null
+
+2022-10-12 09:39:03 - [TEST_STEP][PASSED] - for ([rowNum, rowNum < totalRow, (rowNum++)]): null
+
+2022-10-12 09:39:03 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:39:03 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:39:03 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:39:03 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:39:03 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:39:03 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:39:03 - [TEST_STEP][PASSED] - break: null
+
+2022-10-12 09:39:03 - [TEST_STEP][PASSED] - println("Row number is: " + rowNum): null
+
+2022-10-12 09:39:03 - [TEST_STEP][PASSED] - for ([i = 0, i < totalColumn - 1, (i++)]): null
+
+2022-10-12 09:39:03 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:39:03 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:39:03 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:39:03 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:39:03 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:39:03 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:39:03 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:39:03 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:39:03 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:39:03 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:39:03 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:39:03 - [TEST_STEP][PASSED] - break: null
+
+2022-10-12 09:39:03 - [TEST_STEP][PASSED] - println("Array length is: " + arrayLength): null
+
+2022-10-12 09:39:03 - [TEST_STEP][PASSED] - listData = []: null
+
+2022-10-12 09:39:03 - [TEST_STEP][PASSED] - for ([rowNum = 1, rowNum < totalRow, (rowNum++)]): null
+
+2022-10-12 09:39:03 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:39:04 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:39:04 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:39:04 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:39:04 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:39:04 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:39:04 - [TEST_STEP][PASSED] - for ([i = 0, i < arrayLength, (i++)]): null
+
+2022-10-12 09:39:04 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:39:04 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:39:04 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:39:04 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:39:04 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:39:04 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:39:04 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:39:04 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:39:04 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:39:04 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:39:04 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:39:04 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:39:04 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:39:05 - [TEST_STEP][PASSED] - println(listData): null
+
+2022-10-12 09:39:05 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Intermediate/Prerequisite1_Access_Immediate"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Intermediate/Prerequisite1_Access_Immediate' successfully
+
+2022-10-12 09:39:05 - [TEST_CASE][PASSED] - Test Cases/Intermediate/Prerequisite1_Access_Immediate: Test Cases/Intermediate/Prerequisite1_Access_Immediate
+
+2022-10-12 09:39:05 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Launch_seleniumeasy_page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Launch_seleniumeasy_page' successfully
+
+2022-10-12 09:39:05 - [TEST_CASE][PASSED] - Test Cases/Launch_seleniumeasy_page: Test Cases/Launch_seleniumeasy_page
+
+2022-10-12 09:39:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-10-12 09:39:05 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-10-12 09:39:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-10-12 09:39:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-10-12 09:39:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-10-12 09:39:08 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-10-12 09:39:08 - [MESSAGE][PASSED] - Current window maximized
+
+2022-10-12 09:39:08 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.seleniumeasy.com/"): Navigate to 'https://demo.seleniumeasy.com/' successfully
+
+2022-10-12 09:39:11 - [MESSAGE][PASSED] - Navigate to 'https://demo.seleniumeasy.com/' successfully
+
+2022-10-12 09:39:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Launch_seleniumeasy_page' successfully
+
+2022-10-12 09:39:11 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Main_page/Button_Start_Practicing"), OPTIONAL)): null
+
+2022-10-12 09:39:11 - [MESSAGE][PASSED] - Object 'Object Repository/Main_page/Button_Start_Practicing' is visible
+
+2022-10-12 09:39:11 - [TEST_STEP][PASSED] - click(findTestObject("Main_page/Button_Start_Practicing")): Object: 'Object Repository/Main_page/Button_Start_Practicing' is clicked on
+
+2022-10-12 09:39:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Main_page/Button_Start_Practicing' is clicked on
+
+2022-10-12 09:39:12 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Main_page/option_Intermediate")): Object: 'Object Repository/Main_page/option_Intermediate' is clicked on
+
+2022-10-12 09:39:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Main_page/option_Intermediate' is clicked on
+
+2022-10-12 09:39:12 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Intermediate/text_Intermediate"), STOP_ON_FAILURE): Object 'Object Repository/Intermediate/text_Intermediate' is visible
+
+2022-10-12 09:39:13 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/text_Intermediate' is visible
+
+2022-10-12 09:39:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Intermediate/Prerequisite1_Access_Immediate' successfully
+
+2022-10-12 09:39:13 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/option_JQueryListBox")): Object: 'Object Repository/Intermediate/option_JQueryListBox' is clicked on
+
+2022-10-12 09:39:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/option_JQueryListBox' is clicked on
+
+2022-10-12 09:39:14 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/5_JQuery_List_Box/button_Add_All")): Object: 'Object Repository/Intermediate/5_JQuery_List_Box/button_Add_All' is clicked on
+
+2022-10-12 09:39:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/5_JQuery_List_Box/button_Add_All' is clicked on
+
+2022-10-12 09:39:14 - [TEST_STEP][PASSED] - for ([i = 0, i < length, (i++)]): Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is present
+
+2022-10-12 09:39:14 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_right", ["item":listData[i]])): Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is clicked on
+
+2022-10-12 09:39:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is clicked on
+
+2022-10-12 09:39:15 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/5_JQuery_List_Box/button_Remove")): Object: 'Object Repository/Intermediate/5_JQuery_List_Box/button_Remove' is clicked on
+
+2022-10-12 09:39:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/5_JQuery_List_Box/button_Remove' is clicked on
+
+2022-10-12 09:39:15 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_right", ["item":listData[i]]), 2): Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' located by 'By.xpath: //select[contains(@class,"pickListResult")]//option[text()="Isis"]' is not present after '2' second(s)
+
+2022-10-12 09:39:16 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' located by 'By.xpath: //select[contains(@class,"pickListResult")]//option[text()="Isis"]' is not present after '2' second(s)
+
+2022-10-12 09:39:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]]), 2): Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is present
+
+2022-10-12 09:39:16 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is present
+
+2022-10-12 09:39:16 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_right", ["item":listData[i]])): Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is clicked on
+
+2022-10-12 09:39:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is clicked on
+
+2022-10-12 09:39:17 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/5_JQuery_List_Box/button_Remove")): Object: 'Object Repository/Intermediate/5_JQuery_List_Box/button_Remove' is clicked on
+
+2022-10-12 09:39:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/5_JQuery_List_Box/button_Remove' is clicked on
+
+2022-10-12 09:39:17 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_right", ["item":listData[i]]), 2): Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' located by 'By.xpath: //select[contains(@class,"pickListResult")]//option[text()="Alice"]' is not present after '2' second(s)
+
+2022-10-12 09:39:17 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' located by 'By.xpath: //select[contains(@class,"pickListResult")]//option[text()="Alice"]' is not present after '2' second(s)
+
+2022-10-12 09:39:17 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]]), 2): Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is present
+
+2022-10-12 09:39:18 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is present
+
+2022-10-12 09:39:18 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_right", ["item":listData[i]])): Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is clicked on
+
+2022-10-12 09:39:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is clicked on
+
+2022-10-12 09:39:18 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/5_JQuery_List_Box/button_Remove")): Object: 'Object Repository/Intermediate/5_JQuery_List_Box/button_Remove' is clicked on
+
+2022-10-12 09:39:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/5_JQuery_List_Box/button_Remove' is clicked on
+
+2022-10-12 09:39:19 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_right", ["item":listData[i]]), 2): Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' located by 'By.xpath: //select[contains(@class,"pickListResult")]//option[text()="Manuela"]' is not present after '2' second(s)
+
+2022-10-12 09:39:19 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' located by 'By.xpath: //select[contains(@class,"pickListResult")]//option[text()="Manuela"]' is not present after '2' second(s)
+
+2022-10-12 09:39:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]]), 2): Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is present
+
+2022-10-12 09:39:19 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is present
+
+2022-10-12 09:39:19 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_right", ["item":listData[i]])): Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is clicked on
+
+2022-10-12 09:39:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is clicked on
+
+2022-10-12 09:39:20 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/5_JQuery_List_Box/button_Remove")): Object: 'Object Repository/Intermediate/5_JQuery_List_Box/button_Remove' is clicked on
+
+2022-10-12 09:39:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/5_JQuery_List_Box/button_Remove' is clicked on
+
+2022-10-12 09:39:20 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_right", ["item":listData[i]]), 2): Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' located by 'By.xpath: //select[contains(@class,"pickListResult")]//option[text()="Maria Eduarda"]' is not present after '2' second(s)
+
+2022-10-12 09:39:21 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' located by 'By.xpath: //select[contains(@class,"pickListResult")]//option[text()="Maria Eduarda"]' is not present after '2' second(s)
+
+2022-10-12 09:39:21 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]]), 2): Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is present
+
+2022-10-12 09:39:21 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is present
+
+2022-10-12 09:39:21 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_right", ["item":listData[i]])): Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is clicked on
+
+2022-10-12 09:39:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is clicked on
+
+2022-10-12 09:39:21 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/5_JQuery_List_Box/button_Remove")): Object: 'Object Repository/Intermediate/5_JQuery_List_Box/button_Remove' is clicked on
+
+2022-10-12 09:39:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/5_JQuery_List_Box/button_Remove' is clicked on
+
+2022-10-12 09:39:22 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_right", ["item":listData[i]]), 2): Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' located by 'By.xpath: //select[contains(@class,"pickListResult")]//option[text()="Maria Luiza"]' is not present after '2' second(s)
+
+2022-10-12 09:39:22 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' located by 'By.xpath: //select[contains(@class,"pickListResult")]//option[text()="Maria Luiza"]' is not present after '2' second(s)
+
+2022-10-12 09:39:22 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]]), 2): Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is present
+
+2022-10-12 09:39:23 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is present
+
+2022-10-12 09:39:23 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-10-12 09:39:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Intermediate/5_JQuery_List_Box/JQLB7_select_multiple_items_and_click_Remove" time="23.51" classname="Test Cases/Intermediate/5_JQuery_List_Box/JQLB7_select_multiple_items_and_click_Remove" status="PASSED">
+         <system-out><![CDATA[2022-10-12 09:39:24 - [TEST_CASE][PASSED] - Test Cases/Intermediate/5_JQuery_List_Box/JQLB7_select_multiple_items_and_click_Remove: Test Cases/Intermediate/5_JQuery_List_Box/JQLB7_select_multiple_items_and_click_Remove
+
+2022-10-12 09:39:24 - [TEST_STEP][PASSED] - TestID = "TEST-00007": null
+
+2022-10-12 09:39:24 - [TEST_STEP][PASSED] - FileTestData = "TestData_Sheet6": null
+
+2022-10-12 09:39:24 - [TEST_STEP][PASSED] - totalRow = findTestData(FileTestData).getRowNumbers(): null
+
+2022-10-12 09:39:24 - [TEST_STEP][PASSED] - totalColumn = findTestData(FileTestData).getColumnNumbers(): null
+
+2022-10-12 09:39:24 - [TEST_STEP][PASSED] - rowNum = 1: null
+
+2022-10-12 09:39:24 - [TEST_STEP][PASSED] - arrayLength = 0: null
+
+2022-10-12 09:39:24 - [TEST_STEP][PASSED] - for ([rowNum, rowNum < totalRow, (rowNum++)]): null
+
+2022-10-12 09:39:24 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:39:24 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:39:24 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:39:24 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:39:25 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:39:25 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:39:25 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:39:25 - [TEST_STEP][PASSED] - break: null
+
+2022-10-12 09:39:25 - [TEST_STEP][PASSED] - println("Row number is: " + rowNum): null
+
+2022-10-12 09:39:25 - [TEST_STEP][PASSED] - for ([i = 0, i < totalColumn - 1, (i++)]): null
+
+2022-10-12 09:39:25 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:39:25 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:39:25 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:39:25 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:39:25 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:39:25 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:39:25 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:39:25 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:39:25 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:39:25 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:39:25 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:39:25 - [TEST_STEP][PASSED] - break: null
+
+2022-10-12 09:39:25 - [TEST_STEP][PASSED] - println("Array length is: " + arrayLength): null
+
+2022-10-12 09:39:25 - [TEST_STEP][PASSED] - listData = []: null
+
+2022-10-12 09:39:25 - [TEST_STEP][PASSED] - for ([rowNum = 1, rowNum < totalRow, (rowNum++)]): null
+
+2022-10-12 09:39:25 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:39:25 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:39:25 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:39:25 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:39:25 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:39:25 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:39:25 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:39:25 - [TEST_STEP][PASSED] - for ([i = 0, i < arrayLength, (i++)]): null
+
+2022-10-12 09:39:25 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:39:25 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:39:26 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:39:26 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:39:26 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:39:26 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:39:26 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:39:26 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:39:26 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:39:26 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:39:26 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:39:26 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:39:26 - [TEST_STEP][PASSED] - println(listData): null
+
+2022-10-12 09:39:26 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Intermediate/Prerequisite1_Access_Immediate"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Intermediate/Prerequisite1_Access_Immediate' successfully
+
+2022-10-12 09:39:26 - [TEST_CASE][PASSED] - Test Cases/Intermediate/Prerequisite1_Access_Immediate: Test Cases/Intermediate/Prerequisite1_Access_Immediate
+
+2022-10-12 09:39:26 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Launch_seleniumeasy_page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Launch_seleniumeasy_page' successfully
+
+2022-10-12 09:39:26 - [TEST_CASE][PASSED] - Test Cases/Launch_seleniumeasy_page: Test Cases/Launch_seleniumeasy_page
+
+2022-10-12 09:39:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-10-12 09:39:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-10-12 09:39:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-10-12 09:39:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-10-12 09:39:28 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-10-12 09:39:28 - [MESSAGE][PASSED] - Current window maximized
+
+2022-10-12 09:39:28 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.seleniumeasy.com/"): Navigate to 'https://demo.seleniumeasy.com/' successfully
+
+2022-10-12 09:39:31 - [MESSAGE][PASSED] - Navigate to 'https://demo.seleniumeasy.com/' successfully
+
+2022-10-12 09:39:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Launch_seleniumeasy_page' successfully
+
+2022-10-12 09:39:31 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Main_page/Button_Start_Practicing"), OPTIONAL)): null
+
+2022-10-12 09:39:31 - [MESSAGE][PASSED] - Object 'Object Repository/Main_page/Button_Start_Practicing' is visible
+
+2022-10-12 09:39:31 - [TEST_STEP][PASSED] - click(findTestObject("Main_page/Button_Start_Practicing")): Object: 'Object Repository/Main_page/Button_Start_Practicing' is clicked on
+
+2022-10-12 09:39:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Main_page/Button_Start_Practicing' is clicked on
+
+2022-10-12 09:39:32 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Main_page/option_Intermediate")): Object: 'Object Repository/Main_page/option_Intermediate' is clicked on
+
+2022-10-12 09:39:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Main_page/option_Intermediate' is clicked on
+
+2022-10-12 09:39:32 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Intermediate/text_Intermediate"), STOP_ON_FAILURE): Object 'Object Repository/Intermediate/text_Intermediate' is visible
+
+2022-10-12 09:39:33 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/text_Intermediate' is visible
+
+2022-10-12 09:39:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Intermediate/Prerequisite1_Access_Immediate' successfully
+
+2022-10-12 09:39:33 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/option_JQueryListBox")): Object: 'Object Repository/Intermediate/option_JQueryListBox' is clicked on
+
+2022-10-12 09:39:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/option_JQueryListBox' is clicked on
+
+2022-10-12 09:39:34 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/5_JQuery_List_Box/button_Add_All")): Object: 'Object Repository/Intermediate/5_JQuery_List_Box/button_Add_All' is clicked on
+
+2022-10-12 09:39:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/5_JQuery_List_Box/button_Add_All' is clicked on
+
+2022-10-12 09:39:34 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-10-12 09:39:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-10-12 09:39:37 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2022-10-12 09:39:37 - [TEST_STEP][PASSED] - actionPress = new org.openqa.selenium.interactions.Actions(driver): null
+
+2022-10-12 09:39:37 - [TEST_STEP][PASSED] - actionPress.keyDown(CONTROL): null
+
+2022-10-12 09:39:37 - [TEST_STEP][PASSED] - for ([i = 0, i < length, (i++)]): Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is clicked on
+
+2022-10-12 09:39:37 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_right", ["item":listData[i]])): Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is clicked on
+
+2022-10-12 09:39:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is clicked on
+
+2022-10-12 09:39:38 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_right", ["item":listData[i]])): Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is clicked on
+
+2022-10-12 09:39:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is clicked on
+
+2022-10-12 09:39:38 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_right", ["item":listData[i]])): Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is clicked on
+
+2022-10-12 09:39:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is clicked on
+
+2022-10-12 09:39:38 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_right", ["item":listData[i]])): Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is clicked on
+
+2022-10-12 09:39:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is clicked on
+
+2022-10-12 09:39:39 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_right", ["item":listData[i]])): Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is clicked on
+
+2022-10-12 09:39:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' is clicked on
+
+2022-10-12 09:39:39 - [TEST_STEP][PASSED] - actionPress.keyUp(CONTROL): null
+
+2022-10-12 09:39:39 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/5_JQuery_List_Box/button_Remove")): Object: 'Object Repository/Intermediate/5_JQuery_List_Box/button_Remove' is clicked on
+
+2022-10-12 09:39:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/5_JQuery_List_Box/button_Remove' is clicked on
+
+2022-10-12 09:39:40 - [TEST_STEP][PASSED] - for ([i = 0, i < length, (i++)]): Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is present
+
+2022-10-12 09:39:40 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_right", ["item":listData[i]]), 2): Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' located by 'By.xpath: //select[contains(@class,"pickListResult")]//option[text()="Giovanna"]' is not present after '2' second(s)
+
+2022-10-12 09:39:40 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' located by 'By.xpath: //select[contains(@class,"pickListResult")]//option[text()="Giovanna"]' is not present after '2' second(s)
+
+2022-10-12 09:39:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]]), 2): Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is present
+
+2022-10-12 09:39:40 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is present
+
+2022-10-12 09:39:40 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_right", ["item":listData[i]]), 2): Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' located by 'By.xpath: //select[contains(@class,"pickListResult")]//option[text()="Lara"]' is not present after '2' second(s)
+
+2022-10-12 09:39:41 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' located by 'By.xpath: //select[contains(@class,"pickListResult")]//option[text()="Lara"]' is not present after '2' second(s)
+
+2022-10-12 09:39:41 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]]), 2): Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is present
+
+2022-10-12 09:39:41 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is present
+
+2022-10-12 09:39:41 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_right", ["item":listData[i]]), 2): Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' located by 'By.xpath: //select[contains(@class,"pickListResult")]//option[text()="Sophia"]' is not present after '2' second(s)
+
+2022-10-12 09:39:41 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' located by 'By.xpath: //select[contains(@class,"pickListResult")]//option[text()="Sophia"]' is not present after '2' second(s)
+
+2022-10-12 09:39:41 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]]), 2): Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is present
+
+2022-10-12 09:39:42 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is present
+
+2022-10-12 09:39:42 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_right", ["item":listData[i]]), 2): Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' located by 'By.xpath: //select[contains(@class,"pickListResult")]//option[text()="Manuela"]' is not present after '2' second(s)
+
+2022-10-12 09:39:42 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' located by 'By.xpath: //select[contains(@class,"pickListResult")]//option[text()="Manuela"]' is not present after '2' second(s)
+
+2022-10-12 09:39:42 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]]), 2): Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is present
+
+2022-10-12 09:39:42 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is present
+
+2022-10-12 09:39:42 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_right", ["item":listData[i]]), 2): Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' located by 'By.xpath: //select[contains(@class,"pickListResult")]//option[text()="Luiza"]' is not present after '2' second(s)
+
+2022-10-12 09:39:43 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_right' located by 'By.xpath: //select[contains(@class,"pickListResult")]//option[text()="Luiza"]' is not present after '2' second(s)
+
+2022-10-12 09:39:43 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/5_JQuery_List_Box/dynamic_items_in_left", ["item":listData[i]]), 2): Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is present
+
+2022-10-12 09:39:43 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/5_JQuery_List_Box/dynamic_items_in_left' is present
+
+2022-10-12 09:39:43 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-10-12 09:39:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-10-12 09:39:46 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-10-12 09:39:47 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-10-12 09:36:24 - [TEST_SUITE][PASSED] - TestSuite_5_JQuery_List_Box: Test Cases/Intermediate/5_JQuery_List_Box/JQLB7_select_multiple_items_and_click_Remove]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

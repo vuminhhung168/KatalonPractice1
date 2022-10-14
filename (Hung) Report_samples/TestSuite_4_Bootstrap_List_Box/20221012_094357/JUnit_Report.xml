@@ -1,0 +1,1663 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite_4_Bootstrap_List_Box" time="205.759" tests="6" failures="0" errors="0">
+   <testsuite name="TestSuite_4_Bootstrap_List_Box" tests="6" failures="0" errors="0" time="205.759" skipped="0" timestamp="2022-10-12 09:44:08" hostname="vminhhung - vminhhung.tma.com.vn" id="Test Suites/TestSuite_4_Bootstrap_List_Box">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\vminhhung\\Katalon Studio\\SeleniumEasy\\Reports\\20221012_094357\\TestSuite_4_Bootstrap_List_Box\\20221012_094357"/>
+         <property name="logFiles" value="C:\\Users\\vminhhung\\Katalon Studio\\SeleniumEasy\\Reports\\20221012_094357\\TestSuite_4_Bootstrap_List_Box\\20221012_094357\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="vminhhung - vminhhung.tma.com.vn"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.0.208"/>
+         <property name="browser" value="Chrome 106.0.0.0"/>
+         <property name="hostAddress" value="10.107.1.102"/>
+         <property name="sessionId" value="7197e66fa0ca404ffdb07541379ba3b2"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Intermediate/4_Bootstrap_List_Box/BLB1_Verify_some_elements_in_UI" time="103.054" classname="Test Cases/Intermediate/4_Bootstrap_List_Box/BLB1_Verify_some_elements_in_UI" status="PASSED">
+         <system-out><![CDATA[2022-10-12 09:44:08 - [TEST_CASE][PASSED] - Test Cases/Intermediate/4_Bootstrap_List_Box/BLB1_Verify_some_elements_in_UI: Test Cases/Intermediate/4_Bootstrap_List_Box/BLB1_Verify_some_elements_in_UI
+
+2022-10-12 09:44:09 - [TEST_STEP][PASSED] - TestID = "TEST-00001": null
+
+2022-10-12 09:44:09 - [TEST_STEP][PASSED] - FileTestData = "TestData_Sheet5": null
+
+2022-10-12 09:44:09 - [TEST_STEP][PASSED] - totalRow = findTestData(FileTestData).getRowNumbers(): null
+
+2022-10-12 09:44:09 - [TEST_STEP][PASSED] - totalColumn = findTestData(FileTestData).getColumnNumbers(): null
+
+2022-10-12 09:44:09 - [TEST_STEP][PASSED] - rowNum = 1: null
+
+2022-10-12 09:44:09 - [TEST_STEP][PASSED] - arrayLength = 0: null
+
+2022-10-12 09:44:09 - [TEST_STEP][PASSED] - unselectColor = "rgba(255, 255, 255, 1)": null
+
+2022-10-12 09:44:09 - [TEST_STEP][PASSED] - selectColor = "rgba(51, 122, 183, 1)": null
+
+2022-10-12 09:44:09 - [TEST_STEP][PASSED] - for ([rowNum, rowNum < totalRow, (rowNum++)]): null
+
+2022-10-12 09:44:09 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:44:10 - [TEST_STEP][PASSED] - println("Row number is: " + rowNum): null
+
+2022-10-12 09:44:10 - [TEST_STEP][PASSED] - for ([i = 0, i < totalColumn - 1, (i++)]): null
+
+2022-10-12 09:44:10 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:44:10 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:44:10 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:44:10 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:44:10 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:44:10 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:44:10 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:44:10 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:44:10 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:44:10 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:44:10 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:44:10 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:44:10 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:44:10 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:44:10 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:44:10 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:44:10 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:44:10 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:44:10 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:44:11 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:44:11 - [TEST_STEP][PASSED] - println("Array length is: " + arrayLength): null
+
+2022-10-12 09:44:11 - [TEST_STEP][PASSED] - listData = []: null
+
+2022-10-12 09:44:11 - [TEST_STEP][PASSED] - for ([rowNum = 1, rowNum < totalRow, (rowNum++)]): null
+
+2022-10-12 09:44:11 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:44:11 - [TEST_STEP][PASSED] - for ([i = 0, i < arrayLength, (i++)]): null
+
+2022-10-12 09:44:11 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:44:11 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:44:11 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:44:11 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:44:11 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:44:11 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:44:11 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:44:11 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:44:11 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:44:11 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:44:11 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:44:11 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:44:12 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:44:12 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:44:12 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:44:12 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:44:12 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:44:12 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:44:12 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:44:12 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:44:12 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:44:12 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:44:12 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:44:12 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:44:12 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:44:12 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:44:12 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:44:12 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:44:13 - [TEST_STEP][PASSED] - println(listData): null
+
+2022-10-12 09:44:13 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Intermediate/Prerequisite1_Access_Immediate"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Intermediate/Prerequisite1_Access_Immediate' successfully
+
+2022-10-12 09:44:13 - [TEST_CASE][PASSED] - Test Cases/Intermediate/Prerequisite1_Access_Immediate: Test Cases/Intermediate/Prerequisite1_Access_Immediate
+
+2022-10-12 09:44:13 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Launch_seleniumeasy_page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Launch_seleniumeasy_page' successfully
+
+2022-10-12 09:44:13 - [TEST_CASE][PASSED] - Test Cases/Launch_seleniumeasy_page: Test Cases/Launch_seleniumeasy_page
+
+2022-10-12 09:44:14 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-10-12 09:44:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-10-12 09:44:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-10-12 09:44:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-10-12 09:44:16 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-10-12 09:44:16 - [MESSAGE][PASSED] - Current window maximized
+
+2022-10-12 09:44:16 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.seleniumeasy.com/"): Navigate to 'https://demo.seleniumeasy.com/' successfully
+
+2022-10-12 09:44:20 - [MESSAGE][PASSED] - Navigate to 'https://demo.seleniumeasy.com/' successfully
+
+2022-10-12 09:44:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Launch_seleniumeasy_page' successfully
+
+2022-10-12 09:44:20 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Main_page/Button_Start_Practicing"), OPTIONAL)): null
+
+2022-10-12 09:44:21 - [MESSAGE][PASSED] - Object 'Object Repository/Main_page/Button_Start_Practicing' is visible
+
+2022-10-12 09:44:21 - [TEST_STEP][PASSED] - click(findTestObject("Main_page/Button_Start_Practicing")): Object: 'Object Repository/Main_page/Button_Start_Practicing' is clicked on
+
+2022-10-12 09:44:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Main_page/Button_Start_Practicing' is clicked on
+
+2022-10-12 09:44:21 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Main_page/option_Intermediate")): Object: 'Object Repository/Main_page/option_Intermediate' is clicked on
+
+2022-10-12 09:44:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Main_page/option_Intermediate' is clicked on
+
+2022-10-12 09:44:22 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Intermediate/text_Intermediate"), STOP_ON_FAILURE): Object 'Object Repository/Intermediate/text_Intermediate' is visible
+
+2022-10-12 09:44:22 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/text_Intermediate' is visible
+
+2022-10-12 09:44:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Intermediate/Prerequisite1_Access_Immediate' successfully
+
+2022-10-12 09:44:22 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/option_BootstrapListBox")): Object: 'Object Repository/Intermediate/option_BootstrapListBox' is clicked on
+
+2022-10-12 09:44:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/option_BootstrapListBox' is clicked on
+
+2022-10-12 09:44:23 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Intermediate/4_Bootstrap_List_Box/panel_Left")): Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/panel_Left' is visible
+
+2022-10-12 09:44:24 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/panel_Left' is visible
+
+2022-10-12 09:44:24 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Intermediate/4_Bootstrap_List_Box/panel_Right")): Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/panel_Right' is visible
+
+2022-10-12 09:44:24 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/panel_Right' is visible
+
+2022-10-12 09:44:24 - [TEST_STEP][PASSED] - for ([i = 0, i < arrayLength, (i++)]): Delayed 2 second(s)
+
+2022-10-12 09:44:24 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect", ["item":listData[i]])): Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect' is visible
+
+2022-10-12 09:44:25 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect' is visible
+
+2022-10-12 09:44:25 - [TEST_STEP][PASSED] - verifyEqual(getCSSValue(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect", ["item":listData[i]]), "background-color"), unselectColor): Actual object 'rgba(255, 255, 255, 1)' and expected object 'rgba(255, 255, 255, 1)' are equal
+
+2022-10-12 09:44:25 - [MESSAGE][PASSED] - Get CSS 'background-color' value on 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect' successfully: 'rgba(255, 255, 255, 1)'.
+
+2022-10-12 09:44:25 - [MESSAGE][PASSED] - Actual object 'rgba(255, 255, 255, 1)' and expected object 'rgba(255, 255, 255, 1)' are equal
+
+2022-10-12 09:44:25 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-10-12 09:44:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-10-12 09:44:27 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect", ["item":listData[i]])): Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect' is clicked on
+
+2022-10-12 09:44:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect' is clicked on
+
+2022-10-12 09:44:28 - [TEST_STEP][PASSED] - verifyEqual(getCSSValue(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_select", ["item":listData[i]]), "background-color"), selectColor): Actual object 'rgba(51, 122, 183, 1)' and expected object 'rgba(51, 122, 183, 1)' are equal
+
+2022-10-12 09:44:28 - [MESSAGE][PASSED] - Get CSS 'background-color' value on 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_select' successfully: 'rgba(51, 122, 183, 1)'.
+
+2022-10-12 09:44:28 - [MESSAGE][PASSED] - Actual object 'rgba(51, 122, 183, 1)' and expected object 'rgba(51, 122, 183, 1)' are equal
+
+2022-10-12 09:44:28 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-10-12 09:44:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-10-12 09:44:30 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect", ["item":listData[i]])): Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect' is visible
+
+2022-10-12 09:44:30 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect' is visible
+
+2022-10-12 09:44:30 - [TEST_STEP][PASSED] - verifyEqual(getCSSValue(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect", ["item":listData[i]]), "background-color"), unselectColor): Actual object 'rgba(255, 255, 255, 1)' and expected object 'rgba(255, 255, 255, 1)' are equal
+
+2022-10-12 09:44:31 - [MESSAGE][PASSED] - Get CSS 'background-color' value on 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect' successfully: 'rgba(255, 255, 255, 1)'.
+
+2022-10-12 09:44:31 - [MESSAGE][PASSED] - Actual object 'rgba(255, 255, 255, 1)' and expected object 'rgba(255, 255, 255, 1)' are equal
+
+2022-10-12 09:44:31 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-10-12 09:44:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-10-12 09:44:33 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect", ["item":listData[i]])): Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect' is clicked on
+
+2022-10-12 09:44:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect' is clicked on
+
+2022-10-12 09:44:33 - [TEST_STEP][PASSED] - verifyEqual(getCSSValue(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_select", ["item":listData[i]]), "background-color"), selectColor): Actual object 'rgba(51, 122, 183, 1)' and expected object 'rgba(51, 122, 183, 1)' are equal
+
+2022-10-12 09:44:33 - [MESSAGE][PASSED] - Get CSS 'background-color' value on 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_select' successfully: 'rgba(51, 122, 183, 1)'.
+
+2022-10-12 09:44:33 - [MESSAGE][PASSED] - Actual object 'rgba(51, 122, 183, 1)' and expected object 'rgba(51, 122, 183, 1)' are equal
+
+2022-10-12 09:44:33 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-10-12 09:44:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-10-12 09:44:35 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect", ["item":listData[i]])): Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect' is visible
+
+2022-10-12 09:44:36 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect' is visible
+
+2022-10-12 09:44:36 - [TEST_STEP][PASSED] - verifyEqual(getCSSValue(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect", ["item":listData[i]]), "background-color"), unselectColor): Actual object 'rgba(255, 255, 255, 1)' and expected object 'rgba(255, 255, 255, 1)' are equal
+
+2022-10-12 09:44:36 - [MESSAGE][PASSED] - Get CSS 'background-color' value on 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect' successfully: 'rgba(255, 255, 255, 1)'.
+
+2022-10-12 09:44:36 - [MESSAGE][PASSED] - Actual object 'rgba(255, 255, 255, 1)' and expected object 'rgba(255, 255, 255, 1)' are equal
+
+2022-10-12 09:44:36 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-10-12 09:44:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-10-12 09:44:38 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect", ["item":listData[i]])): Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect' is clicked on
+
+2022-10-12 09:44:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect' is clicked on
+
+2022-10-12 09:44:38 - [TEST_STEP][PASSED] - verifyEqual(getCSSValue(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_select", ["item":listData[i]]), "background-color"), selectColor): Actual object 'rgba(51, 122, 183, 1)' and expected object 'rgba(51, 122, 183, 1)' are equal
+
+2022-10-12 09:44:39 - [MESSAGE][PASSED] - Get CSS 'background-color' value on 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_select' successfully: 'rgba(51, 122, 183, 1)'.
+
+2022-10-12 09:44:39 - [MESSAGE][PASSED] - Actual object 'rgba(51, 122, 183, 1)' and expected object 'rgba(51, 122, 183, 1)' are equal
+
+2022-10-12 09:44:39 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-10-12 09:44:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-10-12 09:44:41 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect", ["item":listData[i]])): Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect' is visible
+
+2022-10-12 09:44:41 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect' is visible
+
+2022-10-12 09:44:41 - [TEST_STEP][PASSED] - verifyEqual(getCSSValue(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect", ["item":listData[i]]), "background-color"), unselectColor): Actual object 'rgba(255, 255, 255, 1)' and expected object 'rgba(255, 255, 255, 1)' are equal
+
+2022-10-12 09:44:42 - [MESSAGE][PASSED] - Get CSS 'background-color' value on 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect' successfully: 'rgba(255, 255, 255, 1)'.
+
+2022-10-12 09:44:42 - [MESSAGE][PASSED] - Actual object 'rgba(255, 255, 255, 1)' and expected object 'rgba(255, 255, 255, 1)' are equal
+
+2022-10-12 09:44:42 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-10-12 09:44:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-10-12 09:44:44 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect", ["item":listData[i]])): Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect' is clicked on
+
+2022-10-12 09:44:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect' is clicked on
+
+2022-10-12 09:44:44 - [TEST_STEP][PASSED] - verifyEqual(getCSSValue(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_select", ["item":listData[i]]), "background-color"), selectColor): Actual object 'rgba(51, 122, 183, 1)' and expected object 'rgba(51, 122, 183, 1)' are equal
+
+2022-10-12 09:44:44 - [MESSAGE][PASSED] - Get CSS 'background-color' value on 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_select' successfully: 'rgba(51, 122, 183, 1)'.
+
+2022-10-12 09:44:44 - [MESSAGE][PASSED] - Actual object 'rgba(51, 122, 183, 1)' and expected object 'rgba(51, 122, 183, 1)' are equal
+
+2022-10-12 09:44:44 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-10-12 09:44:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-10-12 09:44:46 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect", ["item":listData[i]])): Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect' is visible
+
+2022-10-12 09:44:47 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect' is visible
+
+2022-10-12 09:44:47 - [TEST_STEP][PASSED] - verifyEqual(getCSSValue(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect", ["item":listData[i]]), "background-color"), unselectColor): Actual object 'rgba(255, 255, 255, 1)' and expected object 'rgba(255, 255, 255, 1)' are equal
+
+2022-10-12 09:44:47 - [MESSAGE][PASSED] - Get CSS 'background-color' value on 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect' successfully: 'rgba(255, 255, 255, 1)'.
+
+2022-10-12 09:44:47 - [MESSAGE][PASSED] - Actual object 'rgba(255, 255, 255, 1)' and expected object 'rgba(255, 255, 255, 1)' are equal
+
+2022-10-12 09:44:47 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-10-12 09:44:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-10-12 09:44:49 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect", ["item":listData[i]])): Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect' is clicked on
+
+2022-10-12 09:44:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect' is clicked on
+
+2022-10-12 09:44:49 - [TEST_STEP][PASSED] - verifyEqual(getCSSValue(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_select", ["item":listData[i]]), "background-color"), selectColor): Actual object 'rgba(51, 122, 183, 1)' and expected object 'rgba(51, 122, 183, 1)' are equal
+
+2022-10-12 09:44:50 - [MESSAGE][PASSED] - Get CSS 'background-color' value on 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_select' successfully: 'rgba(51, 122, 183, 1)'.
+
+2022-10-12 09:44:50 - [MESSAGE][PASSED] - Actual object 'rgba(51, 122, 183, 1)' and expected object 'rgba(51, 122, 183, 1)' are equal
+
+2022-10-12 09:44:50 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-10-12 09:44:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-10-12 09:44:52 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect", ["item":listData[i]])): Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect' is visible
+
+2022-10-12 09:44:52 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect' is visible
+
+2022-10-12 09:44:52 - [TEST_STEP][PASSED] - verifyEqual(getCSSValue(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect", ["item":listData[i]]), "background-color"), unselectColor): Actual object 'rgba(255, 255, 255, 1)' and expected object 'rgba(255, 255, 255, 1)' are equal
+
+2022-10-12 09:44:53 - [MESSAGE][PASSED] - Get CSS 'background-color' value on 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect' successfully: 'rgba(255, 255, 255, 1)'.
+
+2022-10-12 09:44:53 - [MESSAGE][PASSED] - Actual object 'rgba(255, 255, 255, 1)' and expected object 'rgba(255, 255, 255, 1)' are equal
+
+2022-10-12 09:44:53 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-10-12 09:44:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-10-12 09:44:55 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect", ["item":listData[i]])): Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect' is clicked on
+
+2022-10-12 09:44:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect' is clicked on
+
+2022-10-12 09:44:55 - [TEST_STEP][PASSED] - verifyEqual(getCSSValue(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_select", ["item":listData[i]]), "background-color"), selectColor): Actual object 'rgba(51, 122, 183, 1)' and expected object 'rgba(51, 122, 183, 1)' are equal
+
+2022-10-12 09:44:55 - [MESSAGE][PASSED] - Get CSS 'background-color' value on 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_select' successfully: 'rgba(51, 122, 183, 1)'.
+
+2022-10-12 09:44:55 - [MESSAGE][PASSED] - Actual object 'rgba(51, 122, 183, 1)' and expected object 'rgba(51, 122, 183, 1)' are equal
+
+2022-10-12 09:44:55 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-10-12 09:44:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-10-12 09:44:57 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect", ["item":listData[i]])): Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect' is visible
+
+2022-10-12 09:44:58 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect' is visible
+
+2022-10-12 09:44:58 - [TEST_STEP][PASSED] - verifyEqual(getCSSValue(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect", ["item":listData[i]]), "background-color"), unselectColor): Actual object 'rgba(255, 255, 255, 1)' and expected object 'rgba(255, 255, 255, 1)' are equal
+
+2022-10-12 09:44:58 - [MESSAGE][PASSED] - Get CSS 'background-color' value on 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect' successfully: 'rgba(255, 255, 255, 1)'.
+
+2022-10-12 09:44:58 - [MESSAGE][PASSED] - Actual object 'rgba(255, 255, 255, 1)' and expected object 'rgba(255, 255, 255, 1)' are equal
+
+2022-10-12 09:44:58 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-10-12 09:45:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-10-12 09:45:00 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect", ["item":listData[i]])): Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect' is clicked on
+
+2022-10-12 09:45:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect' is clicked on
+
+2022-10-12 09:45:00 - [TEST_STEP][PASSED] - verifyEqual(getCSSValue(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_select", ["item":listData[i]]), "background-color"), selectColor): Actual object 'rgba(51, 122, 183, 1)' and expected object 'rgba(51, 122, 183, 1)' are equal
+
+2022-10-12 09:45:01 - [MESSAGE][PASSED] - Get CSS 'background-color' value on 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_select' successfully: 'rgba(51, 122, 183, 1)'.
+
+2022-10-12 09:45:01 - [MESSAGE][PASSED] - Actual object 'rgba(51, 122, 183, 1)' and expected object 'rgba(51, 122, 183, 1)' are equal
+
+2022-10-12 09:45:01 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-10-12 09:45:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-10-12 09:45:03 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect", ["item":listData[i]])): Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect' is visible
+
+2022-10-12 09:45:03 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect' is visible
+
+2022-10-12 09:45:03 - [TEST_STEP][PASSED] - verifyEqual(getCSSValue(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect", ["item":listData[i]]), "background-color"), unselectColor): Actual object 'rgba(255, 255, 255, 1)' and expected object 'rgba(255, 255, 255, 1)' are equal
+
+2022-10-12 09:45:03 - [MESSAGE][PASSED] - Get CSS 'background-color' value on 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect' successfully: 'rgba(255, 255, 255, 1)'.
+
+2022-10-12 09:45:03 - [MESSAGE][PASSED] - Actual object 'rgba(255, 255, 255, 1)' and expected object 'rgba(255, 255, 255, 1)' are equal
+
+2022-10-12 09:45:03 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-10-12 09:45:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-10-12 09:45:05 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect", ["item":listData[i]])): Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect' is clicked on
+
+2022-10-12 09:45:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect' is clicked on
+
+2022-10-12 09:45:06 - [TEST_STEP][PASSED] - verifyEqual(getCSSValue(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_select", ["item":listData[i]]), "background-color"), selectColor): Actual object 'rgba(51, 122, 183, 1)' and expected object 'rgba(51, 122, 183, 1)' are equal
+
+2022-10-12 09:45:06 - [MESSAGE][PASSED] - Get CSS 'background-color' value on 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_select' successfully: 'rgba(51, 122, 183, 1)'.
+
+2022-10-12 09:45:06 - [MESSAGE][PASSED] - Actual object 'rgba(51, 122, 183, 1)' and expected object 'rgba(51, 122, 183, 1)' are equal
+
+2022-10-12 09:45:06 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-10-12 09:45:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-10-12 09:45:08 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect", ["item":listData[i]])): Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect' is visible
+
+2022-10-12 09:45:09 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect' is visible
+
+2022-10-12 09:45:09 - [TEST_STEP][PASSED] - verifyEqual(getCSSValue(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect", ["item":listData[i]]), "background-color"), unselectColor): Actual object 'rgba(255, 255, 255, 1)' and expected object 'rgba(255, 255, 255, 1)' are equal
+
+2022-10-12 09:45:09 - [MESSAGE][PASSED] - Get CSS 'background-color' value on 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect' successfully: 'rgba(255, 255, 255, 1)'.
+
+2022-10-12 09:45:09 - [MESSAGE][PASSED] - Actual object 'rgba(255, 255, 255, 1)' and expected object 'rgba(255, 255, 255, 1)' are equal
+
+2022-10-12 09:45:09 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-10-12 09:45:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-10-12 09:45:11 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect", ["item":listData[i]])): Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect' is clicked on
+
+2022-10-12 09:45:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect' is clicked on
+
+2022-10-12 09:45:11 - [TEST_STEP][PASSED] - verifyEqual(getCSSValue(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_select", ["item":listData[i]]), "background-color"), selectColor): Actual object 'rgba(51, 122, 183, 1)' and expected object 'rgba(51, 122, 183, 1)' are equal
+
+2022-10-12 09:45:12 - [MESSAGE][PASSED] - Get CSS 'background-color' value on 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_select' successfully: 'rgba(51, 122, 183, 1)'.
+
+2022-10-12 09:45:12 - [MESSAGE][PASSED] - Actual object 'rgba(51, 122, 183, 1)' and expected object 'rgba(51, 122, 183, 1)' are equal
+
+2022-10-12 09:45:12 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-10-12 09:45:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-10-12 09:45:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect", ["item":listData[i]])): Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect' is visible
+
+2022-10-12 09:45:14 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect' is visible
+
+2022-10-12 09:45:14 - [TEST_STEP][PASSED] - verifyEqual(getCSSValue(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect", ["item":listData[i]]), "background-color"), unselectColor): Actual object 'rgba(255, 255, 255, 1)' and expected object 'rgba(255, 255, 255, 1)' are equal
+
+2022-10-12 09:45:14 - [MESSAGE][PASSED] - Get CSS 'background-color' value on 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect' successfully: 'rgba(255, 255, 255, 1)'.
+
+2022-10-12 09:45:14 - [MESSAGE][PASSED] - Actual object 'rgba(255, 255, 255, 1)' and expected object 'rgba(255, 255, 255, 1)' are equal
+
+2022-10-12 09:45:14 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-10-12 09:45:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-10-12 09:45:16 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect", ["item":listData[i]])): Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect' is clicked on
+
+2022-10-12 09:45:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect' is clicked on
+
+2022-10-12 09:45:17 - [TEST_STEP][PASSED] - verifyEqual(getCSSValue(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_select", ["item":listData[i]]), "background-color"), selectColor): Actual object 'rgba(51, 122, 183, 1)' and expected object 'rgba(51, 122, 183, 1)' are equal
+
+2022-10-12 09:45:17 - [MESSAGE][PASSED] - Get CSS 'background-color' value on 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_select' successfully: 'rgba(51, 122, 183, 1)'.
+
+2022-10-12 09:45:17 - [MESSAGE][PASSED] - Actual object 'rgba(51, 122, 183, 1)' and expected object 'rgba(51, 122, 183, 1)' are equal
+
+2022-10-12 09:45:17 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-10-12 09:45:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-10-12 09:45:19 - [TEST_STEP][PASSED] - for ([i = 0, i < arrayLength, (i++)]): Delayed 2 second(s)
+
+2022-10-12 09:45:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_select", ["item":listData[i]])): Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_select' is visible
+
+2022-10-12 09:45:19 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_select' is visible
+
+2022-10-12 09:45:19 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_select", ["item":listData[i]])): Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_select' is clicked on
+
+2022-10-12 09:45:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_select' is clicked on
+
+2022-10-12 09:45:20 - [TEST_STEP][PASSED] - verifyEqual(getCSSValue(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect", ["item":listData[i]]), "background-color"), unselectColor): Actual object 'rgba(255, 255, 255, 1)' and expected object 'rgba(255, 255, 255, 1)' are equal
+
+2022-10-12 09:45:20 - [MESSAGE][PASSED] - Get CSS 'background-color' value on 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect' successfully: 'rgba(255, 255, 255, 1)'.
+
+2022-10-12 09:45:20 - [MESSAGE][PASSED] - Actual object 'rgba(255, 255, 255, 1)' and expected object 'rgba(255, 255, 255, 1)' are equal
+
+2022-10-12 09:45:20 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-10-12 09:45:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-10-12 09:45:22 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_select", ["item":listData[i]])): Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_select' is visible
+
+2022-10-12 09:45:23 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_select' is visible
+
+2022-10-12 09:45:23 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_select", ["item":listData[i]])): Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_select' is clicked on
+
+2022-10-12 09:45:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_select' is clicked on
+
+2022-10-12 09:45:23 - [TEST_STEP][PASSED] - verifyEqual(getCSSValue(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect", ["item":listData[i]]), "background-color"), unselectColor): Actual object 'rgba(255, 255, 255, 1)' and expected object 'rgba(255, 255, 255, 1)' are equal
+
+2022-10-12 09:45:23 - [MESSAGE][PASSED] - Get CSS 'background-color' value on 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect' successfully: 'rgba(255, 255, 255, 1)'.
+
+2022-10-12 09:45:23 - [MESSAGE][PASSED] - Actual object 'rgba(255, 255, 255, 1)' and expected object 'rgba(255, 255, 255, 1)' are equal
+
+2022-10-12 09:45:23 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-10-12 09:45:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-10-12 09:45:25 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_select", ["item":listData[i]])): Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_select' is visible
+
+2022-10-12 09:45:26 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_select' is visible
+
+2022-10-12 09:45:26 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_select", ["item":listData[i]])): Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_select' is clicked on
+
+2022-10-12 09:45:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_select' is clicked on
+
+2022-10-12 09:45:26 - [TEST_STEP][PASSED] - verifyEqual(getCSSValue(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect", ["item":listData[i]]), "background-color"), unselectColor): Actual object 'rgba(255, 255, 255, 1)' and expected object 'rgba(255, 255, 255, 1)' are equal
+
+2022-10-12 09:45:26 - [MESSAGE][PASSED] - Get CSS 'background-color' value on 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect' successfully: 'rgba(255, 255, 255, 1)'.
+
+2022-10-12 09:45:26 - [MESSAGE][PASSED] - Actual object 'rgba(255, 255, 255, 1)' and expected object 'rgba(255, 255, 255, 1)' are equal
+
+2022-10-12 09:45:26 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-10-12 09:45:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-10-12 09:45:28 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_select", ["item":listData[i]])): Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_select' is visible
+
+2022-10-12 09:45:29 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_select' is visible
+
+2022-10-12 09:45:29 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_select", ["item":listData[i]])): Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_select' is clicked on
+
+2022-10-12 09:45:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_select' is clicked on
+
+2022-10-12 09:45:29 - [TEST_STEP][PASSED] - verifyEqual(getCSSValue(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect", ["item":listData[i]]), "background-color"), unselectColor): Actual object 'rgba(255, 255, 255, 1)' and expected object 'rgba(255, 255, 255, 1)' are equal
+
+2022-10-12 09:45:30 - [MESSAGE][PASSED] - Get CSS 'background-color' value on 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect' successfully: 'rgba(255, 255, 255, 1)'.
+
+2022-10-12 09:45:30 - [MESSAGE][PASSED] - Actual object 'rgba(255, 255, 255, 1)' and expected object 'rgba(255, 255, 255, 1)' are equal
+
+2022-10-12 09:45:30 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-10-12 09:45:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-10-12 09:45:32 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_select", ["item":listData[i]])): Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_select' is visible
+
+2022-10-12 09:45:32 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_select' is visible
+
+2022-10-12 09:45:32 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_select", ["item":listData[i]])): Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_select' is clicked on
+
+2022-10-12 09:45:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_select' is clicked on
+
+2022-10-12 09:45:32 - [TEST_STEP][PASSED] - verifyEqual(getCSSValue(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect", ["item":listData[i]]), "background-color"), unselectColor): Actual object 'rgba(255, 255, 255, 1)' and expected object 'rgba(255, 255, 255, 1)' are equal
+
+2022-10-12 09:45:33 - [MESSAGE][PASSED] - Get CSS 'background-color' value on 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect' successfully: 'rgba(255, 255, 255, 1)'.
+
+2022-10-12 09:45:33 - [MESSAGE][PASSED] - Actual object 'rgba(255, 255, 255, 1)' and expected object 'rgba(255, 255, 255, 1)' are equal
+
+2022-10-12 09:45:33 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-10-12 09:45:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-10-12 09:45:35 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_select", ["item":listData[i]])): Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_select' is visible
+
+2022-10-12 09:45:35 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_select' is visible
+
+2022-10-12 09:45:35 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_select", ["item":listData[i]])): Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_select' is clicked on
+
+2022-10-12 09:45:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_select' is clicked on
+
+2022-10-12 09:45:35 - [TEST_STEP][PASSED] - verifyEqual(getCSSValue(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect", ["item":listData[i]]), "background-color"), unselectColor): Actual object 'rgba(255, 255, 255, 1)' and expected object 'rgba(255, 255, 255, 1)' are equal
+
+2022-10-12 09:45:36 - [MESSAGE][PASSED] - Get CSS 'background-color' value on 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect' successfully: 'rgba(255, 255, 255, 1)'.
+
+2022-10-12 09:45:36 - [MESSAGE][PASSED] - Actual object 'rgba(255, 255, 255, 1)' and expected object 'rgba(255, 255, 255, 1)' are equal
+
+2022-10-12 09:45:36 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-10-12 09:45:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-10-12 09:45:38 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_select", ["item":listData[i]])): Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_select' is visible
+
+2022-10-12 09:45:38 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_select' is visible
+
+2022-10-12 09:45:38 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_select", ["item":listData[i]])): Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_select' is clicked on
+
+2022-10-12 09:45:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_select' is clicked on
+
+2022-10-12 09:45:38 - [TEST_STEP][PASSED] - verifyEqual(getCSSValue(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect", ["item":listData[i]]), "background-color"), unselectColor): Actual object 'rgba(255, 255, 255, 1)' and expected object 'rgba(255, 255, 255, 1)' are equal
+
+2022-10-12 09:45:39 - [MESSAGE][PASSED] - Get CSS 'background-color' value on 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect' successfully: 'rgba(255, 255, 255, 1)'.
+
+2022-10-12 09:45:39 - [MESSAGE][PASSED] - Actual object 'rgba(255, 255, 255, 1)' and expected object 'rgba(255, 255, 255, 1)' are equal
+
+2022-10-12 09:45:39 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-10-12 09:45:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-10-12 09:45:41 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_select", ["item":listData[i]])): Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_select' is visible
+
+2022-10-12 09:45:41 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_select' is visible
+
+2022-10-12 09:45:41 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_select", ["item":listData[i]])): Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_select' is clicked on
+
+2022-10-12 09:45:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_select' is clicked on
+
+2022-10-12 09:45:41 - [TEST_STEP][PASSED] - verifyEqual(getCSSValue(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect", ["item":listData[i]]), "background-color"), unselectColor): Actual object 'rgba(255, 255, 255, 1)' and expected object 'rgba(255, 255, 255, 1)' are equal
+
+2022-10-12 09:45:42 - [MESSAGE][PASSED] - Get CSS 'background-color' value on 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect' successfully: 'rgba(255, 255, 255, 1)'.
+
+2022-10-12 09:45:42 - [MESSAGE][PASSED] - Actual object 'rgba(255, 255, 255, 1)' and expected object 'rgba(255, 255, 255, 1)' are equal
+
+2022-10-12 09:45:42 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-10-12 09:45:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-10-12 09:45:44 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_select", ["item":listData[i]])): Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_select' is visible
+
+2022-10-12 09:45:44 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_select' is visible
+
+2022-10-12 09:45:44 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_select", ["item":listData[i]])): Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_select' is clicked on
+
+2022-10-12 09:45:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_select' is clicked on
+
+2022-10-12 09:45:45 - [TEST_STEP][PASSED] - verifyEqual(getCSSValue(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect", ["item":listData[i]]), "background-color"), unselectColor): Actual object 'rgba(255, 255, 255, 1)' and expected object 'rgba(255, 255, 255, 1)' are equal
+
+2022-10-12 09:45:45 - [MESSAGE][PASSED] - Get CSS 'background-color' value on 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect' successfully: 'rgba(255, 255, 255, 1)'.
+
+2022-10-12 09:45:45 - [MESSAGE][PASSED] - Actual object 'rgba(255, 255, 255, 1)' and expected object 'rgba(255, 255, 255, 1)' are equal
+
+2022-10-12 09:45:45 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-10-12 09:45:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-10-12 09:45:47 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_select", ["item":listData[i]])): Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_select' is visible
+
+2022-10-12 09:45:47 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_select' is visible
+
+2022-10-12 09:45:47 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_select", ["item":listData[i]])): Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_select' is clicked on
+
+2022-10-12 09:45:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_select' is clicked on
+
+2022-10-12 09:45:48 - [TEST_STEP][PASSED] - verifyEqual(getCSSValue(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect", ["item":listData[i]]), "background-color"), unselectColor): Actual object 'rgba(255, 255, 255, 1)' and expected object 'rgba(255, 255, 255, 1)' are equal
+
+2022-10-12 09:45:48 - [MESSAGE][PASSED] - Get CSS 'background-color' value on 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_unselect' successfully: 'rgba(255, 255, 255, 1)'.
+
+2022-10-12 09:45:48 - [MESSAGE][PASSED] - Actual object 'rgba(255, 255, 255, 1)' and expected object 'rgba(255, 255, 255, 1)' are equal
+
+2022-10-12 09:45:48 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-10-12 09:45:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-10-12 09:45:50 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-10-12 09:45:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Intermediate/4_Bootstrap_List_Box/BLB2_Select_item_in_left_and_move_to_right" time="20.706" classname="Test Cases/Intermediate/4_Bootstrap_List_Box/BLB2_Select_item_in_left_and_move_to_right" status="PASSED">
+         <system-out><![CDATA[2022-10-12 09:45:51 - [TEST_CASE][PASSED] - Test Cases/Intermediate/4_Bootstrap_List_Box/BLB2_Select_item_in_left_and_move_to_right: Test Cases/Intermediate/4_Bootstrap_List_Box/BLB2_Select_item_in_left_and_move_to_right
+
+2022-10-12 09:45:52 - [TEST_STEP][PASSED] - TestID = "TEST-00002": null
+
+2022-10-12 09:45:52 - [TEST_STEP][PASSED] - FileTestData = "TestData_Sheet5": null
+
+2022-10-12 09:45:52 - [TEST_STEP][PASSED] - totalRow = findTestData(FileTestData).getRowNumbers(): null
+
+2022-10-12 09:45:52 - [TEST_STEP][PASSED] - totalColumn = findTestData(FileTestData).getColumnNumbers(): null
+
+2022-10-12 09:45:52 - [TEST_STEP][PASSED] - rowNum = 1: null
+
+2022-10-12 09:45:52 - [TEST_STEP][PASSED] - arrayLength = 0: null
+
+2022-10-12 09:45:52 - [TEST_STEP][PASSED] - for ([rowNum, rowNum < totalRow, (rowNum++)]): null
+
+2022-10-12 09:45:52 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:45:52 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:45:52 - [TEST_STEP][PASSED] - break: null
+
+2022-10-12 09:45:52 - [TEST_STEP][PASSED] - println("Row number is: " + rowNum): null
+
+2022-10-12 09:45:52 - [TEST_STEP][PASSED] - for ([i = 0, i < totalColumn - 1, (i++)]): null
+
+2022-10-12 09:45:52 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:45:52 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:45:52 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:45:52 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:45:52 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:45:52 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:45:52 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:45:52 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:45:52 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:45:52 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:45:52 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:45:52 - [TEST_STEP][PASSED] - break: null
+
+2022-10-12 09:45:52 - [TEST_STEP][PASSED] - println("Array length is: " + arrayLength): null
+
+2022-10-12 09:45:52 - [TEST_STEP][PASSED] - listData = []: null
+
+2022-10-12 09:45:52 - [TEST_STEP][PASSED] - for ([rowNum = 1, rowNum < totalRow, (rowNum++)]): null
+
+2022-10-12 09:45:52 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:45:52 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:45:52 - [TEST_STEP][PASSED] - for ([i = 0, i < arrayLength, (i++)]): null
+
+2022-10-12 09:45:52 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:45:52 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:45:52 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:45:52 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:45:52 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:45:52 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:45:52 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:45:52 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:45:53 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:45:53 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:45:53 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:45:53 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:45:53 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:45:53 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:45:53 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:45:53 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:45:53 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:45:53 - [TEST_STEP][PASSED] - println(listData): null
+
+2022-10-12 09:45:53 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Intermediate/Prerequisite1_Access_Immediate"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Intermediate/Prerequisite1_Access_Immediate' successfully
+
+2022-10-12 09:45:53 - [TEST_CASE][PASSED] - Test Cases/Intermediate/Prerequisite1_Access_Immediate: Test Cases/Intermediate/Prerequisite1_Access_Immediate
+
+2022-10-12 09:45:53 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Launch_seleniumeasy_page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Launch_seleniumeasy_page' successfully
+
+2022-10-12 09:45:53 - [TEST_CASE][PASSED] - Test Cases/Launch_seleniumeasy_page: Test Cases/Launch_seleniumeasy_page
+
+2022-10-12 09:45:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-10-12 09:45:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-10-12 09:45:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-10-12 09:45:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-10-12 09:45:55 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-10-12 09:45:55 - [MESSAGE][PASSED] - Current window maximized
+
+2022-10-12 09:45:55 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.seleniumeasy.com/"): Navigate to 'https://demo.seleniumeasy.com/' successfully
+
+2022-10-12 09:46:01 - [MESSAGE][PASSED] - Navigate to 'https://demo.seleniumeasy.com/' successfully
+
+2022-10-12 09:46:01 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Launch_seleniumeasy_page' successfully
+
+2022-10-12 09:46:01 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Main_page/Button_Start_Practicing"), OPTIONAL)): null
+
+2022-10-12 09:46:01 - [MESSAGE][PASSED] - Object 'Object Repository/Main_page/Button_Start_Practicing' is visible
+
+2022-10-12 09:46:01 - [TEST_STEP][PASSED] - click(findTestObject("Main_page/Button_Start_Practicing")): Object: 'Object Repository/Main_page/Button_Start_Practicing' is clicked on
+
+2022-10-12 09:46:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Main_page/Button_Start_Practicing' is clicked on
+
+2022-10-12 09:46:02 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Main_page/option_Intermediate")): Object: 'Object Repository/Main_page/option_Intermediate' is clicked on
+
+2022-10-12 09:46:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Main_page/option_Intermediate' is clicked on
+
+2022-10-12 09:46:02 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Intermediate/text_Intermediate"), STOP_ON_FAILURE): Object 'Object Repository/Intermediate/text_Intermediate' is visible
+
+2022-10-12 09:46:03 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/text_Intermediate' is visible
+
+2022-10-12 09:46:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Intermediate/Prerequisite1_Access_Immediate' successfully
+
+2022-10-12 09:46:03 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/option_BootstrapListBox")): Object: 'Object Repository/Intermediate/option_BootstrapListBox' is clicked on
+
+2022-10-12 09:46:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/option_BootstrapListBox' is clicked on
+
+2022-10-12 09:46:04 - [TEST_STEP][PASSED] - for ([i = 0, i < length, (i++)]): Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_right' is present
+
+2022-10-12 09:46:04 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_left", ["item":listData[i]])): Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_left' is clicked on
+
+2022-10-12 09:46:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_left' is clicked on
+
+2022-10-12 09:46:04 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/4_Bootstrap_List_Box/button_move_right")): Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/button_move_right' is clicked on
+
+2022-10-12 09:46:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/button_move_right' is clicked on
+
+2022-10-12 09:46:05 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_left", ["item":listData[i]]), 1): Web element with id: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_left' located by 'By.xpath: //div[@class="dual-list list-left col-md-5"]/div[@class="well text-right"]/ul/li[text()="bootstrap-duallist "]' is not present after '1' second(s)
+
+2022-10-12 09:46:05 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_left' located by 'By.xpath: //div[@class="dual-list list-left col-md-5"]/div[@class="well text-right"]/ul/li[text()="bootstrap-duallist "]' is not present after '1' second(s)
+
+2022-10-12 09:46:05 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_right", ["item":listData[i]]), 1): Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_right' is present
+
+2022-10-12 09:46:06 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_right' is present
+
+2022-10-12 09:46:06 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_left", ["item":listData[i]])): Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_left' is clicked on
+
+2022-10-12 09:46:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_left' is clicked on
+
+2022-10-12 09:46:06 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/4_Bootstrap_List_Box/button_move_right")): Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/button_move_right' is clicked on
+
+2022-10-12 09:46:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/button_move_right' is clicked on
+
+2022-10-12 09:46:06 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_left", ["item":listData[i]]), 1): Web element with id: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_left' located by 'By.xpath: //div[@class="dual-list list-left col-md-5"]/div[@class="well text-right"]/ul/li[text()="Dapibus ac facilisis in"]' is not present after '1' second(s)
+
+2022-10-12 09:46:07 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_left' located by 'By.xpath: //div[@class="dual-list list-left col-md-5"]/div[@class="well text-right"]/ul/li[text()="Dapibus ac facilisis in"]' is not present after '1' second(s)
+
+2022-10-12 09:46:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_right", ["item":listData[i]]), 1): Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_right' is present
+
+2022-10-12 09:46:07 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_right' is present
+
+2022-10-12 09:46:07 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_left", ["item":listData[i]])): Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_left' is clicked on
+
+2022-10-12 09:46:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_left' is clicked on
+
+2022-10-12 09:46:08 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/4_Bootstrap_List_Box/button_move_right")): Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/button_move_right' is clicked on
+
+2022-10-12 09:46:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/button_move_right' is clicked on
+
+2022-10-12 09:46:08 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_left", ["item":listData[i]]), 1): Web element with id: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_left' located by 'By.xpath: //div[@class="dual-list list-left col-md-5"]/div[@class="well text-right"]/ul/li[text()="Morbi leo risus"]' is not present after '1' second(s)
+
+2022-10-12 09:46:09 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_left' located by 'By.xpath: //div[@class="dual-list list-left col-md-5"]/div[@class="well text-right"]/ul/li[text()="Morbi leo risus"]' is not present after '1' second(s)
+
+2022-10-12 09:46:09 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_right", ["item":listData[i]]), 1): Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_right' is present
+
+2022-10-12 09:46:09 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_right' is present
+
+2022-10-12 09:46:09 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_left", ["item":listData[i]])): Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_left' is clicked on
+
+2022-10-12 09:46:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_left' is clicked on
+
+2022-10-12 09:46:09 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/4_Bootstrap_List_Box/button_move_right")): Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/button_move_right' is clicked on
+
+2022-10-12 09:46:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/button_move_right' is clicked on
+
+2022-10-12 09:46:10 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_left", ["item":listData[i]]), 1): Web element with id: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_left' located by 'By.xpath: //div[@class="dual-list list-left col-md-5"]/div[@class="well text-right"]/ul/li[text()="Porta ac consectetur ac"]' is not present after '1' second(s)
+
+2022-10-12 09:46:10 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_left' located by 'By.xpath: //div[@class="dual-list list-left col-md-5"]/div[@class="well text-right"]/ul/li[text()="Porta ac consectetur ac"]' is not present after '1' second(s)
+
+2022-10-12 09:46:10 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_right", ["item":listData[i]]), 1): Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_right' is present
+
+2022-10-12 09:46:10 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_right' is present
+
+2022-10-12 09:46:10 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_left", ["item":listData[i]])): Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_left' is clicked on
+
+2022-10-12 09:46:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_left' is clicked on
+
+2022-10-12 09:46:11 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/4_Bootstrap_List_Box/button_move_right")): Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/button_move_right' is clicked on
+
+2022-10-12 09:46:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/button_move_right' is clicked on
+
+2022-10-12 09:46:11 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_left", ["item":listData[i]]), 1): Web element with id: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_left' located by 'By.xpath: //div[@class="dual-list list-left col-md-5"]/div[@class="well text-right"]/ul/li[text()="Vestibulum at eros"]' is not present after '1' second(s)
+
+2022-10-12 09:46:12 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_left' located by 'By.xpath: //div[@class="dual-list list-left col-md-5"]/div[@class="well text-right"]/ul/li[text()="Vestibulum at eros"]' is not present after '1' second(s)
+
+2022-10-12 09:46:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_right", ["item":listData[i]]), 1): Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_right' is present
+
+2022-10-12 09:46:12 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_right' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Intermediate/4_Bootstrap_List_Box/BLB3_Select_item_in_right_and_move_to_left" time="17.972" classname="Test Cases/Intermediate/4_Bootstrap_List_Box/BLB3_Select_item_in_right_and_move_to_left" status="PASSED">
+         <system-out><![CDATA[2022-10-12 09:46:12 - [TEST_CASE][PASSED] - Test Cases/Intermediate/4_Bootstrap_List_Box/BLB3_Select_item_in_right_and_move_to_left: Test Cases/Intermediate/4_Bootstrap_List_Box/BLB3_Select_item_in_right_and_move_to_left
+
+2022-10-12 09:46:12 - [TEST_STEP][PASSED] - TestID = "TEST-00003": null
+
+2022-10-12 09:46:12 - [TEST_STEP][PASSED] - FileTestData = "TestData_Sheet5": null
+
+2022-10-12 09:46:12 - [TEST_STEP][PASSED] - totalRow = findTestData(FileTestData).getRowNumbers(): null
+
+2022-10-12 09:46:12 - [TEST_STEP][PASSED] - totalColumn = findTestData(FileTestData).getColumnNumbers(): null
+
+2022-10-12 09:46:12 - [TEST_STEP][PASSED] - rowNum = 1: null
+
+2022-10-12 09:46:12 - [TEST_STEP][PASSED] - arrayLength = 0: null
+
+2022-10-12 09:46:12 - [TEST_STEP][PASSED] - for ([rowNum, rowNum < totalRow, (rowNum++)]): null
+
+2022-10-12 09:46:12 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:46:12 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:46:12 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:46:12 - [TEST_STEP][PASSED] - break: null
+
+2022-10-12 09:46:12 - [TEST_STEP][PASSED] - println("Row number is: " + rowNum): null
+
+2022-10-12 09:46:12 - [TEST_STEP][PASSED] - for ([i = 0, i < totalColumn - 1, (i++)]): null
+
+2022-10-12 09:46:12 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:46:12 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:46:12 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:46:13 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:46:13 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:46:13 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:46:13 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:46:13 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:46:13 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:46:13 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:46:13 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:46:13 - [TEST_STEP][PASSED] - break: null
+
+2022-10-12 09:46:13 - [TEST_STEP][PASSED] - println("Array length is: " + arrayLength): null
+
+2022-10-12 09:46:13 - [TEST_STEP][PASSED] - listData = []: null
+
+2022-10-12 09:46:13 - [TEST_STEP][PASSED] - for ([rowNum = 1, rowNum < totalRow, (rowNum++)]): null
+
+2022-10-12 09:46:13 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:46:13 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:46:13 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:46:13 - [TEST_STEP][PASSED] - for ([i = 0, i < arrayLength, (i++)]): null
+
+2022-10-12 09:46:13 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:46:13 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:46:13 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:46:13 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:46:13 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:46:13 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:46:13 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:46:13 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:46:13 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:46:13 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:46:13 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:46:13 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:46:13 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:46:13 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:46:13 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:46:14 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:46:14 - [TEST_STEP][PASSED] - println(listData): null
+
+2022-10-12 09:46:14 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Intermediate/Prerequisite1_Access_Immediate"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Intermediate/Prerequisite1_Access_Immediate' successfully
+
+2022-10-12 09:46:14 - [TEST_CASE][PASSED] - Test Cases/Intermediate/Prerequisite1_Access_Immediate: Test Cases/Intermediate/Prerequisite1_Access_Immediate
+
+2022-10-12 09:46:14 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Launch_seleniumeasy_page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Launch_seleniumeasy_page' successfully
+
+2022-10-12 09:46:14 - [TEST_CASE][PASSED] - Test Cases/Launch_seleniumeasy_page: Test Cases/Launch_seleniumeasy_page
+
+2022-10-12 09:46:14 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-10-12 09:46:14 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-10-12 09:46:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-10-12 09:46:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-10-12 09:46:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-10-12 09:46:16 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-10-12 09:46:16 - [MESSAGE][PASSED] - Current window maximized
+
+2022-10-12 09:46:16 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.seleniumeasy.com/"): Navigate to 'https://demo.seleniumeasy.com/' successfully
+
+2022-10-12 09:46:20 - [MESSAGE][PASSED] - Navigate to 'https://demo.seleniumeasy.com/' successfully
+
+2022-10-12 09:46:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Launch_seleniumeasy_page' successfully
+
+2022-10-12 09:46:20 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Main_page/Button_Start_Practicing"), OPTIONAL)): null
+
+2022-10-12 09:46:20 - [MESSAGE][PASSED] - Object 'Object Repository/Main_page/Button_Start_Practicing' is visible
+
+2022-10-12 09:46:20 - [TEST_STEP][PASSED] - click(findTestObject("Main_page/Button_Start_Practicing")): Object: 'Object Repository/Main_page/Button_Start_Practicing' is clicked on
+
+2022-10-12 09:46:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Main_page/Button_Start_Practicing' is clicked on
+
+2022-10-12 09:46:20 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Main_page/option_Intermediate")): Object: 'Object Repository/Main_page/option_Intermediate' is clicked on
+
+2022-10-12 09:46:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Main_page/option_Intermediate' is clicked on
+
+2022-10-12 09:46:21 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Intermediate/text_Intermediate"), STOP_ON_FAILURE): Object 'Object Repository/Intermediate/text_Intermediate' is visible
+
+2022-10-12 09:46:21 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/text_Intermediate' is visible
+
+2022-10-12 09:46:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Intermediate/Prerequisite1_Access_Immediate' successfully
+
+2022-10-12 09:46:21 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/option_BootstrapListBox")): Object: 'Object Repository/Intermediate/option_BootstrapListBox' is clicked on
+
+2022-10-12 09:46:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/option_BootstrapListBox' is clicked on
+
+2022-10-12 09:46:22 - [TEST_STEP][PASSED] - for ([i = 0, i < length, (i++)]): Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_left' is present
+
+2022-10-12 09:46:22 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_right", ["item":listData[i]])): Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_right' is clicked on
+
+2022-10-12 09:46:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_right' is clicked on
+
+2022-10-12 09:46:22 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/4_Bootstrap_List_Box/button_move_left")): Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/button_move_left' is clicked on
+
+2022-10-12 09:46:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/button_move_left' is clicked on
+
+2022-10-12 09:46:23 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_right", ["item":listData[i]]), 1): Web element with id: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_right' located by 'By.xpath: //div[@class="dual-list list-right col-md-5"]/div[@class="well"]/ul/li[text()="Cras justo odio"]' is not present after '1' second(s)
+
+2022-10-12 09:46:23 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_right' located by 'By.xpath: //div[@class="dual-list list-right col-md-5"]/div[@class="well"]/ul/li[text()="Cras justo odio"]' is not present after '1' second(s)
+
+2022-10-12 09:46:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_left", ["item":listData[i]]), 1): Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_left' is present
+
+2022-10-12 09:46:24 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_left' is present
+
+2022-10-12 09:46:24 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_right", ["item":listData[i]])): Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_right' is clicked on
+
+2022-10-12 09:46:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_right' is clicked on
+
+2022-10-12 09:46:24 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/4_Bootstrap_List_Box/button_move_left")): Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/button_move_left' is clicked on
+
+2022-10-12 09:46:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/button_move_left' is clicked on
+
+2022-10-12 09:46:24 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_right", ["item":listData[i]]), 1): Web element with id: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_right' located by 'By.xpath: //div[@class="dual-list list-right col-md-5"]/div[@class="well"]/ul/li[text()="Dapibus ac facilisis in"]' is not present after '1' second(s)
+
+2022-10-12 09:46:25 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_right' located by 'By.xpath: //div[@class="dual-list list-right col-md-5"]/div[@class="well"]/ul/li[text()="Dapibus ac facilisis in"]' is not present after '1' second(s)
+
+2022-10-12 09:46:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_left", ["item":listData[i]]), 1): Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_left' is present
+
+2022-10-12 09:46:25 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_left' is present
+
+2022-10-12 09:46:25 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_right", ["item":listData[i]])): Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_right' is clicked on
+
+2022-10-12 09:46:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_right' is clicked on
+
+2022-10-12 09:46:26 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/4_Bootstrap_List_Box/button_move_left")): Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/button_move_left' is clicked on
+
+2022-10-12 09:46:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/button_move_left' is clicked on
+
+2022-10-12 09:46:26 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_right", ["item":listData[i]]), 1): Web element with id: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_right' located by 'By.xpath: //div[@class="dual-list list-right col-md-5"]/div[@class="well"]/ul/li[text()="Morbi leo risus"]' is not present after '1' second(s)
+
+2022-10-12 09:46:26 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_right' located by 'By.xpath: //div[@class="dual-list list-right col-md-5"]/div[@class="well"]/ul/li[text()="Morbi leo risus"]' is not present after '1' second(s)
+
+2022-10-12 09:46:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_left", ["item":listData[i]]), 1): Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_left' is present
+
+2022-10-12 09:46:27 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_left' is present
+
+2022-10-12 09:46:27 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_right", ["item":listData[i]])): Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_right' is clicked on
+
+2022-10-12 09:46:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_right' is clicked on
+
+2022-10-12 09:46:27 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/4_Bootstrap_List_Box/button_move_left")): Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/button_move_left' is clicked on
+
+2022-10-12 09:46:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/button_move_left' is clicked on
+
+2022-10-12 09:46:28 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_right", ["item":listData[i]]), 1): Web element with id: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_right' located by 'By.xpath: //div[@class="dual-list list-right col-md-5"]/div[@class="well"]/ul/li[text()="Porta ac consectetur ac"]' is not present after '1' second(s)
+
+2022-10-12 09:46:28 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_right' located by 'By.xpath: //div[@class="dual-list list-right col-md-5"]/div[@class="well"]/ul/li[text()="Porta ac consectetur ac"]' is not present after '1' second(s)
+
+2022-10-12 09:46:28 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_left", ["item":listData[i]]), 1): Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_left' is present
+
+2022-10-12 09:46:28 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_left' is present
+
+2022-10-12 09:46:28 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_right", ["item":listData[i]])): Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_right' is clicked on
+
+2022-10-12 09:46:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_right' is clicked on
+
+2022-10-12 09:46:29 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/4_Bootstrap_List_Box/button_move_left")): Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/button_move_left' is clicked on
+
+2022-10-12 09:46:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/button_move_left' is clicked on
+
+2022-10-12 09:46:29 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_right", ["item":listData[i]]), 1): Web element with id: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_right' located by 'By.xpath: //div[@class="dual-list list-right col-md-5"]/div[@class="well"]/ul/li[text()="Vestibulum at eros"]' is not present after '1' second(s)
+
+2022-10-12 09:46:29 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_right' located by 'By.xpath: //div[@class="dual-list list-right col-md-5"]/div[@class="well"]/ul/li[text()="Vestibulum at eros"]' is not present after '1' second(s)
+
+2022-10-12 09:46:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_left", ["item":listData[i]]), 1): Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_left' is present
+
+2022-10-12 09:46:30 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_left' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Intermediate/4_Bootstrap_List_Box/BLB4_Select_all_items_and_move" time="30.562" classname="Test Cases/Intermediate/4_Bootstrap_List_Box/BLB4_Select_all_items_and_move" status="PASSED">
+         <system-out><![CDATA[2022-10-12 09:46:30 - [TEST_CASE][PASSED] - Test Cases/Intermediate/4_Bootstrap_List_Box/BLB4_Select_all_items_and_move: Test Cases/Intermediate/4_Bootstrap_List_Box/BLB4_Select_all_items_and_move
+
+2022-10-12 09:46:30 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Intermediate/Prerequisite1_Access_Immediate"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Intermediate/Prerequisite1_Access_Immediate' successfully
+
+2022-10-12 09:46:30 - [TEST_CASE][PASSED] - Test Cases/Intermediate/Prerequisite1_Access_Immediate: Test Cases/Intermediate/Prerequisite1_Access_Immediate
+
+2022-10-12 09:46:30 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Launch_seleniumeasy_page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Launch_seleniumeasy_page' successfully
+
+2022-10-12 09:46:30 - [TEST_CASE][PASSED] - Test Cases/Launch_seleniumeasy_page: Test Cases/Launch_seleniumeasy_page
+
+2022-10-12 09:46:30 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-10-12 09:46:30 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-10-12 09:46:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-10-12 09:46:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-10-12 09:46:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-10-12 09:46:33 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-10-12 09:46:33 - [MESSAGE][PASSED] - Current window maximized
+
+2022-10-12 09:46:33 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.seleniumeasy.com/"): Navigate to 'https://demo.seleniumeasy.com/' successfully
+
+2022-10-12 09:46:38 - [MESSAGE][PASSED] - Navigate to 'https://demo.seleniumeasy.com/' successfully
+
+2022-10-12 09:46:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Launch_seleniumeasy_page' successfully
+
+2022-10-12 09:46:38 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Main_page/Button_Start_Practicing"), OPTIONAL)): null
+
+2022-10-12 09:46:38 - [MESSAGE][PASSED] - Object 'Object Repository/Main_page/Button_Start_Practicing' is visible
+
+2022-10-12 09:46:38 - [TEST_STEP][PASSED] - click(findTestObject("Main_page/Button_Start_Practicing")): Object: 'Object Repository/Main_page/Button_Start_Practicing' is clicked on
+
+2022-10-12 09:46:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Main_page/Button_Start_Practicing' is clicked on
+
+2022-10-12 09:46:38 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Main_page/option_Intermediate")): Object: 'Object Repository/Main_page/option_Intermediate' is clicked on
+
+2022-10-12 09:46:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Main_page/option_Intermediate' is clicked on
+
+2022-10-12 09:46:39 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Intermediate/text_Intermediate"), STOP_ON_FAILURE): Object 'Object Repository/Intermediate/text_Intermediate' is visible
+
+2022-10-12 09:46:39 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/text_Intermediate' is visible
+
+2022-10-12 09:46:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Intermediate/Prerequisite1_Access_Immediate' successfully
+
+2022-10-12 09:46:39 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/option_BootstrapListBox")): Object: 'Object Repository/Intermediate/option_BootstrapListBox' is clicked on
+
+2022-10-12 09:46:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/option_BootstrapListBox' is clicked on
+
+2022-10-12 09:46:40 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/4_Bootstrap_List_Box/checkbox_select_all_in_left")): Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/checkbox_select_all_in_left' is clicked on
+
+2022-10-12 09:46:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/checkbox_select_all_in_left' is clicked on
+
+2022-10-12 09:46:41 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/4_Bootstrap_List_Box/button_move_right")): Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/button_move_right' is clicked on
+
+2022-10-12 09:46:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/button_move_right' is clicked on
+
+2022-10-12 09:46:41 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-10-12 09:46:46 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-10-12 09:46:46 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/4_Bootstrap_List_Box/static_li_items_in_left"), 2): Web element with id: 'Object Repository/Intermediate/4_Bootstrap_List_Box/static_li_items_in_left' located by 'By.xpath: //div[@class="dual-list list-left col-md-5"]/div[@class="well text-right"]/ul/li' is not present after '2' second(s)
+
+2022-10-12 09:46:46 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/4_Bootstrap_List_Box/static_li_items_in_left' located by 'By.xpath: //div[@class="dual-list list-left col-md-5"]/div[@class="well text-right"]/ul/li' is not present after '2' second(s)
+
+2022-10-12 09:46:46 - [TEST_STEP][PASSED] - for ([i = 1, i <= 10, (i++)]): Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_in_right' is present
+
+2022-10-12 09:46:46 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_in_right", ["n":i]), 2): Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_in_right' is present
+
+2022-10-12 09:46:47 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_in_right' is present
+
+2022-10-12 09:46:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_in_right", ["n":i]), 2): Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_in_right' is present
+
+2022-10-12 09:46:47 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_in_right' is present
+
+2022-10-12 09:46:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_in_right", ["n":i]), 2): Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_in_right' is present
+
+2022-10-12 09:46:47 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_in_right' is present
+
+2022-10-12 09:46:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_in_right", ["n":i]), 2): Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_in_right' is present
+
+2022-10-12 09:46:48 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_in_right' is present
+
+2022-10-12 09:46:48 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_in_right", ["n":i]), 2): Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_in_right' is present
+
+2022-10-12 09:46:48 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_in_right' is present
+
+2022-10-12 09:46:48 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_in_right", ["n":i]), 2): Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_in_right' is present
+
+2022-10-12 09:46:48 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_in_right' is present
+
+2022-10-12 09:46:48 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_in_right", ["n":i]), 2): Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_in_right' is present
+
+2022-10-12 09:46:49 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_in_right' is present
+
+2022-10-12 09:46:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_in_right", ["n":i]), 2): Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_in_right' is present
+
+2022-10-12 09:46:49 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_in_right' is present
+
+2022-10-12 09:46:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_in_right", ["n":i]), 2): Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_in_right' is present
+
+2022-10-12 09:46:49 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_in_right' is present
+
+2022-10-12 09:46:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_in_right", ["n":i]), 2): Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_in_right' is present
+
+2022-10-12 09:46:50 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_in_right' is present
+
+2022-10-12 09:46:50 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/4_Bootstrap_List_Box/checkbox_select_all_in_right")): Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/checkbox_select_all_in_right' is clicked on
+
+2022-10-12 09:46:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/checkbox_select_all_in_right' is clicked on
+
+2022-10-12 09:46:50 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/4_Bootstrap_List_Box/button_move_left")): Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/button_move_left' is clicked on
+
+2022-10-12 09:46:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/button_move_left' is clicked on
+
+2022-10-12 09:46:51 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-10-12 09:46:56 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-10-12 09:46:56 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/4_Bootstrap_List_Box/static_li_items_in_right"), 2): Web element with id: 'Object Repository/Intermediate/4_Bootstrap_List_Box/static_li_items_in_right' located by 'By.xpath: //div[@class="dual-list list-right col-md-5"]/div[@class="well"]/ul/li' is not present after '2' second(s)
+
+2022-10-12 09:46:56 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/4_Bootstrap_List_Box/static_li_items_in_right' located by 'By.xpath: //div[@class="dual-list list-right col-md-5"]/div[@class="well"]/ul/li' is not present after '2' second(s)
+
+2022-10-12 09:46:56 - [TEST_STEP][PASSED] - for ([i = 1, i <= 10, (i++)]): Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_in_left' is present
+
+2022-10-12 09:46:56 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_in_left", ["n":i]), 2): Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_in_left' is present
+
+2022-10-12 09:46:56 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_in_left' is present
+
+2022-10-12 09:46:56 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_in_left", ["n":i]), 2): Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_in_left' is present
+
+2022-10-12 09:46:57 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_in_left' is present
+
+2022-10-12 09:46:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_in_left", ["n":i]), 2): Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_in_left' is present
+
+2022-10-12 09:46:57 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_in_left' is present
+
+2022-10-12 09:46:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_in_left", ["n":i]), 2): Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_in_left' is present
+
+2022-10-12 09:46:57 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_in_left' is present
+
+2022-10-12 09:46:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_in_left", ["n":i]), 2): Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_in_left' is present
+
+2022-10-12 09:46:58 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_in_left' is present
+
+2022-10-12 09:46:58 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_in_left", ["n":i]), 2): Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_in_left' is present
+
+2022-10-12 09:46:58 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_in_left' is present
+
+2022-10-12 09:46:58 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_in_left", ["n":i]), 2): Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_in_left' is present
+
+2022-10-12 09:46:58 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_in_left' is present
+
+2022-10-12 09:46:58 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_in_left", ["n":i]), 2): Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_in_left' is present
+
+2022-10-12 09:46:59 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_in_left' is present
+
+2022-10-12 09:46:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_in_left", ["n":i]), 2): Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_in_left' is present
+
+2022-10-12 09:46:59 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_in_left' is present
+
+2022-10-12 09:46:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_li_items_in_left", ["n":i]), 2): Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_in_left' is present
+
+2022-10-12 09:46:59 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_li_items_in_left' is present
+
+2022-10-12 09:46:59 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-10-12 09:47:00 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Intermediate/4_Bootstrap_List_Box/BLB5_Search_select_and_move_to_left" time="16.363" classname="Test Cases/Intermediate/4_Bootstrap_List_Box/BLB5_Search_select_and_move_to_left" status="PASSED">
+         <system-out><![CDATA[2022-10-12 09:47:00 - [TEST_CASE][PASSED] - Test Cases/Intermediate/4_Bootstrap_List_Box/BLB5_Search_select_and_move_to_left: Test Cases/Intermediate/4_Bootstrap_List_Box/BLB5_Search_select_and_move_to_left
+
+2022-10-12 09:47:01 - [TEST_STEP][PASSED] - TestID = "TEST-00004": null
+
+2022-10-12 09:47:01 - [TEST_STEP][PASSED] - FileTestData = "TestData_Sheet5": null
+
+2022-10-12 09:47:01 - [TEST_STEP][PASSED] - totalRow = findTestData(FileTestData).getRowNumbers(): null
+
+2022-10-12 09:47:01 - [TEST_STEP][PASSED] - totalColumn = findTestData(FileTestData).getColumnNumbers(): null
+
+2022-10-12 09:47:01 - [TEST_STEP][PASSED] - rowNum = 1: null
+
+2022-10-12 09:47:01 - [TEST_STEP][PASSED] - arrayLength = 0: null
+
+2022-10-12 09:47:01 - [TEST_STEP][PASSED] - for ([rowNum, rowNum < totalRow, (rowNum++)]): null
+
+2022-10-12 09:47:01 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:47:01 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:47:01 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:47:01 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:47:01 - [TEST_STEP][PASSED] - println("Row number is: " + rowNum): null
+
+2022-10-12 09:47:01 - [TEST_STEP][PASSED] - for ([i = 0, i < totalColumn - 1, (i++)]): null
+
+2022-10-12 09:47:01 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:47:01 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:47:01 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:47:01 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:47:01 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:47:01 - [TEST_STEP][PASSED] - println("Array length is: " + arrayLength): null
+
+2022-10-12 09:47:01 - [TEST_STEP][PASSED] - listData = []: null
+
+2022-10-12 09:47:01 - [TEST_STEP][PASSED] - for ([rowNum = 1, rowNum < totalRow, (rowNum++)]): null
+
+2022-10-12 09:47:01 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:47:01 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:47:01 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:47:01 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:47:01 - [TEST_STEP][PASSED] - for ([i = 0, i < arrayLength, (i++)]): null
+
+2022-10-12 09:47:01 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:47:01 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:47:01 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:47:01 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:47:02 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:47:02 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:47:02 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:47:02 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:47:02 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:47:02 - [TEST_STEP][PASSED] - println(listData): null
+
+2022-10-12 09:47:02 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Intermediate/Prerequisite1_Access_Immediate"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Intermediate/Prerequisite1_Access_Immediate' successfully
+
+2022-10-12 09:47:02 - [TEST_CASE][PASSED] - Test Cases/Intermediate/Prerequisite1_Access_Immediate: Test Cases/Intermediate/Prerequisite1_Access_Immediate
+
+2022-10-12 09:47:02 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Launch_seleniumeasy_page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Launch_seleniumeasy_page' successfully
+
+2022-10-12 09:47:02 - [TEST_CASE][PASSED] - Test Cases/Launch_seleniumeasy_page: Test Cases/Launch_seleniumeasy_page
+
+2022-10-12 09:47:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-10-12 09:47:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-10-12 09:47:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-10-12 09:47:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-10-12 09:47:03 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-10-12 09:47:04 - [MESSAGE][PASSED] - Current window maximized
+
+2022-10-12 09:47:04 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.seleniumeasy.com/"): Navigate to 'https://demo.seleniumeasy.com/' successfully
+
+2022-10-12 09:47:06 - [MESSAGE][PASSED] - Navigate to 'https://demo.seleniumeasy.com/' successfully
+
+2022-10-12 09:47:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Launch_seleniumeasy_page' successfully
+
+2022-10-12 09:47:06 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Main_page/Button_Start_Practicing"), OPTIONAL)): null
+
+2022-10-12 09:47:07 - [MESSAGE][PASSED] - Object 'Object Repository/Main_page/Button_Start_Practicing' is visible
+
+2022-10-12 09:47:07 - [TEST_STEP][PASSED] - click(findTestObject("Main_page/Button_Start_Practicing")): Object: 'Object Repository/Main_page/Button_Start_Practicing' is clicked on
+
+2022-10-12 09:47:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Main_page/Button_Start_Practicing' is clicked on
+
+2022-10-12 09:47:07 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Main_page/option_Intermediate")): Object: 'Object Repository/Main_page/option_Intermediate' is clicked on
+
+2022-10-12 09:47:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Main_page/option_Intermediate' is clicked on
+
+2022-10-12 09:47:08 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Intermediate/text_Intermediate"), STOP_ON_FAILURE): Object 'Object Repository/Intermediate/text_Intermediate' is visible
+
+2022-10-12 09:47:08 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/text_Intermediate' is visible
+
+2022-10-12 09:47:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Intermediate/Prerequisite1_Access_Immediate' successfully
+
+2022-10-12 09:47:08 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/option_BootstrapListBox")): Object: 'Object Repository/Intermediate/option_BootstrapListBox' is clicked on
+
+2022-10-12 09:47:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/option_BootstrapListBox' is clicked on
+
+2022-10-12 09:47:09 - [TEST_STEP][PASSED] - setText(findTestObject("Intermediate/4_Bootstrap_List_Box/searchbox_in_left"), "d"): Text 'd' is set on object 'Object Repository/Intermediate/4_Bootstrap_List_Box/searchbox_in_left'
+
+2022-10-12 09:47:10 - [MESSAGE][PASSED] - Text 'd' is set on object 'Object Repository/Intermediate/4_Bootstrap_List_Box/searchbox_in_left'
+
+2022-10-12 09:47:10 - [TEST_STEP][PASSED] - for ([i = 0, i < length, (i++)]): Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_left' is present
+
+2022-10-12 09:47:10 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_left", ["item":listData[i]]), 2): Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_left' is present
+
+2022-10-12 09:47:10 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_left' is present
+
+2022-10-12 09:47:10 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_left", ["item":listData[i]]), 2): Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_left' is present
+
+2022-10-12 09:47:10 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_left' is present
+
+2022-10-12 09:47:10 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_left", ["item":listData[0]])): Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_left' is clicked on
+
+2022-10-12 09:47:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_left' is clicked on
+
+2022-10-12 09:47:11 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/4_Bootstrap_List_Box/button_move_right")): Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/button_move_right' is clicked on
+
+2022-10-12 09:47:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/button_move_right' is clicked on
+
+2022-10-12 09:47:11 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_selected_li_items_in_right", ["item":listData[0]]), 2): Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_selected_li_items_in_right' is present
+
+2022-10-12 09:47:12 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_selected_li_items_in_right' is present
+
+2022-10-12 09:47:12 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_left", ["item":listData[0]]), 2): Web element with id: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_left' located by 'By.xpath: //div[@class="dual-list list-left col-md-5"]/div[@class="well text-right"]/ul/li[text()="bootstrap-duallist "]' is not present after '2' second(s)
+
+2022-10-12 09:47:12 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_left' located by 'By.xpath: //div[@class="dual-list list-left col-md-5"]/div[@class="well text-right"]/ul/li[text()="bootstrap-duallist "]' is not present after '2' second(s)
+
+2022-10-12 09:47:12 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_selected_li_items_in_left", ["item":listData[0]]), 2): Web element with id: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_selected_li_items_in_left' located by 'By.xpath: //div[@class="dual-list list-left col-md-5"]/div[@class="well text-right"]/ul/li[contains(@class,"active")][text()="bootstrap-duallist "]' is not present after '2' second(s)
+
+2022-10-12 09:47:12 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_selected_li_items_in_left' located by 'By.xpath: //div[@class="dual-list list-left col-md-5"]/div[@class="well text-right"]/ul/li[contains(@class,"active")][text()="bootstrap-duallist "]' is not present after '2' second(s)
+
+2022-10-12 09:47:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_left", ["item":listData[1]]), 2): Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_left' is present
+
+2022-10-12 09:47:13 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_left' is present
+
+2022-10-12 09:47:13 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-10-12 09:47:16 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-10-12 09:47:16 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-10-12 09:47:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Intermediate/4_Bootstrap_List_Box/BLB6_Search_select_and_move_to_right" time="16.737" classname="Test Cases/Intermediate/4_Bootstrap_List_Box/BLB6_Search_select_and_move_to_right" status="PASSED">
+         <system-out><![CDATA[2022-10-12 09:47:17 - [TEST_CASE][PASSED] - Test Cases/Intermediate/4_Bootstrap_List_Box/BLB6_Search_select_and_move_to_right: Test Cases/Intermediate/4_Bootstrap_List_Box/BLB6_Search_select_and_move_to_right
+
+2022-10-12 09:47:17 - [TEST_STEP][PASSED] - TestID = "TEST-00005": null
+
+2022-10-12 09:47:17 - [TEST_STEP][PASSED] - FileTestData = "TestData_Sheet5": null
+
+2022-10-12 09:47:17 - [TEST_STEP][PASSED] - totalRow = findTestData(FileTestData).getRowNumbers(): null
+
+2022-10-12 09:47:17 - [TEST_STEP][PASSED] - totalColumn = findTestData(FileTestData).getColumnNumbers(): null
+
+2022-10-12 09:47:17 - [TEST_STEP][PASSED] - rowNum = 1: null
+
+2022-10-12 09:47:17 - [TEST_STEP][PASSED] - arrayLength = 0: null
+
+2022-10-12 09:47:17 - [TEST_STEP][PASSED] - for ([rowNum, rowNum < totalRow, (rowNum++)]): null
+
+2022-10-12 09:47:17 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:47:17 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:47:17 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:47:17 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:47:17 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:47:17 - [TEST_STEP][PASSED] - println("Row number is: " + rowNum): null
+
+2022-10-12 09:47:17 - [TEST_STEP][PASSED] - for ([i = 0, i < totalColumn - 1, (i++)]): null
+
+2022-10-12 09:47:17 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:47:18 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:47:18 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:47:18 - [TEST_STEP][PASSED] - (arrayLength++): null
+
+2022-10-12 09:47:18 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, rowNum) == ""): null
+
+2022-10-12 09:47:18 - [TEST_STEP][PASSED] - println("Array length is: " + arrayLength): null
+
+2022-10-12 09:47:18 - [TEST_STEP][PASSED] - listData = []: null
+
+2022-10-12 09:47:18 - [TEST_STEP][PASSED] - for ([rowNum = 1, rowNum < totalRow, (rowNum++)]): null
+
+2022-10-12 09:47:18 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:47:18 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:47:18 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:47:18 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:47:18 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:47:18 - [TEST_STEP][PASSED] - for ([i = 0, i < arrayLength, (i++)]): null
+
+2022-10-12 09:47:18 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:47:18 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:47:18 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(i + 2, 1) == ""): null
+
+2022-10-12 09:47:18 - [TEST_STEP][PASSED] - listData[i] = findTestData(FileTestData).getValue(i + 2, rowNum): null
+
+2022-10-12 09:47:18 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:47:18 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:47:18 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:47:18 - [TEST_STEP][PASSED] - if (findTestData(FileTestData).getValue(1, rowNum) == TestID): null
+
+2022-10-12 09:47:18 - [TEST_STEP][PASSED] - println(listData): null
+
+2022-10-12 09:47:18 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Intermediate/Prerequisite1_Access_Immediate"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Intermediate/Prerequisite1_Access_Immediate' successfully
+
+2022-10-12 09:47:18 - [TEST_CASE][PASSED] - Test Cases/Intermediate/Prerequisite1_Access_Immediate: Test Cases/Intermediate/Prerequisite1_Access_Immediate
+
+2022-10-12 09:47:18 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Launch_seleniumeasy_page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Launch_seleniumeasy_page' successfully
+
+2022-10-12 09:47:18 - [TEST_CASE][PASSED] - Test Cases/Launch_seleniumeasy_page: Test Cases/Launch_seleniumeasy_page
+
+2022-10-12 09:47:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-10-12 09:47:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-10-12 09:47:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-10-12 09:47:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-10-12 09:47:20 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-10-12 09:47:20 - [MESSAGE][PASSED] - Current window maximized
+
+2022-10-12 09:47:20 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.seleniumeasy.com/"): Navigate to 'https://demo.seleniumeasy.com/' successfully
+
+2022-10-12 09:47:23 - [MESSAGE][PASSED] - Navigate to 'https://demo.seleniumeasy.com/' successfully
+
+2022-10-12 09:47:23 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Launch_seleniumeasy_page' successfully
+
+2022-10-12 09:47:23 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Main_page/Button_Start_Practicing"), OPTIONAL)): null
+
+2022-10-12 09:47:23 - [MESSAGE][PASSED] - Object 'Object Repository/Main_page/Button_Start_Practicing' is visible
+
+2022-10-12 09:47:23 - [TEST_STEP][PASSED] - click(findTestObject("Main_page/Button_Start_Practicing")): Object: 'Object Repository/Main_page/Button_Start_Practicing' is clicked on
+
+2022-10-12 09:47:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Main_page/Button_Start_Practicing' is clicked on
+
+2022-10-12 09:47:24 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Main_page/option_Intermediate")): Object: 'Object Repository/Main_page/option_Intermediate' is clicked on
+
+2022-10-12 09:47:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Main_page/option_Intermediate' is clicked on
+
+2022-10-12 09:47:24 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Intermediate/text_Intermediate"), STOP_ON_FAILURE): Object 'Object Repository/Intermediate/text_Intermediate' is visible
+
+2022-10-12 09:47:25 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/text_Intermediate' is visible
+
+2022-10-12 09:47:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Intermediate/Prerequisite1_Access_Immediate' successfully
+
+2022-10-12 09:47:25 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/option_BootstrapListBox")): Object: 'Object Repository/Intermediate/option_BootstrapListBox' is clicked on
+
+2022-10-12 09:47:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/option_BootstrapListBox' is clicked on
+
+2022-10-12 09:47:25 - [TEST_STEP][PASSED] - setText(findTestObject("Intermediate/4_Bootstrap_List_Box/searchbox_in_right"), "d"): Text 'd' is set on object 'Object Repository/Intermediate/4_Bootstrap_List_Box/searchbox_in_right'
+
+2022-10-12 09:47:26 - [MESSAGE][PASSED] - Text 'd' is set on object 'Object Repository/Intermediate/4_Bootstrap_List_Box/searchbox_in_right'
+
+2022-10-12 09:47:26 - [TEST_STEP][PASSED] - for ([i = 0, i < length, (i++)]): Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_right' is present
+
+2022-10-12 09:47:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_right", ["item":listData[i]]), 2): Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_right' is present
+
+2022-10-12 09:47:27 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_right' is present
+
+2022-10-12 09:47:27 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_right", ["item":listData[i]]), 2): Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_right' is present
+
+2022-10-12 09:47:27 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_right' is present
+
+2022-10-12 09:47:27 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_right", ["item":listData[0]])): Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_right' is clicked on
+
+2022-10-12 09:47:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_right' is clicked on
+
+2022-10-12 09:47:27 - [TEST_STEP][PASSED] - click(findTestObject("Intermediate/4_Bootstrap_List_Box/button_move_left")): Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/button_move_left' is clicked on
+
+2022-10-12 09:47:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Intermediate/4_Bootstrap_List_Box/button_move_left' is clicked on
+
+2022-10-12 09:47:28 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_selected_li_items_in_left", ["item":listData[0]]), 2): Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_selected_li_items_in_left' is present
+
+2022-10-12 09:47:28 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_selected_li_items_in_left' is present
+
+2022-10-12 09:47:28 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_right", ["item":listData[0]]), 2): Web element with id: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_right' located by 'By.xpath: //div[@class="dual-list list-right col-md-5"]/div[@class="well"]/ul/li[text()="Cras justo odio"]' is not present after '2' second(s)
+
+2022-10-12 09:47:28 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_right' located by 'By.xpath: //div[@class="dual-list list-right col-md-5"]/div[@class="well"]/ul/li[text()="Cras justo odio"]' is not present after '2' second(s)
+
+2022-10-12 09:47:28 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_selected_li_items_in_right", ["item":listData[0]]), 2): Web element with id: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_selected_li_items_in_right' located by 'By.xpath: //div[@class="dual-list list-right col-md-5"]/div[@class="well"]/ul/li[contains(@class,"active")][text()="Cras justo odio"]' is not present after '2' second(s)
+
+2022-10-12 09:47:29 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_selected_li_items_in_right' located by 'By.xpath: //div[@class="dual-list list-right col-md-5"]/div[@class="well"]/ul/li[contains(@class,"active")][text()="Cras justo odio"]' is not present after '2' second(s)
+
+2022-10-12 09:47:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_right", ["item":listData[1]]), 2): Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_right' is present
+
+2022-10-12 09:47:29 - [MESSAGE][PASSED] - Object 'Object Repository/Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_right' is present
+
+2022-10-12 09:47:29 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-10-12 09:47:32 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-10-12 09:47:32 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-10-12 09:47:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-10-12 09:44:08 - [TEST_SUITE][PASSED] - TestSuite_4_Bootstrap_List_Box: Test Cases/Intermediate/4_Bootstrap_List_Box/BLB6_Search_select_and_move_to_right]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

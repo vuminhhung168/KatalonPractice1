@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Message_Single_Input_Field_Popup_message</name>
+   <tag></tag>
+   <elementGuidId>9a5f8181-777e-4075-a8c4-9f9db490ce6d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id=&quot;user-message&quot;]//span[text()=&quot;DEMOOOOOOOOOOOO...!!!&quot;]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>//div[@id=&quot;user-message&quot;]//span[text()=&quot;DEMOOOOOOOOOOOO...!!!&quot;]</value>
+      <webElementGuid>3b42c14d-ee99-4bd6-a2e9-45048feee5d1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

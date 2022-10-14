@@ -1,0 +1,131 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuite_4_Bootstrap_List_Box,Chrome 106.0.0.0,,,2022-10-12 09:44:08,2022-10-12 09:47:33,3m - 25.759s,PASSED
+,,,,,,,
+Test Cases/Intermediate/4_Bootstrap_List_Box/BLB1_Verify_some_elements_in_UI,Chrome 106.0.0.0,,,2022-10-12 09:44:08,2022-10-12 09:45:51,1m - 43.054s,PASSED
+"TestID = ""TEST-00001""",Chrome 106.0.0.0,,,2022-10-12 09:44:09,2022-10-12 09:44:09,0.002s,PASSED
+"FileTestData = ""TestData_Sheet5""",Chrome 106.0.0.0,,,2022-10-12 09:44:09,2022-10-12 09:44:09,0.000s,PASSED
+totalRow = findTestData(FileTestData).getRowNumbers(),Chrome 106.0.0.0,,,2022-10-12 09:44:09,2022-10-12 09:44:09,0.774s,PASSED
+totalColumn = findTestData(FileTestData).getColumnNumbers(),Chrome 106.0.0.0,,,2022-10-12 09:44:09,2022-10-12 09:44:09,0.084s,PASSED
+rowNum = 1,Chrome 106.0.0.0,,,2022-10-12 09:44:09,2022-10-12 09:44:09,0.002s,PASSED
+arrayLength = 0,Chrome 106.0.0.0,,,2022-10-12 09:44:09,2022-10-12 09:44:09,0.001s,PASSED
+"unselectColor = ""rgba(255, 255, 255, 1)""",Chrome 106.0.0.0,,,2022-10-12 09:44:09,2022-10-12 09:44:09,0.002s,PASSED
+"selectColor = ""rgba(51, 122, 183, 1)""",Chrome 106.0.0.0,,,2022-10-12 09:44:09,2022-10-12 09:44:09,0.001s,PASSED
+"for ([rowNum, rowNum < totalRow, (rowNum++)])",Chrome 106.0.0.0,,,2022-10-12 09:44:09,2022-10-12 09:44:10,0.116s,PASSED
+"println(""Row number is: "" + rowNum)",Chrome 106.0.0.0,,,2022-10-12 09:44:10,2022-10-12 09:44:10,0.004s,PASSED
+"for ([i = 0, i < totalColumn - 1, (i++)])",Chrome 106.0.0.0,,,2022-10-12 09:44:10,2022-10-12 09:44:11,1.041s,PASSED
+"println(""Array length is: "" + arrayLength)",Chrome 106.0.0.0,,,2022-10-12 09:44:11,2022-10-12 09:44:11,0.001s,PASSED
+listData = [],Chrome 106.0.0.0,,,2022-10-12 09:44:11,2022-10-12 09:44:11,0.007s,PASSED
+"for ([rowNum = 1, rowNum < totalRow, (rowNum++)])",Chrome 106.0.0.0,,,2022-10-12 09:44:11,2022-10-12 09:44:13,1.945s,PASSED
+println(listData),Chrome 106.0.0.0,,,2022-10-12 09:44:13,2022-10-12 09:44:13,0.000s,PASSED
+"callTestCase(findTestCase(""Intermediate/Prerequisite1_Access_Immediate""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-12 09:44:13,2022-10-12 09:44:22,9.803s,PASSED
+"click(findTestObject(""Intermediate/option_BootstrapListBox""))",Chrome 106.0.0.0,,,2022-10-12 09:44:22,2022-10-12 09:44:23,1.131s,PASSED
+"verifyElementVisible(findTestObject(""Intermediate/4_Bootstrap_List_Box/panel_Left""))",Chrome 106.0.0.0,,,2022-10-12 09:44:23,2022-10-12 09:44:24,0.475s,PASSED
+"verifyElementVisible(findTestObject(""Intermediate/4_Bootstrap_List_Box/panel_Right""))",Chrome 106.0.0.0,,,2022-10-12 09:44:24,2022-10-12 09:44:24,0.389s,PASSED
+"for ([i = 0, i < arrayLength, (i++)])",Chrome 106.0.0.0,,,2022-10-12 09:44:24,2022-10-12 09:45:19,54.786s,PASSED
+"for ([i = 0, i < arrayLength, (i++)])",Chrome 106.0.0.0,,,2022-10-12 09:45:19,2022-10-12 09:45:50,30.943s,PASSED
+closeBrowser(),Chrome 106.0.0.0,,,2022-10-12 09:45:50,2022-10-12 09:45:51,1.047s,PASSED
+,,,,,,,
+Test Cases/Intermediate/4_Bootstrap_List_Box/BLB2_Select_item_in_left_and_move_to_right,Chrome 106.0.0.0,,,2022-10-12 09:45:51,2022-10-12 09:46:12,20.706s,PASSED
+"TestID = ""TEST-00002""",Chrome 106.0.0.0,,,2022-10-12 09:45:52,2022-10-12 09:45:52,0.000s,PASSED
+"FileTestData = ""TestData_Sheet5""",Chrome 106.0.0.0,,,2022-10-12 09:45:52,2022-10-12 09:45:52,0.001s,PASSED
+totalRow = findTestData(FileTestData).getRowNumbers(),Chrome 106.0.0.0,,,2022-10-12 09:45:52,2022-10-12 09:45:52,0.054s,PASSED
+totalColumn = findTestData(FileTestData).getColumnNumbers(),Chrome 106.0.0.0,,,2022-10-12 09:45:52,2022-10-12 09:45:52,0.054s,PASSED
+rowNum = 1,Chrome 106.0.0.0,,,2022-10-12 09:45:52,2022-10-12 09:45:52,0.000s,PASSED
+arrayLength = 0,Chrome 106.0.0.0,,,2022-10-12 09:45:52,2022-10-12 09:45:52,0.000s,PASSED
+"for ([rowNum, rowNum < totalRow, (rowNum++)])",Chrome 106.0.0.0,,,2022-10-12 09:45:52,2022-10-12 09:45:52,0.116s,PASSED
+"println(""Row number is: "" + rowNum)",Chrome 106.0.0.0,,,2022-10-12 09:45:52,2022-10-12 09:45:52,0.000s,PASSED
+"for ([i = 0, i < totalColumn - 1, (i++)])",Chrome 106.0.0.0,,,2022-10-12 09:45:52,2022-10-12 09:45:52,0.303s,PASSED
+"println(""Array length is: "" + arrayLength)",Chrome 106.0.0.0,,,2022-10-12 09:45:52,2022-10-12 09:45:52,0.001s,PASSED
+listData = [],Chrome 106.0.0.0,,,2022-10-12 09:45:52,2022-10-12 09:45:52,0.000s,PASSED
+"for ([rowNum = 1, rowNum < totalRow, (rowNum++)])",Chrome 106.0.0.0,,,2022-10-12 09:45:52,2022-10-12 09:45:53,0.938s,PASSED
+println(listData),Chrome 106.0.0.0,,,2022-10-12 09:45:53,2022-10-12 09:45:53,0.000s,PASSED
+"callTestCase(findTestCase(""Intermediate/Prerequisite1_Access_Immediate""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-12 09:45:53,2022-10-12 09:46:03,9.694s,PASSED
+"click(findTestObject(""Intermediate/option_BootstrapListBox""))",Chrome 106.0.0.0,,,2022-10-12 09:46:03,2022-10-12 09:46:04,1.289s,PASSED
+"for ([i = 0, i < length, (i++)])",Chrome 106.0.0.0,,,2022-10-12 09:46:04,2022-10-12 09:46:12,7.869s,PASSED
+,,,,,,,
+Test Cases/Intermediate/4_Bootstrap_List_Box/BLB3_Select_item_in_right_and_move_to_left,Chrome 106.0.0.0,,,2022-10-12 09:46:12,2022-10-12 09:46:30,17.972s,PASSED
+"TestID = ""TEST-00003""",Chrome 106.0.0.0,,,2022-10-12 09:46:12,2022-10-12 09:46:12,0.000s,PASSED
+"FileTestData = ""TestData_Sheet5""",Chrome 106.0.0.0,,,2022-10-12 09:46:12,2022-10-12 09:46:12,0.000s,PASSED
+totalRow = findTestData(FileTestData).getRowNumbers(),Chrome 106.0.0.0,,,2022-10-12 09:46:12,2022-10-12 09:46:12,0.046s,PASSED
+totalColumn = findTestData(FileTestData).getColumnNumbers(),Chrome 106.0.0.0,,,2022-10-12 09:46:12,2022-10-12 09:46:12,0.046s,PASSED
+rowNum = 1,Chrome 106.0.0.0,,,2022-10-12 09:46:12,2022-10-12 09:46:12,0.001s,PASSED
+arrayLength = 0,Chrome 106.0.0.0,,,2022-10-12 09:46:12,2022-10-12 09:46:12,0.000s,PASSED
+"for ([rowNum, rowNum < totalRow, (rowNum++)])",Chrome 106.0.0.0,,,2022-10-12 09:46:12,2022-10-12 09:46:12,0.147s,PASSED
+"println(""Row number is: "" + rowNum)",Chrome 106.0.0.0,,,2022-10-12 09:46:12,2022-10-12 09:46:12,0.000s,PASSED
+"for ([i = 0, i < totalColumn - 1, (i++)])",Chrome 106.0.0.0,,,2022-10-12 09:46:12,2022-10-12 09:46:13,0.278s,PASSED
+"println(""Array length is: "" + arrayLength)",Chrome 106.0.0.0,,,2022-10-12 09:46:13,2022-10-12 09:46:13,0.001s,PASSED
+listData = [],Chrome 106.0.0.0,,,2022-10-12 09:46:13,2022-10-12 09:46:13,0.000s,PASSED
+"for ([rowNum = 1, rowNum < totalRow, (rowNum++)])",Chrome 106.0.0.0,,,2022-10-12 09:46:13,2022-10-12 09:46:14,0.874s,PASSED
+println(listData),Chrome 106.0.0.0,,,2022-10-12 09:46:14,2022-10-12 09:46:14,0.001s,PASSED
+"callTestCase(findTestCase(""Intermediate/Prerequisite1_Access_Immediate""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-12 09:46:14,2022-10-12 09:46:21,7.618s,PASSED
+"click(findTestObject(""Intermediate/option_BootstrapListBox""))",Chrome 106.0.0.0,,,2022-10-12 09:46:21,2022-10-12 09:46:22,0.770s,PASSED
+"for ([i = 0, i < length, (i++)])",Chrome 106.0.0.0,,,2022-10-12 09:46:22,2022-10-12 09:46:30,7.843s,PASSED
+,,,,,,,
+Test Cases/Intermediate/4_Bootstrap_List_Box/BLB4_Select_all_items_and_move,Chrome 106.0.0.0,,,2022-10-12 09:46:30,2022-10-12 09:47:00,30.562s,PASSED
+"callTestCase(findTestCase(""Intermediate/Prerequisite1_Access_Immediate""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-12 09:46:30,2022-10-12 09:46:39,9.233s,PASSED
+"click(findTestObject(""Intermediate/option_BootstrapListBox""))",Chrome 106.0.0.0,,,2022-10-12 09:46:39,2022-10-12 09:46:40,0.646s,PASSED
+"click(findTestObject(""Intermediate/4_Bootstrap_List_Box/checkbox_select_all_in_left""))",Chrome 106.0.0.0,,,2022-10-12 09:46:40,2022-10-12 09:46:41,0.483s,PASSED
+"click(findTestObject(""Intermediate/4_Bootstrap_List_Box/button_move_right""))",Chrome 106.0.0.0,,,2022-10-12 09:46:41,2022-10-12 09:46:41,0.484s,PASSED
+delay(5),Chrome 106.0.0.0,,,2022-10-12 09:46:41,2022-10-12 09:46:46,5.005s,PASSED
+"verifyElementNotPresent(findTestObject(""Intermediate/4_Bootstrap_List_Box/static_li_items_in_left""), 2)",Chrome 106.0.0.0,,,2022-10-12 09:46:46,2022-10-12 09:46:46,0.322s,PASSED
+"for ([i = 1, i <= 10, (i++)])",Chrome 106.0.0.0,,,2022-10-12 09:46:46,2022-10-12 09:46:50,3.375s,PASSED
+"click(findTestObject(""Intermediate/4_Bootstrap_List_Box/checkbox_select_all_in_right""))",Chrome 106.0.0.0,,,2022-10-12 09:46:50,2022-10-12 09:46:50,0.362s,PASSED
+"click(findTestObject(""Intermediate/4_Bootstrap_List_Box/button_move_left""))",Chrome 106.0.0.0,,,2022-10-12 09:46:50,2022-10-12 09:46:51,0.467s,PASSED
+delay(5),Chrome 106.0.0.0,,,2022-10-12 09:46:51,2022-10-12 09:46:56,5.008s,PASSED
+"verifyElementNotPresent(findTestObject(""Intermediate/4_Bootstrap_List_Box/static_li_items_in_right""), 2)",Chrome 106.0.0.0,,,2022-10-12 09:46:56,2022-10-12 09:46:56,0.321s,PASSED
+"for ([i = 1, i <= 10, (i++)])",Chrome 106.0.0.0,,,2022-10-12 09:46:56,2022-10-12 09:46:59,3.434s,PASSED
+closeBrowser(),Chrome 106.0.0.0,,,2022-10-12 09:46:59,2022-10-12 09:47:00,1.078s,PASSED
+,,,,,,,
+Test Cases/Intermediate/4_Bootstrap_List_Box/BLB5_Search_select_and_move_to_left,Chrome 106.0.0.0,,,2022-10-12 09:47:00,2022-10-12 09:47:17,16.363s,PASSED
+"TestID = ""TEST-00004""",Chrome 106.0.0.0,,,2022-10-12 09:47:01,2022-10-12 09:47:01,0.000s,PASSED
+"FileTestData = ""TestData_Sheet5""",Chrome 106.0.0.0,,,2022-10-12 09:47:01,2022-10-12 09:47:01,0.001s,PASSED
+totalRow = findTestData(FileTestData).getRowNumbers(),Chrome 106.0.0.0,,,2022-10-12 09:47:01,2022-10-12 09:47:01,0.044s,PASSED
+totalColumn = findTestData(FileTestData).getColumnNumbers(),Chrome 106.0.0.0,,,2022-10-12 09:47:01,2022-10-12 09:47:01,0.047s,PASSED
+rowNum = 1,Chrome 106.0.0.0,,,2022-10-12 09:47:01,2022-10-12 09:47:01,0.000s,PASSED
+arrayLength = 0,Chrome 106.0.0.0,,,2022-10-12 09:47:01,2022-10-12 09:47:01,0.000s,PASSED
+"for ([rowNum, rowNum < totalRow, (rowNum++)])",Chrome 106.0.0.0,,,2022-10-12 09:47:01,2022-10-12 09:47:01,0.187s,PASSED
+"println(""Row number is: "" + rowNum)",Chrome 106.0.0.0,,,2022-10-12 09:47:01,2022-10-12 09:47:01,0.000s,PASSED
+"for ([i = 0, i < totalColumn - 1, (i++)])",Chrome 106.0.0.0,,,2022-10-12 09:47:01,2022-10-12 09:47:01,0.145s,PASSED
+"println(""Array length is: "" + arrayLength)",Chrome 106.0.0.0,,,2022-10-12 09:47:01,2022-10-12 09:47:01,0.000s,PASSED
+listData = [],Chrome 106.0.0.0,,,2022-10-12 09:47:01,2022-10-12 09:47:01,0.000s,PASSED
+"for ([rowNum = 1, rowNum < totalRow, (rowNum++)])",Chrome 106.0.0.0,,,2022-10-12 09:47:01,2022-10-12 09:47:02,0.601s,PASSED
+println(listData),Chrome 106.0.0.0,,,2022-10-12 09:47:02,2022-10-12 09:47:02,0.000s,PASSED
+"callTestCase(findTestCase(""Intermediate/Prerequisite1_Access_Immediate""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-12 09:47:02,2022-10-12 09:47:08,6.415s,PASSED
+"click(findTestObject(""Intermediate/option_BootstrapListBox""))",Chrome 106.0.0.0,,,2022-10-12 09:47:08,2022-10-12 09:47:09,0.576s,PASSED
+"setText(findTestObject(""Intermediate/4_Bootstrap_List_Box/searchbox_in_left""), ""d"")",Chrome 106.0.0.0,,,2022-10-12 09:47:09,2022-10-12 09:47:10,0.835s,PASSED
+"for ([i = 0, i < length, (i++)])",Chrome 106.0.0.0,,,2022-10-12 09:47:10,2022-10-12 09:47:10,0.811s,PASSED
+"click(findTestObject(""Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_left"", [""item"":listData[0]]))",Chrome 106.0.0.0,,,2022-10-12 09:47:10,2022-10-12 09:47:11,0.381s,PASSED
+"click(findTestObject(""Intermediate/4_Bootstrap_List_Box/button_move_right""))",Chrome 106.0.0.0,,,2022-10-12 09:47:11,2022-10-12 09:47:11,0.378s,PASSED
+"verifyElementPresent(findTestObject(""Intermediate/4_Bootstrap_List_Box/dynamic_selected_li_items_in_right"", [""item"":listData[0]]), 2)",Chrome 106.0.0.0,,,2022-10-12 09:47:11,2022-10-12 09:47:12,0.458s,PASSED
+"verifyElementNotPresent(findTestObject(""Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_left"", [""item"":listData[0]]), 2)",Chrome 106.0.0.0,,,2022-10-12 09:47:12,2022-10-12 09:47:12,0.350s,PASSED
+"verifyElementNotPresent(findTestObject(""Intermediate/4_Bootstrap_List_Box/dynamic_selected_li_items_in_left"", [""item"":listData[0]]), 2)",Chrome 106.0.0.0,,,2022-10-12 09:47:12,2022-10-12 09:47:12,0.350s,PASSED
+"verifyElementPresent(findTestObject(""Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_left"", [""item"":listData[1]]), 2)",Chrome 106.0.0.0,,,2022-10-12 09:47:12,2022-10-12 09:47:13,0.342s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-12 09:47:13,2022-10-12 09:47:16,3.011s,PASSED
+closeBrowser(),Chrome 106.0.0.0,,,2022-10-12 09:47:16,2022-10-12 09:47:17,1.083s,PASSED
+,,,,,,,
+Test Cases/Intermediate/4_Bootstrap_List_Box/BLB6_Search_select_and_move_to_right,Chrome 106.0.0.0,,,2022-10-12 09:47:17,2022-10-12 09:47:33,16.737s,PASSED
+"TestID = ""TEST-00005""",Chrome 106.0.0.0,,,2022-10-12 09:47:17,2022-10-12 09:47:17,0.001s,PASSED
+"FileTestData = ""TestData_Sheet5""",Chrome 106.0.0.0,,,2022-10-12 09:47:17,2022-10-12 09:47:17,0.000s,PASSED
+totalRow = findTestData(FileTestData).getRowNumbers(),Chrome 106.0.0.0,,,2022-10-12 09:47:17,2022-10-12 09:47:17,0.052s,PASSED
+totalColumn = findTestData(FileTestData).getColumnNumbers(),Chrome 106.0.0.0,,,2022-10-12 09:47:17,2022-10-12 09:47:17,0.047s,PASSED
+rowNum = 1,Chrome 106.0.0.0,,,2022-10-12 09:47:17,2022-10-12 09:47:17,0.000s,PASSED
+arrayLength = 0,Chrome 106.0.0.0,,,2022-10-12 09:47:17,2022-10-12 09:47:17,0.000s,PASSED
+"for ([rowNum, rowNum < totalRow, (rowNum++)])",Chrome 106.0.0.0,,,2022-10-12 09:47:17,2022-10-12 09:47:17,0.232s,PASSED
+"println(""Row number is: "" + rowNum)",Chrome 106.0.0.0,,,2022-10-12 09:47:17,2022-10-12 09:47:17,0.000s,PASSED
+"for ([i = 0, i < totalColumn - 1, (i++)])",Chrome 106.0.0.0,,,2022-10-12 09:47:17,2022-10-12 09:47:18,0.141s,PASSED
+"println(""Array length is: "" + arrayLength)",Chrome 106.0.0.0,,,2022-10-12 09:47:18,2022-10-12 09:47:18,0.000s,PASSED
+listData = [],Chrome 106.0.0.0,,,2022-10-12 09:47:18,2022-10-12 09:47:18,0.000s,PASSED
+"for ([rowNum = 1, rowNum < totalRow, (rowNum++)])",Chrome 106.0.0.0,,,2022-10-12 09:47:18,2022-10-12 09:47:18,0.591s,PASSED
+println(listData),Chrome 106.0.0.0,,,2022-10-12 09:47:18,2022-10-12 09:47:18,0.000s,PASSED
+"callTestCase(findTestCase(""Intermediate/Prerequisite1_Access_Immediate""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-12 09:47:18,2022-10-12 09:47:25,6.533s,PASSED
+"click(findTestObject(""Intermediate/option_BootstrapListBox""))",Chrome 106.0.0.0,,,2022-10-12 09:47:25,2022-10-12 09:47:25,0.546s,PASSED
+"setText(findTestObject(""Intermediate/4_Bootstrap_List_Box/searchbox_in_right""), ""d"")",Chrome 106.0.0.0,,,2022-10-12 09:47:25,2022-10-12 09:47:26,0.838s,PASSED
+"for ([i = 0, i < length, (i++)])",Chrome 106.0.0.0,,,2022-10-12 09:47:26,2022-10-12 09:47:27,0.815s,PASSED
+"click(findTestObject(""Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_right"", [""item"":listData[0]]))",Chrome 106.0.0.0,,,2022-10-12 09:47:27,2022-10-12 09:47:27,0.381s,PASSED
+"click(findTestObject(""Intermediate/4_Bootstrap_List_Box/button_move_left""))",Chrome 106.0.0.0,,,2022-10-12 09:47:27,2022-10-12 09:47:28,0.377s,PASSED
+"verifyElementPresent(findTestObject(""Intermediate/4_Bootstrap_List_Box/dynamic_selected_li_items_in_left"", [""item"":listData[0]]), 2)",Chrome 106.0.0.0,,,2022-10-12 09:47:28,2022-10-12 09:47:28,0.456s,PASSED
+"verifyElementNotPresent(findTestObject(""Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_right"", [""item"":listData[0]]), 2)",Chrome 106.0.0.0,,,2022-10-12 09:47:28,2022-10-12 09:47:28,0.348s,PASSED
+"verifyElementNotPresent(findTestObject(""Intermediate/4_Bootstrap_List_Box/dynamic_selected_li_items_in_right"", [""item"":listData[0]]), 2)",Chrome 106.0.0.0,,,2022-10-12 09:47:28,2022-10-12 09:47:29,0.347s,PASSED
+"verifyElementPresent(findTestObject(""Intermediate/4_Bootstrap_List_Box/dynamic_default_li_items_in_right"", [""item"":listData[1]]), 2)",Chrome 106.0.0.0,,,2022-10-12 09:47:29,2022-10-12 09:47:29,0.342s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-12 09:47:29,2022-10-12 09:47:32,3.011s,PASSED
+closeBrowser(),Chrome 106.0.0.0,,,2022-10-12 09:47:32,2022-10-12 09:47:33,1.302s,PASSED

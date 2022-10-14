@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "9AF8521DA3538F3A11EF20C65157F98E",
+  "keywordClasses": [
+    {
+      "name": "intermediate.StepDefinition_ACMLogin",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

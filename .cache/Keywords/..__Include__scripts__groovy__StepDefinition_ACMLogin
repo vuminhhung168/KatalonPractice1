@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "2DB6E04B116F41FF5957B5363625A21B",
+  "keywordClasses": [
+    {
+      "name": "StepDefinition_ACMLogin",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}
