@@ -6,7 +6,7 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>7227f074-0da5-4110-a65a-0549ed27ca7f</dataFileGUID>
-   <dataSourceUrl>C:\Users\vminhhung\Katalon Studio\SeleniumEasy\TestData.xlsx</dataSourceUrl>
+   <dataSourceUrl>C:\Users\HungPC\git\KatalonPractice1\KatalonPractice1\TestData.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>
