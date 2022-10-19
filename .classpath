@@ -156,7 +156,7 @@
 			<attribute name="javadoc_location" value="file:/C:/Users/HungPC/Downloads/Katalon/Katalon_Studio_Windows_64-8.5.0/configuration/resources/apidocs/com.kms.katalon.core.testng/"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/HungPC/git/KatalonPractice1/KatalonPractice1/Drivers/mysql-connector-java-8.0.30.jar"/>
+	<classpathentry kind="lib" path="C:/Users/HungPC/git/KatalonPractice1/Drivers/mysql-connector-java-8.0.30.jar"/>
 	<classpathentry kind="lib" path="C:/Users/HungPC/Downloads/Katalon/Katalon_Studio_Windows_64-8.5.0/configuration/org.eclipse.osgi/31/0/.cp/resources/basic-report/katalon-studio-report-plugin.jar"/>
 	<classpathentry kind="lib" path="C:/Users/HungPC/Downloads/Katalon/Katalon_Studio_Windows_64-8.5.0/configuration/org.eclipse.osgi/31/0/.cp/resources/applitools/katalon-studio-applitools-plugin.jar"/>
 	<classpathentry kind="con" path="GROOVY_SUPPORT"/>
